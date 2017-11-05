@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 250c9662dd9c5f74c90974b49f02c61c
+timeCreated: 1509912852
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprites_door_front_tipo1_open_0
+    21300002: sprites_door_front_tipo1_open_1
+    21300004: sprites_door_front_tipo1_open_2
+    21300006: sprites_door_front_tipo1_open_3
+    21300008: sprites_door_front_tipo1_open_4
+    21300010: sprites_door_front_tipo1_open_5
+    21300012: sprites_door_front_tipo1_open_6
+    21300014: sprites_door_front_tipo1_open_7
+    21300016: sprites_door_front_tipo1_open_8
+    21300018: sprites_door_front_tipo1_open_9
+    21300020: sprites_door_front_tipo1_open_10
+    21300022: sprites_door_front_tipo1_open_11
+    21300024: sprites_door_front_tipo1_open_12
+    21300026: sprites_door_front_tipo1_open_13
+    21300028: sprites_door_front_tipo1_open_14
+    21300030: sprites_door_front_tipo1_open_15
+    21300032: sprites_door_front_tipo1_open_17
+    21300034: sprites_door_front_tipo1_open_19
+    21300036: sprites_door_front_tipo1_open_21
+    21300038: sprites_door_front_tipo1_open_22
+    21300040: sprites_door_front_tipo1_open_23
+    21300042: sprites_door_front_tipo1_open_25
+    21300044: sprites_door_front_tipo1_open_27
+    21300046: sprites_door_front_tipo1_open_28
+    21300048: sprites_door_front_tipo1_open_29
+    21300050: sprites_door_front_tipo1_open_31
+    21300052: sprites_door_front_tipo1_open_33
+    21300054: sprites_door_front_tipo1_open_35
+    21300056: sprites_door_front_tipo1_open_36
+    21300058: sprites_door_front_tipo1_open_37
+    21300060: sprites_door_front_tipo1_open_39
+    21300062: sprites_door_front_tipo1_open_41
+    21300064: sprites_door_front_tipo1_open_42
+    21300066: sprites_door_front_tipo1_open_43
+    21300068: sprites_door_front_tipo1_open_45
+    21300070: sprites_door_front_tipo1_open_47
+    21300072: sprites_door_front_tipo1_open_50
+    21300074: sprites_door_front_tipo1_open_16
+    21300076: sprites_door_front_tipo1_open_18
+    21300078: sprites_door_front_tipo1_open_20
+    21300080: sprites_door_front_tipo1_open_24
+    21300082: sprites_door_front_tipo1_open_26
+    21300084: sprites_door_front_tipo1_open_30
+    21300086: sprites_door_front_tipo1_open_32
+    21300088: sprites_door_front_tipo1_open_34
+    21300090: sprites_door_front_tipo1_open_38
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1170
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1170
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1170
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1170
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_4
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1170
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1022
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1022
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1022
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1022
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_9
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1022
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 874
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 874
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 874
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_13
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 874
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_14
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 874
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 726
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_16
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 726
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_17
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 726
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_18
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 726
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_19
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 726
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 578
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_21
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 578
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 578
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_23
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 578
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_24
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 578
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 430
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_26
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 430
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_27
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 430
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_28
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 430
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_29
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 430
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 282
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 282
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_32
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 282
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_33
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 282
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_34
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 282
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_35
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 134
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_36
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 134
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_37
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 134
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_38
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 134
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprites_door_front_tipo1_open_39
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 134
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

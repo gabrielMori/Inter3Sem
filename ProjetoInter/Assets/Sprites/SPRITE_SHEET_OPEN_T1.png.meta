@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 31d306ca3c0151244a0615974c2d5c28
+timeCreated: 1509910496
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SPRITE_SHEET_OPEN_T1_0
+    21300002: SPRITE_SHEET_OPEN_T1_1
+    21300004: SPRITE_SHEET_OPEN_T1_2
+    21300006: SPRITE_SHEET_OPEN_T1_3
+    21300008: SPRITE_SHEET_OPEN_T1_4
+    21300010: SPRITE_SHEET_OPEN_T1_5
+    21300012: SPRITE_SHEET_OPEN_T1_6
+    21300014: SPRITE_SHEET_OPEN_T1_7
+    21300016: SPRITE_SHEET_OPEN_T1_8
+    21300018: SPRITE_SHEET_OPEN_T1_9
+    21300020: SPRITE_SHEET_OPEN_T1_10
+    21300022: SPRITE_SHEET_OPEN_T1_11
+    21300024: SPRITE_SHEET_OPEN_T1_12
+    21300026: SPRITE_SHEET_OPEN_T1_13
+    21300028: SPRITE_SHEET_OPEN_T1_14
+    21300030: SPRITE_SHEET_OPEN_T1_15
+    21300032: SPRITE_SHEET_OPEN_T1_16
+    21300034: SPRITE_SHEET_OPEN_T1_17
+    21300036: SPRITE_SHEET_OPEN_T1_18
+    21300038: SPRITE_SHEET_OPEN_T1_19
+    21300040: SPRITE_SHEET_OPEN_T1_20
+    21300042: SPRITE_SHEET_OPEN_T1_21
+    21300044: SPRITE_SHEET_OPEN_T1_22
+    21300046: SPRITE_SHEET_OPEN_T1_23
+    21300048: SPRITE_SHEET_OPEN_T1_24
+    21300050: SPRITE_SHEET_OPEN_T1_25
+    21300052: SPRITE_SHEET_OPEN_T1_26
+    21300054: SPRITE_SHEET_OPEN_T1_27
+    21300056: SPRITE_SHEET_OPEN_T1_28
+    21300058: SPRITE_SHEET_OPEN_T1_29
+    21300060: SPRITE_SHEET_OPEN_T1_30
+    21300062: SPRITE_SHEET_OPEN_T1_31
+    21300064: SPRITE_SHEET_OPEN_T1_32
+    21300066: SPRITE_SHEET_OPEN_T1_33
+    21300068: SPRITE_SHEET_OPEN_T1_34
+    21300070: SPRITE_SHEET_OPEN_T1_35
+    21300072: SPRITE_SHEET_OPEN_T1_36
+    21300074: SPRITE_SHEET_OPEN_T1_37
+    21300076: SPRITE_SHEET_OPEN_T1_38
+    21300078: SPRITE_SHEET_OPEN_T1_39
+    21300080: SPRITE_SHEET_OPEN_T1_40
+    21300082: SPRITE_SHEET_OPEN_T1_41
+    21300084: SPRITE_SHEET_OPEN_T1_42
+    21300086: SPRITE_SHEET_OPEN_T1_43
+    21300088: SPRITE_SHEET_OPEN_T1_44
+    21300090: SPRITE_SHEET_OPEN_T1_45
+    21300092: SPRITE_SHEET_OPEN_T1_46
+    21300094: SPRITE_SHEET_OPEN_T1_47
+    21300096: SPRITE_SHEET_OPEN_T1_48
+    21300098: SPRITE_SHEET_OPEN_T1_49
+    21300100: SPRITE_SHEET_OPEN_T1_50
+    21300102: SPRITE_SHEET_OPEN_T1_51
+    21300104: SPRITE_SHEET_OPEN_T1_52
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1195
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1195
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1197
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_3
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1195
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_4
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1195
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1000
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1000
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_7
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1000
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_8
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1000
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_9
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1000
+        width: 225
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_15
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_19
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_21
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_22
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_27
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_29
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_31
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_33
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_35
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_37
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_39
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_41
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_42
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_45
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_47
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_48
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 136
+        width: 13
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPRITE_SHEET_OPEN_T1_50
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

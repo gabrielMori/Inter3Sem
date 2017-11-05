@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: e1d12f002c5075942ac4b0b0567075b9
+timeCreated: 1509913041
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: asdasdasd - Copia_0
+    21300002: asdasdasd - Copia_1
+    21300004: asdasdasd - Copia_2
+    21300006: asdasdasd - Copia_3
+    21300008: asdasdasd - Copia_4
+    21300010: asdasdasd - Copia_5
+    21300012: asdasdasd - Copia_6
+    21300014: asdasdasd - Copia_7
+    21300016: asdasdasd - Copia_8
+    21300018: asdasdasd - Copia_9
+    21300020: asdasdasd - Copia_10
+    21300022: asdasdasd - Copia_11
+    21300024: asdasdasd - Copia_12
+    21300026: asdasdasd - Copia_13
+    21300028: asdasdasd - Copia_14
+    21300030: asdasdasd - Copia_15
+    21300032: asdasdasd - Copia_16
+    21300034: asdasdasd - Copia_17
+    21300036: asdasdasd - Copia_18
+    21300038: asdasdasd - Copia_19
+    21300040: asdasdasd - Copia_20
+    21300042: asdasdasd - Copia_21
+    21300044: asdasdasd - Copia_22
+    21300046: asdasdasd - Copia_23
+    21300048: asdasdasd - Copia_24
+    21300050: asdasdasd - Copia_25
+    21300052: asdasdasd - Copia_26
+    21300054: asdasdasd - Copia_27
+    21300056: asdasdasd - Copia_28
+    21300058: asdasdasd - Copia_29
+    21300060: asdasdasd - Copia_30
+    21300062: asdasdasd - Copia_31
+    21300064: asdasdasd - Copia_32
+    21300066: asdasdasd - Copia_33
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: asdasdasd - Copia_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1200
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1200
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1200
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1200
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_4
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1200
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1005
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1005
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_7
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1005
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_8
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1005
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_9
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1005
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_12
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_13
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_14
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 810
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_17
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_18
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_19
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 615
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_23
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_24
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 420
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_26
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_27
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_28
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_29
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 225
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_31
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_32
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asdasdasd - Copia_33
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 30
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
