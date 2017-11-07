@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Javali : MonoBehaviour
 {
-	public GameObject[] waypoints;
+	public GameObject[] waypoints, inimigos;
 	[SerializeField]
 	private BoxCollider2D collider;
 
@@ -18,6 +18,11 @@ public class Javali : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		inimigos = GameObject.FindGameObjectsWithTag ("Inimigo");
+		for(int i = 0; i < inimigos.Length; i++){
+			Physics2D.IgnoreCollision (GetComponent<BoxCollider2D>(), inimigos[i].GetComponent<BoxCollider2D>());
+		}
+
 		player = GameObject.Find ("Jogador");
 		velocidade = 3;
 		alvo = waypoints [0];

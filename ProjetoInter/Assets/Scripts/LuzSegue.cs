@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LuzSegue : MonoBehaviour {
-
+	[SerializeField]
 	private Transform alvo;
 
-	void Start () {
-		alvo = GameObject.Find ("Lanterna").transform;
-	}
 
 	// Update is called once per frame
 	void LateUpdate () {
