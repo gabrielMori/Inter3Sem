@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Lobo: MonoBehaviour
 {
-	public GameObject[] waypoints;
+	public GameObject[] waypoints, inimigos;
 	[SerializeField]
 	private BoxCollider2D collider;
 	private Animator animator;
@@ -17,6 +17,11 @@ public class Lobo: MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		inimigos = GameObject.FindGameObjectsWithTag ("Inimigo");
+		for(int i = 0; i < inimigos.Length; i++){
+			Physics2D.IgnoreCollision (GetComponent<BoxCollider2D>(), inimigos[i].GetComponent<BoxCollider2D>());
+		}
+
 		player = GameObject.Find ("Jogador");
 		velocidade = 3;
 		alvo = waypoints [0];
@@ -92,7 +97,6 @@ public class Lobo: MonoBehaviour
 			velocidade = 8;
 			meuRigidbody.bodyType = RigidbodyType2D.Dynamic; 
 			if (Vector2.Distance (gameObject.transform.position, alvo.transform.position) > 1.5f) {
-				print(Vector2.Distance (gameObject.transform.position, alvo.transform.position));
 				if (transform.position.x > alvo.transform.position.x)
 					meuRigidbody.velocity = new Vector2 (velocidade * -1, meuRigidbody.velocity.y);
 				else
@@ -111,10 +115,12 @@ public class Lobo: MonoBehaviour
 	{
 		RaycastHit2D hit;
 		if (colisor.tag == "Player") {
-			hit = Physics2D.Raycast (new Vector2(transform.position.x, colisor.transform.position.y), new Vector2(colisor.transform.position.x - transform.position.x, 0)); 
+			hit = Physics2D.Raycast (new Vector2 (transform.position.x, colisor.transform.position.y), new Vector2 (colisor.transform.position.x - transform.position.x, 0)); 
 			if (hit.collider.tag == "Player") {
 				inteligencia = 1;
-			}
+				print ("y");
+			} else
+				print (hit.collider.tag);
 		}
 	}
 

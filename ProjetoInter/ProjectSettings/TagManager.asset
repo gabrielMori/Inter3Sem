@@ -10,6 +10,9 @@ TagManager:
   - Porta
   - EntradaDuto
   - Painel
+  - Porta2
+  - Inimigo
+  - Acido
   layers:
   - Default
   - TransparentFX

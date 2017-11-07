@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 0bd856dd42918d44ab13346fcfe3407e
+timeCreated: 1510023741
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: subindo_dir_0
+    21300002: subindo_dir_1
+    21300004: subindo_dir_2
+    21300006: subindo_dir_3
+    21300008: subindo_dir_4
+    21300010: subindo_dir_5
+    21300012: subindo_dir_6
+    21300014: subindo_dir_7
+    21300016: subindo_dir_8
+    21300018: subindo_dir_9
+    21300020: subindo_dir_10
+    21300022: subindo_dir_11
+    21300024: subindo_dir_12
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: subindo_dir_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 39
+        height: 84
+      alignment: 9
+      pivot: {x: 0.45874444, y: 0.97407097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 89
+        width: 39
+        height: 84
+      alignment: 9
+      pivot: {x: 0.4742154, y: 0.9716766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 89
+        width: 34
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5354922, y: 0.96209955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 89
+        width: 34
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5, y: 0.975592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 89
+        width: 26
+        height: 91
+      alignment: 9
+      pivot: {x: 0.84809405, y: 0.99064684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 89
+        width: 26
+        height: 93
+      alignment: 9
+      pivot: {x: 0.89450717, y: 0.98225796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 89
+        width: 30
+        height: 87
+      alignment: 9
+      pivot: {x: 0.89553833, y: 0.9947115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 89
+        width: 31
+        height: 86
+      alignment: 9
+      pivot: {x: 0.92170566, y: 0.74555475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 49
+        height: 82
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.6079185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 6
+        width: 55
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5511945, y: 0.55782235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 5
+        width: 60
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5804484, y: 0.5695233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_11
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 6
+        width: 55
+        height: 80
+      alignment: 9
+      pivot: {x: 0.569478, y: 0.5603363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: subindo_dir_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 7
+        width: 62
+        height: 79
+      alignment: 9
+      pivot: {x: 0.6167799, y: 0.55600846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

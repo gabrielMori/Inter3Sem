@@ -5,7 +5,7 @@ using UnityEngine;
 public class Jogador : MonoBehaviour
 {
 	public float velocidade;
-	public bool pulando, rastejando, escada;
+	public bool pulando, rastejando, escada, makingNoise;
 	private Vector2 dutoPos;
 	private BoxCollider2D colisorChao;
 	private Collider2D dutoColisor;
@@ -13,7 +13,7 @@ public class Jogador : MonoBehaviour
 
 	private Rigidbody2D meuRigidbody;
 
-	private bool estaNoChao, subindo, onTrigger, duto;
+	private bool estaNoChao, subindo, onTrigger, duto, acido;
 
 	private float subindoTimer;
 
@@ -37,44 +37,48 @@ public class Jogador : MonoBehaviour
 	void FixedUpdate ()
 	{
 		float h = Input.GetAxis ("Horizontal");
-		if (h < 0 && !subindo) 
-			gameObject.transform.localScale = new Vector2 (1, gameObject.transform.localScale.y);
+		if (h < 0)
+			GetComponent<Animator> ().SetInteger ("Direction", 1);
 		else if (h > 0) 
-			gameObject.transform.localScale = new Vector2 (-1, gameObject.transform.localScale.y);
+			GetComponent<Animator> ().SetInteger ("Direction", -1);
 		
-		float p = Input.GetAxis ("Jump");
 		float v = Input.GetAxis ("Correr");
 
-		Movimento (h, v, p);
+		Movimento (h, v);
 
 		estaNoChao = EstaNoChao ();
 
 		Botoes ();
+
+		if (!rastejando && !subindo) {
+			GetComponent<BoxCollider2D>().size = new Vector2(1.36f, 2.7f);
+			meuRigidbody.gravityScale = 10;
+		} else if(rastejando) {
+			GetComponent<BoxCollider2D> ().size = new Vector2 (1.36f, 1.25f);
+			meuRigidbody.gravityScale = 10;
+		}
 	}
 
 	private void Botoes ()
 	{
-		if(Input.GetKeyDown(KeyCode.LeftControl))
+		if (Input.GetKeyDown (KeyCode.LeftControl)) {
 			rastejando = true;
-		else if(Input.GetKeyUp(KeyCode.LeftControl))
+		} else if (Input.GetKeyUp (KeyCode.LeftControl)) {
 			rastejando = false;
-		
+		}
 	}
 
-	private void Movimento (float horizontal, float velo, float pula)
+	private void Movimento (float horizontal, float velo)
 	{
 		if (velo > 0 && !rastejando) {
 			velocidade = 8;
+			makingNoise = true;
 		} else if (rastejando) {
+			makingNoise = false;
 			velocidade = 1;
 		} else {
+			makingNoise = false;
 			velocidade = 3;
-		}
-
-		if (pula > 0 && !estaNoChao) {
-			pulando = true;
-		} else {
-			pulando = false;
 		}
 
 		if(!duto){
@@ -98,14 +102,28 @@ public class Jogador : MonoBehaviour
 		return false;
 	}
 	private void OnTriggerEnter2D (Collider2D collider){
-		if(collider.tag == "Chave"){
+		if(collider.tag == "Chave" || collider.tag == "Acido"){
 			onTrigger = true;
-			for(int i = 0; i < collider.GetComponent<Chave>().portas.Length; i++){
-				chaves.Add (collider.GetComponent<Chave>().portas[i]);
+			if(collider.GetComponent<Chave>().portas.Length > 0){
+				for(int i = 0; i < collider.GetComponent<Chave>().portas.Length; i++){
+					chaves.Add (collider.GetComponent<Chave>().portas[i]);
+				}
 			}
+			if(collider.GetComponent<Chave>().portas2.Length > 0){
+				for(int i = 0; i < collider.GetComponent<Chave>().portas2.Length; i++){
+					collider.GetComponent<Chave> ().portas2 [i].podeAbrir = true;
+				}
+			}
+			if(collider.GetComponent<Chave>().tele)
+				collider.GetComponent<Chave>().TeleportEnemies();
+			if(collider.tag == "Acido"){
+				acido = true;
+			}
+				
 			Destroy (collider.gameObject);
 		} else if(collider.tag == "EntradaDuto"){
 			if(duto){
+				pulando = false;
 				meuRigidbody.gravityScale = 0;
 				meuRigidbody.velocity = Vector2.zero;
 				subindo = true;
@@ -117,6 +135,7 @@ public class Jogador : MonoBehaviour
 	{
 		if (collider.tag == "Duto") {
 			onTrigger = true;
+			GetComponent<Animator> ().SetBool ("DutoDireita", collider.GetComponent<Duto>().dir);
 			if (Input.GetKeyDown (KeyCode.Space)) {
 				if (collider.GetComponent<Duto> ().index == 0) {
 					duto = true;
@@ -140,13 +159,27 @@ public class Jogador : MonoBehaviour
 		if (collider.tag == "Porta"){
 			onTrigger = true;
 			if(Input.GetKeyDown (KeyCode.Space)){
-				AbrirPortas (collider.gameObject);
+				if (collider.GetComponent<Acido> ()) {
+					if (acido) {
+						AbrirPortas (collider.gameObject);
+						acido = false;
+					}
+				} else 
+					AbrirPortas (collider.gameObject);
 			}
 		}
 		if(collider.tag == "Painel"){
-			for(int i = 0; i < collider.GetComponent<Painel>().portasVerm.Length; i++){
-				chaves.Add (collider.GetComponent<Painel>().portasVerm[i]);
+			if(Input.GetKeyDown (KeyCode.Space)){
 				collider.GetComponent<Painel>().SpawnInimigos();
+				for(int i = 0; i < collider.GetComponent<Painel>().portasVerm.Length; i++){
+					chaves.Add (collider.GetComponent<Painel>().portasVerm[i]);
+				}
+			}
+		}
+		if(collider.tag == "Porta2"){
+			if (Input.GetKeyDown (KeyCode.Space)) {
+				if(collider.GetComponent<Porta>().podeAbrir)
+					transform.position = new Vector2 (collider.GetComponent<Porta> ().pos.transform.position.x, collider.GetComponent<Porta> ().pos.transform.position.y);
 			}
 		}
 	}
@@ -162,15 +195,20 @@ public class Jogador : MonoBehaviour
 		dutoPos = p;
 		if(index == 0){
 			meuRigidbody.velocity = Vector2.zero;
-			meuRigidbody.velocity = new Vector2 (0, 10);
+			meuRigidbody.velocity = new Vector2 (0, 50);
+			pulando = true;
 		}
 	}
 
 	private void AbrirPortas(GameObject porta){
 		for(int i = 0; i < chaves.Count; i++){
 			if(chaves[i] == porta){
-				porta.SetActive (false);
-				StartCoroutine (WaitPorta(porta));
+				if (porta.GetComponent<Acido> ()) {
+					Destroy (porta);
+				} else {
+					porta.SetActive (false);
+					StartCoroutine (WaitPorta(porta));
+				}
 			}
 		}
 	}
@@ -180,7 +218,7 @@ public class Jogador : MonoBehaviour
 	}
 	private void SairAnimacaoSubindo(){
 		gameObject.transform.position = dutoPos;
-		meuRigidbody.gravityScale = 1;
+		meuRigidbody.gravityScale = 10;
 		Physics2D.IgnoreCollision (GetComponent<Collider2D>(), dutoColisor, false);
 		if(duto){
 			duto = false;

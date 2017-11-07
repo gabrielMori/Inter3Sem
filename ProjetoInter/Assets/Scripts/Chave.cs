@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class Chave : MonoBehaviour {
 	public GameObject[] portas;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public GameObject tamandua, pos;
+	public Porta[] portas2;
+	public bool tele;
+
+	public void TeleportEnemies(){
+		tamandua.transform.position = pos.transform.position;
 	}
 }
