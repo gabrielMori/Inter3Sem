@@ -136,7 +136,7 @@ public class Jogador : MonoBehaviour
 		if (collider.tag == "Duto") {
 			onTrigger = true;
 			GetComponent<Animator> ().SetBool ("DutoDireita", collider.GetComponent<Duto>().dir);
-			if (Input.GetKeyDown (KeyCode.Space)) {
+			if (Input.GetKeyDown (KeyCode.UpArrow)) {
 				if (collider.GetComponent<Duto> ().index == 0) {
 					duto = true;
 					transform.position = collider.transform.position;
@@ -151,14 +151,14 @@ public class Jogador : MonoBehaviour
 
 		if(collider.tag == "Escada"){
 			onTrigger = true;
-			if(Input.GetKeyDown (KeyCode.Space)){
+			if(Input.GetKeyDown (KeyCode.UpArrow)){
 				gameObject.transform.localPosition = collider.GetComponent<Escada> ().colisor.transform.localPosition;
 			}
 		} 
 
 		if (collider.tag == "Porta"){
 			onTrigger = true;
-			if(Input.GetKeyDown (KeyCode.Space)){
+			if(Input.GetKeyDown (KeyCode.E)){
 				if (collider.GetComponent<Acido> ()) {
 					if (acido) {
 						AbrirPortas (collider.gameObject);
@@ -169,7 +169,7 @@ public class Jogador : MonoBehaviour
 			}
 		}
 		if(collider.tag == "Painel"){
-			if(Input.GetKeyDown (KeyCode.Space)){
+			if(Input.GetKeyDown (KeyCode.E)){
 				collider.GetComponent<Painel>().SpawnInimigos();
 				for(int i = 0; i < collider.GetComponent<Painel>().portasVerm.Length; i++){
 					chaves.Add (collider.GetComponent<Painel>().portasVerm[i]);
@@ -177,7 +177,7 @@ public class Jogador : MonoBehaviour
 			}
 		}
 		if(collider.tag == "Porta2"){
-			if (Input.GetKeyDown (KeyCode.Space)) {
+			if (Input.GetKeyDown (KeyCode.UpArrow)) {
 				if(collider.GetComponent<Porta>().podeAbrir)
 					transform.position = new Vector2 (collider.GetComponent<Porta> ().pos.transform.position.x, collider.GetComponent<Porta> ().pos.transform.position.y);
 			}
