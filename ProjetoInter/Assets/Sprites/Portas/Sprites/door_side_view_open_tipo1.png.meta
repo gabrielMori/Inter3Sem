@@ -1,0 +1,2232 @@
+fileFormatVersion: 2
+guid: 8fec143a90fb20d4babc2eb1915cc108
+timeCreated: 1509988715
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: door_side_view_open_tipo1_0
+    21300002: door_side_view_open_tipo1_1
+    21300004: door_side_view_open_tipo1_2
+    21300006: door_side_view_open_tipo1_3
+    21300008: door_side_view_open_tipo1_4
+    21300010: door_side_view_open_tipo1_5
+    21300012: door_side_view_open_tipo1_6
+    21300014: door_side_view_open_tipo1_7
+    21300016: door_side_view_open_tipo1_8
+    21300018: door_side_view_open_tipo1_9
+    21300020: door_side_view_open_tipo1_10
+    21300022: door_side_view_open_tipo1_11
+    21300024: door_side_view_open_tipo1_12
+    21300026: door_side_view_open_tipo1_13
+    21300028: door_side_view_open_tipo1_14
+    21300030: door_side_view_open_tipo1_15
+    21300032: door_side_view_open_tipo1_16
+    21300034: door_side_view_open_tipo1_17
+    21300036: door_side_view_open_tipo1_18
+    21300038: door_side_view_open_tipo1_19
+    21300040: door_side_view_open_tipo1_20
+    21300042: door_side_view_open_tipo1_21
+    21300044: door_side_view_open_tipo1_22
+    21300046: door_side_view_open_tipo1_23
+    21300048: door_side_view_open_tipo1_24
+    21300050: door_side_view_open_tipo1_25
+    21300052: door_side_view_open_tipo1_26
+    21300054: door_side_view_open_tipo1_27
+    21300056: door_side_view_open_tipo1_28
+    21300058: door_side_view_open_tipo1_29
+    21300060: door_side_view_open_tipo1_30
+    21300062: door_side_view_open_tipo1_31
+    21300064: door_side_view_open_tipo1_32
+    21300066: door_side_view_open_tipo1_33
+    21300068: door_side_view_open_tipo1_34
+    21300070: door_side_view_open_tipo1_35
+    21300072: door_side_view_open_tipo1_36
+    21300074: door_side_view_open_tipo1_37
+    21300076: door_side_view_open_tipo1_38
+    21300078: door_side_view_open_tipo1_39
+    21300080: door_side_view_open_tipo1_40
+    21300082: door_side_view_open_tipo1_41
+    21300084: door_side_view_open_tipo1_42
+    21300086: door_side_view_open_tipo1_43
+    21300088: door_side_view_open_tipo1_44
+    21300090: door_side_view_open_tipo1_45
+    21300092: door_side_view_open_tipo1_46
+    21300094: door_side_view_open_tipo1_47
+    21300096: door_side_view_open_tipo1_48
+    21300098: door_side_view_open_tipo1_49
+    21300100: door_side_view_open_tipo1_50
+    21300102: door_side_view_open_tipo1_51
+    21300104: door_side_view_open_tipo1_52
+    21300106: door_side_view_open_tipo1_53
+    21300108: door_side_view_open_tipo1_54
+    21300110: door_side_view_open_tipo1_55
+    21300112: door_side_view_open_tipo1_56
+    21300114: door_side_view_open_tipo1_57
+    21300116: door_side_view_open_tipo1_58
+    21300118: door_side_view_open_tipo1_59
+    21300120: door_side_view_open_tipo1_60
+    21300122: door_side_view_open_tipo1_61
+    21300124: door_side_view_open_tipo1_62
+    21300126: door_side_view_open_tipo1_63
+    21300128: door_side_view_open_tipo1_64
+    21300130: door_side_view_open_tipo1_65
+    21300132: door_side_view_open_tipo1_66
+    21300134: door_side_view_open_tipo1_67
+    21300136: door_side_view_open_tipo1_68
+    21300138: door_side_view_open_tipo1_69
+    21300140: door_side_view_open_tipo1_70
+    21300142: door_side_view_open_tipo1_71
+    21300144: door_side_view_open_tipo1_72
+    21300146: door_side_view_open_tipo1_73
+    21300148: door_side_view_open_tipo1_74
+    21300150: door_side_view_open_tipo1_75
+    21300152: door_side_view_open_tipo1_76
+    21300154: door_side_view_open_tipo1_77
+    21300156: door_side_view_open_tipo1_78
+    21300158: door_side_view_open_tipo1_79
+    21300160: door_side_view_open_tipo1_80
+    21300162: door_side_view_open_tipo1_81
+    21300164: door_side_view_open_tipo1_82
+    21300166: door_side_view_open_tipo1_83
+    21300168: door_side_view_open_tipo1_84
+    21300170: door_side_view_open_tipo1_85
+    21300172: door_side_view_open_tipo1_86
+    21300174: door_side_view_open_tipo1_87
+    21300176: door_side_view_open_tipo1_88
+    21300178: door_side_view_open_tipo1_89
+    21300180: door_side_view_open_tipo1_90
+    21300182: door_side_view_open_tipo1_91
+    21300184: door_side_view_open_tipo1_92
+    21300186: door_side_view_open_tipo1_93
+    21300188: door_side_view_open_tipo1_94
+    21300190: door_side_view_open_tipo1_95
+    21300192: door_side_view_open_tipo1_96
+    21300194: door_side_view_open_tipo1_97
+    21300196: door_side_view_open_tipo1_98
+    21300198: door_side_view_open_tipo1_99
+    21300200: door_side_view_open_tipo1_100
+    21300202: door_side_view_open_tipo1_101
+    21300204: door_side_view_open_tipo1_102
+    21300206: door_side_view_open_tipo1_103
+    21300208: door_side_view_open_tipo1_104
+    21300210: door_side_view_open_tipo1_105
+    21300212: door_side_view_open_tipo1_106
+    21300214: door_side_view_open_tipo1_107
+    21300216: door_side_view_open_tipo1_108
+    21300218: door_side_view_open_tipo1_109
+    21300220: door_side_view_open_tipo1_110
+    21300222: door_side_view_open_tipo1_111
+    21300224: door_side_view_open_tipo1_112
+    21300226: door_side_view_open_tipo1_113
+    21300228: door_side_view_open_tipo1_114
+    21300230: door_side_view_open_tipo1_115
+    21300232: door_side_view_open_tipo1_116
+    21300234: door_side_view_open_tipo1_117
+    21300236: door_side_view_open_tipo1_118
+    21300238: door_side_view_open_tipo1_119
+    21300240: door_side_view_open_tipo1_120
+    21300242: door_side_view_open_tipo1_121
+    21300244: door_side_view_open_tipo1_122
+    21300246: door_side_view_open_tipo1_123
+    21300248: door_side_view_open_tipo1_124
+    21300250: door_side_view_open_tipo1_125
+    21300252: door_side_view_open_tipo1_126
+    21300254: door_side_view_open_tipo1_127
+    21300256: door_side_view_open_tipo1_128
+    21300258: door_side_view_open_tipo1_129
+    21300260: door_side_view_open_tipo1_130
+    21300262: door_side_view_open_tipo1_131
+    21300264: door_side_view_open_tipo1_132
+    21300266: door_side_view_open_tipo1_133
+    21300268: door_side_view_open_tipo1_134
+    21300270: door_side_view_open_tipo1_135
+    21300272: door_side_view_open_tipo1_136
+    21300274: door_side_view_open_tipo1_137
+    21300276: door_side_view_open_tipo1_138
+    21300278: door_side_view_open_tipo1_139
+    21300280: door_side_view_open_tipo1_140
+    21300282: door_side_view_open_tipo1_141
+    21300284: door_side_view_open_tipo1_142
+    21300286: door_side_view_open_tipo1_143
+    21300288: door_side_view_open_tipo1_144
+    21300290: door_side_view_open_tipo1_145
+    21300292: door_side_view_open_tipo1_146
+    21300294: door_side_view_open_tipo1_147
+    21300296: door_side_view_open_tipo1_148
+    21300298: door_side_view_open_tipo1_149
+    21300300: door_side_view_open_tipo1_150
+    21300302: door_side_view_open_tipo1_151
+    21300304: door_side_view_open_tipo1_152
+    21300306: door_side_view_open_tipo1_153
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 6084
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 6084
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_2
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 6084
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 6084
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_4
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 6084
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 5889
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5889
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 5889
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_8
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 5889
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_9
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 5889
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 5694
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5694
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_12
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 5694
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 5694
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_14
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 5694
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 5499
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5499
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_17
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 5499
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_18
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 5499
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_19
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 5499
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 5304
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_21
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5304
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 5304
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_23
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 5304
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_24
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 5304
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 5109
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5109
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_27
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 4914
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4914
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4914
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_30
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4914
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_31
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 4914
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_32
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 4719
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_33
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4719
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_34
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4719
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_35
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4719
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_36
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 4719
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_37
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 4524
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4524
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_39
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4524
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_40
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4524
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_41
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 4524
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_42
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 4329
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_43
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4329
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_44
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4329
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_45
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4329
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_46
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 4329
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_47
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 4134
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_48
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4134
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_49
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4134
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_50
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 4134
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_51
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 4134
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_52
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3939
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_53
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3939
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_54
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3744
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_55
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3744
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_56
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3744
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_57
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3744
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_58
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 3744
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_59
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3549
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_60
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3549
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_61
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3549
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_62
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3549
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_63
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 3549
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_64
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3354
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_65
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3354
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_66
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3354
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_67
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3354
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_68
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 3354
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_69
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3159
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_70
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3159
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_71
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3159
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_72
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 3159
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_73
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 3159
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_74
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2964
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_75
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2964
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_76
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2964
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_77
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2964
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_78
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2964
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_79
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2769
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_80
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2769
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_81
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2769
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_82
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2769
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_83
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2769
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_84
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2574
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_85
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2574
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_86
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2574
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_87
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2574
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_88
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2574
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_89
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2379
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_90
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2379
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_91
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2379
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_92
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2379
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_93
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2379
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_94
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2184
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_95
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2184
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_96
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2184
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_97
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2184
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_98
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2184
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_99
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1989
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_100
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1989
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_101
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1989
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_102
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1989
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_103
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1989
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_104
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1794
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_105
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1794
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_106
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1794
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_107
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1794
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_108
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1794
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_109
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1599
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_110
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1599
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_111
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1599
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_112
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1599
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_113
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1599
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_114
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1404
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_115
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1404
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_116
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1404
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_117
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1404
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_118
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1404
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_119
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1209
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_120
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1209
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_121
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1209
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_122
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1209
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_123
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1209
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_124
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1014
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_125
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1014
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_126
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1014
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_127
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1014
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_128
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1014
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_129
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 819
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_130
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 819
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_131
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 819
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_132
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 819
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_133
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 819
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_134
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 624
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_135
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 624
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_136
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 624
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_137
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 624
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_138
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 624
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_139
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 429
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_140
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 429
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_141
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 429
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_142
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 429
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_143
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 429
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_144
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 234
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_145
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 234
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_146
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 234
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_147
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 234
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_148
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 234
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_149
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 39
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_150
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 39
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_151
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 39
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_152
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 39
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_side_view_open_tipo1_153
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 39
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

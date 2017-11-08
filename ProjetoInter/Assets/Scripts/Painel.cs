@@ -5,7 +5,8 @@ using UnityEngine;
 public class Painel : MonoBehaviour {
 	public GameObject[] portasVerm, escadas;
 	public GameObject[] inimigos, portasAutomaticas, javali;
-	public GameObject porta, tamandua, pos, webs;
+    public GameObject[] musicas;
+    public GameObject porta, tamandua, pos, webs;
 
 	[SerializeField]
 	private int index;

@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: a21118790c6f58c4cac0c70c44cbc1fa
+timeCreated: 1509994197
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: luzes_0
+    21300002: luzes_1
+    21300004: luzes_2
+    21300006: luzes_3
+    21300008: luzes_4
+    21300010: luzes_5
+    21300012: luzes_6
+    21300014: luzes_7
+    21300016: luzes_8
+    21300018: luzes_9
+    21300020: luzes_10
+    21300022: luzes_11
+    21300024: luzes_12
+    21300026: luzes_13
+    21300028: luzes_14
+    21300030: luzes_15
+    21300032: luzes_16
+    21300034: luzes_17
+    21300036: luzes_18
+    21300038: luzes_19
+    21300040: luzes_20
+    21300042: luzes_21
+    21300044: luzes_22
+    21300046: luzes_23
+    21300048: luzes_24
+    21300050: luzes_25
+    21300052: luzes_26
+    21300054: luzes_27
+    21300056: luzes_28
+    21300058: luzes_29
+    21300060: luzes_30
+    21300062: luzes_31
+    21300064: luzes_32
+    21300066: luzes_33
+    21300068: luzes_34
+    21300070: luzes_35
+    21300072: luzes_36
+    21300074: luzes_37
+    21300076: luzes_38
+    21300078: luzes_39
+    21300080: luzes_40
+    21300082: luzes_41
+    21300084: luzes_42
+    21300086: luzes_43
+    21300088: luzes_44
+    21300090: luzes_45
+    21300092: luzes_46
+    21300094: luzes_47
+    21300096: luzes_48
+    21300098: luzes_49
+    21300100: luzes_50
+    21300102: luzes_51
+    21300104: luzes_52
+    21300106: luzes_53
+    21300108: luzes_54
+    21300110: luzes_55
+    21300112: luzes_56
+    21300114: luzes_57
+    21300116: luzes_58
+    21300118: luzes_59
+    21300120: luzes_60
+    21300122: luzes_61
+    21300124: luzes_62
+    21300126: luzes_63
+    21300128: luzes_64
+    21300130: luzes_65
+    21300132: luzes_66
+    21300134: luzes_67
+    21300136: luzes_68
+    21300138: luzes_69
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luzes_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_4
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_7
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_8
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 984
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_9
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 978
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_15
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_16
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_18
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_19
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 870
+        width: 37
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_22
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_24
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_26
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_27
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_29
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 765
+        width: 36
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_31
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_32
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_34
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_36
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_37
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_39
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 635
+        width: 36
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 452
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_41
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 453
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 453
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 455
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 455
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_45
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 455
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_46
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 455
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_47
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 455
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_48
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 455
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_49
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 455
+        width: 57
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_52
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_53
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_54
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_55
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_56
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_57
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_58
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_59
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 328
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_60
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 182
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_61
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 182
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_62
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 182
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_63
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 182
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_64
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 182
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_65
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 43
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 43
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_67
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 43
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_68
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 43
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: luzes_69
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 43
+        width: 153
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1854 @@
+fileFormatVersion: 2
+guid: 15568a767e9c5fb4fa2fa19294874d09
+timeCreated: 1509986342
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: door_front_view_tipo2_0
+    21300002: door_front_view_tipo2_1
+    21300004: door_front_view_tipo2_2
+    21300006: door_front_view_tipo2_3
+    21300008: door_front_view_tipo2_4
+    21300010: door_front_view_tipo2_5
+    21300012: door_front_view_tipo2_6
+    21300014: door_front_view_tipo2_7
+    21300016: door_front_view_tipo2_8
+    21300018: door_front_view_tipo2_9
+    21300020: door_front_view_tipo2_10
+    21300022: door_front_view_tipo2_11
+    21300024: door_front_view_tipo2_12
+    21300026: door_front_view_tipo2_13
+    21300028: door_front_view_tipo2_14
+    21300030: door_front_view_tipo2_15
+    21300032: door_front_view_tipo2_16
+    21300034: door_front_view_tipo2_17
+    21300036: door_front_view_tipo2_18
+    21300038: door_front_view_tipo2_19
+    21300040: door_front_view_tipo2_20
+    21300042: door_front_view_tipo2_21
+    21300044: door_front_view_tipo2_22
+    21300046: door_front_view_tipo2_23
+    21300048: door_front_view_tipo2_24
+    21300050: door_front_view_tipo2_25
+    21300052: door_front_view_tipo2_26
+    21300054: door_front_view_tipo2_27
+    21300056: door_front_view_tipo2_28
+    21300058: door_front_view_tipo2_29
+    21300060: door_front_view_tipo2_30
+    21300062: door_front_view_tipo2_31
+    21300064: door_front_view_tipo2_32
+    21300066: door_front_view_tipo2_33
+    21300068: door_front_view_tipo2_34
+    21300070: door_front_view_tipo2_35
+    21300072: door_front_view_tipo2_36
+    21300074: door_front_view_tipo2_37
+    21300076: door_front_view_tipo2_38
+    21300078: door_front_view_tipo2_39
+    21300080: door_front_view_tipo2_40
+    21300082: door_front_view_tipo2_41
+    21300084: door_front_view_tipo2_42
+    21300086: door_front_view_tipo2_43
+    21300088: door_front_view_tipo2_44
+    21300090: door_front_view_tipo2_45
+    21300092: door_front_view_tipo2_46
+    21300094: door_front_view_tipo2_47
+    21300096: door_front_view_tipo2_48
+    21300098: door_front_view_tipo2_49
+    21300100: door_front_view_tipo2_50
+    21300102: door_front_view_tipo2_51
+    21300104: door_front_view_tipo2_52
+    21300106: door_front_view_tipo2_53
+    21300108: door_front_view_tipo2_54
+    21300110: door_front_view_tipo2_55
+    21300112: door_front_view_tipo2_56
+    21300114: door_front_view_tipo2_57
+    21300116: door_front_view_tipo2_58
+    21300118: door_front_view_tipo2_59
+    21300120: door_front_view_tipo2_60
+    21300122: door_front_view_tipo2_61
+    21300124: door_front_view_tipo2_62
+    21300126: door_front_view_tipo2_63
+    21300128: door_front_view_tipo2_64
+    21300130: door_front_view_tipo2_65
+    21300132: door_front_view_tipo2_66
+    21300134: door_front_view_tipo2_67
+    21300136: door_front_view_tipo2_68
+    21300138: door_front_view_tipo2_69
+    21300140: door_front_view_tipo2_70
+    21300142: door_front_view_tipo2_71
+    21300144: door_front_view_tipo2_72
+    21300146: door_front_view_tipo2_73
+    21300148: door_front_view_tipo2_74
+    21300150: door_front_view_tipo2_75
+    21300152: door_front_view_tipo2_76
+    21300154: door_front_view_tipo2_77
+    21300156: door_front_view_tipo2_78
+    21300158: door_front_view_tipo2_79
+    21300160: door_front_view_tipo2_80
+    21300162: door_front_view_tipo2_81
+    21300164: door_front_view_tipo2_82
+    21300166: door_front_view_tipo2_83
+    21300168: door_front_view_tipo2_84
+    21300170: door_front_view_tipo2_85
+    21300172: door_front_view_tipo2_86
+    21300174: door_front_view_tipo2_87
+    21300176: door_front_view_tipo2_88
+    21300178: door_front_view_tipo2_89
+    21300180: door_front_view_tipo2_90
+    21300182: door_front_view_tipo2_91
+    21300184: door_front_view_tipo2_92
+    21300186: door_front_view_tipo2_93
+    21300188: door_front_view_tipo2_94
+    21300190: door_front_view_tipo2_95
+    21300192: door_front_view_tipo2_96
+    21300194: door_front_view_tipo2_97
+    21300196: door_front_view_tipo2_98
+    21300198: door_front_view_tipo2_99
+    21300200: door_front_view_tipo2_100
+    21300202: door_front_view_tipo2_101
+    21300204: door_front_view_tipo2_102
+    21300206: door_front_view_tipo2_103
+    21300208: door_front_view_tipo2_104
+    21300210: door_front_view_tipo2_105
+    21300212: door_front_view_tipo2_106
+    21300214: door_front_view_tipo2_107
+    21300216: door_front_view_tipo2_108
+    21300218: door_front_view_tipo2_109
+    21300220: door_front_view_tipo2_110
+    21300222: door_front_view_tipo2_111
+    21300224: door_front_view_tipo2_112
+    21300226: door_front_view_tipo2_113
+    21300228: door_front_view_tipo2_114
+    21300230: door_front_view_tipo2_115
+    21300232: door_front_view_tipo2_116
+    21300234: door_front_view_tipo2_117
+    21300236: door_front_view_tipo2_118
+    21300238: door_front_view_tipo2_119
+    21300240: door_front_view_tipo2_120
+    21300242: door_front_view_tipo2_121
+    21300244: door_front_view_tipo2_122
+    21300246: door_front_view_tipo2_123
+    21300248: door_front_view_tipo2_124
+    21300250: door_front_view_tipo2_125
+    21300252: door_front_view_tipo2_126
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_front_view_tipo2_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 5053
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 5053
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 5053
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 5053
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_4
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 5053
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4858
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 4858
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_7
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 4858
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_8
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 4858
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_9
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 4858
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4663
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 4663
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_12
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 4663
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_13
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 4663
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_14
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 4663
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4468
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 4468
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_17
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 4468
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_18
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 4468
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_19
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 4468
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4273
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_21
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 4273
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 4273
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_23
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 4273
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_24
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 4273
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 4078
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_26
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 4078
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_27
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 4078
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_28
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 4078
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_29
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 4078
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3883
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_31
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3883
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_32
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3883
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_33
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 3883
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_34
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3688
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_35
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3688
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_36
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3688
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_37
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 3688
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_38
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 3688
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3493
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3493
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_41
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3493
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_42
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 3493
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_43
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 3493
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_44
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3298
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_45
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3298
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_46
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3298
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_47
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 3298
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_48
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 3298
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_49
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3103
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_50
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3103
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_51
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 3103
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_52
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 3103
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_53
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 3103
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_54
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2908
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_55
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2908
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_56
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2908
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_57
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2908
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_58
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2908
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_59
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2713
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_60
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2713
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_61
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2713
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_62
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2713
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_63
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2713
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_64
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2518
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_65
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2518
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_66
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2518
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_67
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2518
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_68
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2518
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_69
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2323
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_70
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2323
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_71
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2323
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_72
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2323
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_73
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2323
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_74
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 2128
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_75
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2128
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_76
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2128
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_77
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2128
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_78
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2128
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_79
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1933
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_80
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1933
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_81
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1933
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_82
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1933
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_83
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1933
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_84
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1738
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_85
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1738
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_86
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1738
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_87
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1738
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_88
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1738
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_89
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1543
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_90
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1543
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_91
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1543
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_92
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1543
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_93
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1348
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_94
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1348
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_95
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1348
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_96
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1348
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_97
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1348
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_98
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1153
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_99
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1153
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_100
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1153
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_101
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1153
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_102
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1153
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_103
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 958
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_104
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 958
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_105
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 958
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_106
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 958
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_107
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 958
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_108
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 763
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_109
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 763
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_110
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 763
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_111
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 763
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_112
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 763
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_113
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 568
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_114
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 568
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_115
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 568
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_116
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 568
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_117
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 568
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_118
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 373
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_119
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 373
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_120
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 373
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_121
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 373
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_122
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 373
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_123
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 178
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_124
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 178
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_125
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 178
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: door_front_view_tipo2_126
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 178
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
