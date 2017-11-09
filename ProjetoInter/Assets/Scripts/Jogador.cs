@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Jogador : MonoBehaviour
 {
+    public AudioSource musicas, SFX;
+    public AudioClip[] sons;
+    int curentSong;
+    int curentSFX;
 	public float velocidade;
 	public bool pulando, rastejando, escada, makingNoise;
 	private Vector2 dutoPos;
@@ -30,12 +34,19 @@ public class Jogador : MonoBehaviour
 	void Start ()
 	{
 		meuRigidbody = GetComponent<Rigidbody2D> ();
-
-	}
+        curentSong = 0;
+        musicas.clip = sons[curentSong];
+        musicas.Play();
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
+        if (!musicas.isPlaying)
+        {
+            musicas.clip = sons[curentSong];
+            musicas.Play();
+        }
 		float h = Input.GetAxis ("Horizontal");
 		if (h < 0)
 			GetComponent<Animator> ().SetInteger ("Direction", 1);
@@ -159,7 +170,10 @@ public class Jogador : MonoBehaviour
 		if (collider.tag == "Porta"){
 			onTrigger = true;
 			if(Input.GetKeyDown (KeyCode.E)){
-				if (collider.GetComponent<Acido> ()) {
+                curentSFX = 2;
+                SFX.clip = sons[curentSFX];
+                SFX.Play();
+                if (collider.GetComponent<Acido> ()) {
 					if (acido) {
 						AbrirPortas (collider.gameObject);
 						acido = false;
@@ -170,7 +184,10 @@ public class Jogador : MonoBehaviour
 		}
 		if(collider.tag == "Painel"){
 			if(Input.GetKeyDown (KeyCode.E)){
-				collider.GetComponent<Painel>().SpawnInimigos();
+                curentSong = 1;
+                musicas.clip = sons[curentSong];
+                musicas.Play();
+                collider.GetComponent<Painel>().SpawnInimigos();
 				for(int i = 0; i < collider.GetComponent<Painel>().portasVerm.Length; i++){
 					chaves.Add (collider.GetComponent<Painel>().portasVerm[i]);
 				}
@@ -178,8 +195,14 @@ public class Jogador : MonoBehaviour
 		}
 		if(collider.tag == "Porta2"){
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
-				if(collider.GetComponent<Porta>().podeAbrir)
-					transform.position = new Vector2 (collider.GetComponent<Porta> ().pos.transform.position.x, collider.GetComponent<Porta> ().pos.transform.position.y);
+
+                if (collider.GetComponent<Porta>().podeAbrir)
+                {
+                    curentSFX = 2;
+                    SFX.clip = sons[curentSFX];
+                    SFX.Play();
+                    transform.position = new Vector2(collider.GetComponent<Porta>().pos.transform.position.x, collider.GetComponent<Porta>().pos.transform.position.y);
+                }
 			}
 		}
 	}
