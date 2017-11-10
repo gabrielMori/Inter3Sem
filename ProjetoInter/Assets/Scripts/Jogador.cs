@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Jogador : MonoBehaviour
 {
-    public AudioSource musicas, SFX;
-    public AudioClip[] sons;
+    public AudioSource musicas, SFX, movimentos;
+    public AudioClip[] BG;
+    public AudioClip[] movimentosP;
+    public AudioClip[] SoundEffects;
     int curentSong;
     int curentSFX;
+    int curentMove;
 	public float velocidade;
 	public bool pulando, rastejando, escada, makingNoise;
 	private Vector2 dutoPos;
@@ -35,7 +38,7 @@ public class Jogador : MonoBehaviour
 	{
 		meuRigidbody = GetComponent<Rigidbody2D> ();
         curentSong = 0;
-        musicas.clip = sons[curentSong];
+        musicas.clip = BG[curentSong];
         musicas.Play();
     }
 	
@@ -44,15 +47,28 @@ public class Jogador : MonoBehaviour
 	{
         if (!musicas.isPlaying)
         {
-            musicas.clip = sons[curentSong];
+            musicas.clip = BG[curentSong];
             musicas.Play();
         }
 		float h = Input.GetAxis ("Horizontal");
-		if (h < 0)
-			GetComponent<Animator> ().SetInteger ("Direction", 1);
-		else if (h > 0) 
-			GetComponent<Animator> ().SetInteger ("Direction", -1);
-		
+        if (h < 0)
+        {
+            if (!movimentos.isPlaying)
+            {
+                movimentos.clip = movimentosP[curentMove];
+                movimentos.Play();
+            }
+            GetComponent<Animator>().SetInteger("Direction", 1);
+        }
+        else if (h > 0)
+        {
+            if (!movimentos.isPlaying)
+            {
+                movimentos.clip = movimentosP[curentMove];
+                movimentos.Play();
+            }
+            GetComponent<Animator>().SetInteger("Direction", -1);
+        }
 		float v = Input.GetAxis ("Correr");
 
 		Movimento (h, v);
@@ -83,11 +99,15 @@ public class Jogador : MonoBehaviour
 	{
 		if (velo > 0 && !rastejando) {
 			velocidade = 8;
-			makingNoise = true;
+            curentMove = 0;
+            makingNoise = true;
 		} else if (rastejando) {
 			makingNoise = false;
 			velocidade = 1;
-		} else {
+            curentMove = 1;
+            movimentos.clip = movimentosP[curentMove];
+            movimentos.Play();
+        } else {
 			makingNoise = false;
 			velocidade = 3;
 		}
@@ -170,8 +190,8 @@ public class Jogador : MonoBehaviour
 		if (collider.tag == "Porta"){
 			onTrigger = true;
 			if(Input.GetKeyDown (KeyCode.E)){
-                curentSFX = 2;
-                SFX.clip = sons[curentSFX];
+                curentSFX = 0;
+                SFX.clip = SoundEffects[curentSFX];
                 SFX.Play();
                 if (collider.GetComponent<Acido> ()) {
 					if (acido) {
@@ -185,7 +205,7 @@ public class Jogador : MonoBehaviour
 		if(collider.tag == "Painel"){
 			if(Input.GetKeyDown (KeyCode.E)){
                 curentSong = 1;
-                musicas.clip = sons[curentSong];
+                musicas.clip = SoundEffects[curentSong];
                 musicas.Play();
                 collider.GetComponent<Painel>().SpawnInimigos();
 				for(int i = 0; i < collider.GetComponent<Painel>().portasVerm.Length; i++){
@@ -198,8 +218,8 @@ public class Jogador : MonoBehaviour
 
                 if (collider.GetComponent<Porta>().podeAbrir)
                 {
-                    curentSFX = 2;
-                    SFX.clip = sons[curentSFX];
+                    curentSFX = 0;
+                    SFX.clip = SoundEffects[curentSFX];
                     SFX.Play();
                     transform.position = new Vector2(collider.GetComponent<Porta>().pos.transform.position.x, collider.GetComponent<Porta>().pos.transform.position.y);
                 }
