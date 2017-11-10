@@ -55,8 +55,18 @@ public class Jogador : MonoBehaviour
         {
             if (!movimentos.isPlaying)
             {
-                movimentos.clip = movimentosP[curentMove];
-                movimentos.Play();
+                if (rastejando)
+                {
+                    curentMove = 1;
+                    movimentos.clip = movimentosP[curentMove];
+                    movimentos.Play();
+                }
+                else
+                {
+                    curentMove = 0;
+                    movimentos.clip = movimentosP[curentMove];
+                    movimentos.Play();
+                }
             }
             GetComponent<Animator>().SetInteger("Direction", 1);
         }
@@ -64,9 +74,20 @@ public class Jogador : MonoBehaviour
         {
             if (!movimentos.isPlaying)
             {
-                movimentos.clip = movimentosP[curentMove];
-                movimentos.Play();
-            }
+                if (rastejando)
+                {
+                    curentMove = 1;
+                    movimentos.clip = movimentosP[curentMove];
+                    movimentos.Play();
+                }
+                else
+                {
+                    curentMove = 0;
+                    movimentos.clip = movimentosP[curentMove];
+                    movimentos.Play();
+                }
+            
+        }
             GetComponent<Animator>().SetInteger("Direction", -1);
         }
 		float v = Input.GetAxis ("Correr");
@@ -105,8 +126,6 @@ public class Jogador : MonoBehaviour
 			makingNoise = false;
 			velocidade = 1;
             curentMove = 1;
-            movimentos.clip = movimentosP[curentMove];
-            movimentos.Play();
         } else {
 			makingNoise = false;
 			velocidade = 3;
