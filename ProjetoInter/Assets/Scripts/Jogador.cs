@@ -17,7 +17,7 @@ public class Jogador : MonoBehaviour
 	private BoxCollider2D colisorChao;
 	private Collider2D dutoColisor;
 	private List<GameObject> chaves = new List<GameObject>();
-
+    public GameObject[] canvas;
 	private Rigidbody2D meuRigidbody;
 
 	private bool estaNoChao, subindo, onTrigger, duto, acido;
@@ -185,6 +185,7 @@ public class Jogador : MonoBehaviour
 	{
 		if (collider.tag == "Duto") {
 			onTrigger = true;
+            canvas[0].SetActive(true);
 			GetComponent<Animator> ().SetBool ("DutoDireita", collider.GetComponent<Duto>().dir);
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
 				if (collider.GetComponent<Duto> ().index == 0) {
@@ -201,14 +202,16 @@ public class Jogador : MonoBehaviour
 
 		if(collider.tag == "Escada"){
 			onTrigger = true;
-			if(Input.GetKeyDown (KeyCode.UpArrow)){
+            canvas[0].SetActive(true);
+            if (Input.GetKeyDown (KeyCode.UpArrow)){
 				gameObject.transform.localPosition = collider.GetComponent<Escada> ().colisor.transform.localPosition;
 			}
 		} 
 
 		if (collider.tag == "Porta"){
 			onTrigger = true;
-			if(Input.GetKeyDown (KeyCode.E)){
+            canvas[1].SetActive(true);
+            if (Input.GetKeyDown (KeyCode.E)){
                 curentSFX = 0;
                 SFX.clip = SoundEffects[curentSFX];
                 SFX.Play();
@@ -222,7 +225,8 @@ public class Jogador : MonoBehaviour
 			}
 		}
 		if(collider.tag == "Painel"){
-			if(Input.GetKeyDown (KeyCode.E)){
+            canvas[1].SetActive(true);
+            if (Input.GetKeyDown (KeyCode.E)){
                 curentSong = 1;
                 musicas.clip = SoundEffects[curentSong];
                 musicas.Play();
@@ -233,10 +237,12 @@ public class Jogador : MonoBehaviour
 			}
 		}
 		if(collider.tag == "Porta2"){
-			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+            
+            if (Input.GetKeyDown (KeyCode.UpArrow)) {
 
                 if (collider.GetComponent<Porta>().podeAbrir)
                 {
+                    canvas[0].SetActive(true);
                     curentSFX = 0;
                     SFX.clip = SoundEffects[curentSFX];
                     SFX.Play();
@@ -249,6 +255,8 @@ public class Jogador : MonoBehaviour
 	private void OnTriggerExit2D (Collider2D collider)
 	{
 		onTrigger = false;
+        canvas[0].SetActive(false);
+        canvas[1].SetActive(false);
 	}
 
 	private void TransicaoDuto (Vector2 p, int index)
