@@ -8,6 +8,7 @@ public class CanvasManeger : MonoBehaviour {
     public GameObject mapa;
     public GameObject inicio;
     bool ativado=false;
+    bool quale = true;
 	// Use this for initialization
 	void Start () {
         inicio.SetActive(true);
@@ -16,6 +17,14 @@ public class CanvasManeger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (inicio.active == false)
+        {
+            if (quale==true)
+            {
+                Time.timeScale = 1;
+                quale = false;
+            }
+        }
 
         if (Input.GetKeyDown(KeyCode.P))
         {
