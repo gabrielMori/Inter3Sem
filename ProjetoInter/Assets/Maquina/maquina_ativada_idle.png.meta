@@ -1,16 +1,20 @@
 fileFormatVersion: 2
-guid: 53662d819fc914947b226e6425c879a4
-timeCreated: 1510478947
+guid: 960411bd8caca2e47b1cbddf98050b9c
+timeCreated: 1510489065
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tamandua_ataque 1_0
-    21300002: tamandua_ataque 1_1
-    21300004: tamandua_ataque 1_2
-    21300006: tamandua_ataque 1_3
-    21300008: tamandua_ataque 1_4
-    21300010: tamandua_ataque 1_5
-    21300012: tamandua_ataque 1_6
+    21300000: maquina_ativada_idle_0
+    21300002: maquina_ativada_idle_1
+    21300004: maquina_ativada_idle_2
+    21300006: maquina_ativada_idle_3
+    21300008: maquina_ativada_idle_4
+    21300010: maquina_ativada_idle_5
+    21300012: maquina_ativada_idle_6
+    21300014: maquina_ativada_idle_7
+    21300016: maquina_ativada_idle_8
+    21300018: maquina_ativada_idle_9
+    21300020: maquina_ativada_idle_10
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -37,7 +41,7 @@ TextureImporter:
     filterMode: 0
     aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -77,91 +81,117 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tamandua_ataque 1_0
+      name: maquina_ativada_idle_0
       rect:
         serializedVersion: 2
-        x: 1256
-        y: 21
-        width: 96
-        height: 111
+        x: 0
+        y: 107
+        width: 172
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_1
+      name: maquina_ativada_idle_1
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 21
-        width: 150
-        height: 111
+        x: 238
+        y: 107
+        width: 172
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_2
+      name: maquina_ativada_idle_2
       rect:
         serializedVersion: 2
-        x: 829
-        y: 21
-        width: 150
-        height: 111
+        x: 476
+        y: 107
+        width: 172
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_3
+      name: maquina_ativada_idle_3
       rect:
         serializedVersion: 2
-        x: 629
-        y: 21
-        width: 150
-        height: 111
+        x: 714
+        y: 107
+        width: 172
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_4
+      name: maquina_ativada_idle_4
       rect:
         serializedVersion: 2
-        x: 429
-        y: 21
-        width: 150
-        height: 111
+        x: 952
+        y: 107
+        width: 172
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_5
+      name: maquina_ativada_idle_5
       rect:
         serializedVersion: 2
-        x: 229
-        y: 21
-        width: 150
-        height: 111
+        x: 0
+        y: 0
+        width: 172
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_6
+      name: maquina_ativada_idle_6
       rect:
         serializedVersion: 2
-        x: 29
-        y: 21
-        width: 150
-        height: 111
+        x: 238
+        y: 0
+        width: 172
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maquina_ativada_idle_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 172
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: maquina_ativada_idle_8
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 172
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

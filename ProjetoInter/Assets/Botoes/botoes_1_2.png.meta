@@ -1,16 +1,15 @@
 fileFormatVersion: 2
-guid: 53662d819fc914947b226e6425c879a4
-timeCreated: 1510478947
+guid: 947babffc50204c4cbf8be44cbe54e0e
+timeCreated: 1510500379
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tamandua_ataque 1_0
-    21300002: tamandua_ataque 1_1
-    21300004: tamandua_ataque 1_2
-    21300006: tamandua_ataque 1_3
-    21300008: tamandua_ataque 1_4
-    21300010: tamandua_ataque 1_5
-    21300012: tamandua_ataque 1_6
+    21300000: botoes_1_2_0
+    21300002: botoes_1_2_1
+    21300004: botoes_1_2_2
+    21300006: botoes_1_2_3
+    21300008: botoes_1_2_4
+    21300010: botoes_1_2_5
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -37,7 +36,7 @@ TextureImporter:
     filterMode: 0
     aniso: -1
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -47,7 +46,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -77,93 +76,80 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tamandua_ataque 1_0
+      name: botoes_1_2_0
       rect:
         serializedVersion: 2
-        x: 1256
-        y: 21
-        width: 96
-        height: 111
+        x: 0
+        y: 110
+        width: 123
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_1
+      name: botoes_1_2_1
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 21
-        width: 150
-        height: 111
+        x: 123
+        y: 110
+        width: 123
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_2
+      name: botoes_1_2_2
       rect:
         serializedVersion: 2
-        x: 829
-        y: 21
-        width: 150
-        height: 111
+        x: 0
+        y: 55
+        width: 123
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_3
+      name: botoes_1_2_3
       rect:
         serializedVersion: 2
-        x: 629
-        y: 21
-        width: 150
-        height: 111
+        x: 123
+        y: 55
+        width: 123
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_4
+      name: botoes_1_2_4
       rect:
         serializedVersion: 2
-        x: 429
-        y: 21
-        width: 150
-        height: 111
+        x: 0
+        y: 0
+        width: 123
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: tamandua_ataque 1_5
+      name: botoes_1_2_5
       rect:
         serializedVersion: 2
-        x: 229
-        y: 21
-        width: 150
-        height: 111
+        x: 123
+        y: 0
+        width: 123
+        height: 55
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tamandua_ataque 1_6
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 21
-        width: 150
-        height: 111
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
