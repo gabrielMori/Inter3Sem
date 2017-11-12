@@ -4,9 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class manager : MonoBehaviour {
-    public string cena;
-
-    // Use this for initialization
+    public string cena; 
+  // Use this for initialization
     void Start()
     {
 
