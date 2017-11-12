@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 53662d819fc914947b226e6425c879a4
-timeCreated: 1510019079
+timeCreated: 1510478947
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -19,8 +19,6 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
-    mipMapsPreserveCoverage: 0
-    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -36,13 +34,10 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    serializedVersion: 2
     filterMode: 0
     aniso: -1
     mipBias: -1
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -85,102 +80,94 @@ TextureImporter:
       name: tamandua_ataque 1_0
       rect:
         serializedVersion: 2
-        x: 1304
+        x: 1256
         y: 21
-        width: 34
+        width: 96
         height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_ataque 1_1
       rect:
         serializedVersion: 2
-        x: 1104
+        x: 1029
         y: 21
-        width: 34
+        width: 150
         height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_ataque 1_2
       rect:
         serializedVersion: 2
-        x: 883
+        x: 829
         y: 21
-        width: 54
-        height: 109
-      alignment: 9
-      pivot: {x: 0.7016014, y: 0.5}
+        width: 150
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_ataque 1_3
       rect:
         serializedVersion: 2
-        x: 661
+        x: 629
         y: 21
-        width: 77
-        height: 109
-      alignment: 9
-      pivot: {x: 0.77909476, y: 0.5}
+        width: 150
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_ataque 1_4
       rect:
         serializedVersion: 2
-        x: 447
+        x: 429
         y: 21
-        width: 91
-        height: 109
-      alignment: 9
-      pivot: {x: 0.81301713, y: 0.5}
+        width: 150
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_ataque 1_5
       rect:
         serializedVersion: 2
-        x: 230
+        x: 229
         y: 21
-        width: 108
-        height: 109
-      alignment: 9
-      pivot: {x: 0.84375566, y: 0.5}
+        width: 150
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_ataque 1_6
       rect:
         serializedVersion: 2
-        x: 30
+        x: 29
         y: 21
-        width: 108
-        height: 109
-      alignment: 9
-      pivot: {x: 0.8472121, y: 0.5}
+        width: 150
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     outline: []
-    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
