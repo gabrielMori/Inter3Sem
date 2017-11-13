@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2088372ad91ec5e499aa387b60513544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cena: Level
+  cena: intro
 --- !u!4 &1321525165
 Transform:
   m_ObjectHideFlags: 0
