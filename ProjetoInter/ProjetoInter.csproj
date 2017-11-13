@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\DJS.cs" />
     <Compile Include="Assets\Scripts\Duto.cs" />
     <Compile Include="Assets\Scripts\Escada.cs" />
+    <Compile Include="Assets\Scripts\FalaAe.cs" />
     <Compile Include="Assets\Scripts\Javali.cs" />
     <Compile Include="Assets\Scripts\Jogador.cs" />
     <Compile Include="Assets\Scripts\Lobo.cs" />
