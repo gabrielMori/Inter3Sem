@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 9c29a38adf804dc4e902c823cc990204
+timeCreated: 1510536598
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: estado2_veneno_barriga1_0
+    21300002: estado2_veneno_barriga1_1
+    21300004: estado2_veneno_barriga1_2
+    21300006: estado2_veneno_barriga1_3
+    21300008: estado2_veneno_barriga1_4
+    21300010: estado2_veneno_barriga1_5
+    21300012: estado2_veneno_barriga1_6
+    21300014: estado2_veneno_barriga1_7
+    21300016: estado2_veneno_barriga1_8
+    21300018: estado2_veneno_barriga1_9
+    21300020: estado2_veneno_barriga1_10
+    21300022: estado2_veneno_barriga1_11
+    21300024: estado2_veneno_barriga1_12
+    21300026: estado2_veneno_barriga1_13
+    21300028: estado2_veneno_barriga1_14
+    21300030: estado2_veneno_barriga1_15
+    21300032: estado2_veneno_barriga1_16
+    21300034: estado2_veneno_barriga1_17
+    21300036: estado2_veneno_barriga1_18
+    21300038: estado2_veneno_barriga1_19
+    21300040: estado2_veneno_barriga1_20
+    21300042: estado2_veneno_barriga1_21
+    21300044: estado2_veneno_barriga1_22
+    21300046: estado2_veneno_barriga1_23
+    21300048: estado2_veneno_barriga1_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_0
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2291
+        width: 121
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_1
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 2291
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_2
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 2291
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_3
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 2291
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1914
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_5
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1914
+        width: 121
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_6
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1914
+        width: 122
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_7
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 1914
+        width: 122
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_8
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1537
+        width: 121
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_9
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1537
+        width: 122
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_10
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1537
+        width: 121
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_11
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 1538
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_12
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1160
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_13
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1160
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_14
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1160
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_15
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 1160
+        width: 123
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_16
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 783
+        width: 122
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_17
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 782
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_18
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 783
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_19
+      rect:
+        serializedVersion: 2
+        x: 4265
+        y: 783
+        width: 122
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_20
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 406
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_21
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 406
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_22
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 406
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_23
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 406
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_barriga1_24
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 29
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

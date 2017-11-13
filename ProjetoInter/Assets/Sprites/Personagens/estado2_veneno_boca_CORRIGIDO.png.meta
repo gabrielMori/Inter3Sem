@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 9c9daaebee243244db31af5583188f33
+timeCreated: 1510559594
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: estado2_veneno_boca_CORRIGIDO_0
+    21300002: estado2_veneno_boca_CORRIGIDO_1
+    21300004: estado2_veneno_boca_CORRIGIDO_2
+    21300006: estado2_veneno_boca_CORRIGIDO_3
+    21300008: estado2_veneno_boca_CORRIGIDO_4
+    21300010: estado2_veneno_boca_CORRIGIDO_5
+    21300012: estado2_veneno_boca_CORRIGIDO_6
+    21300014: estado2_veneno_boca_CORRIGIDO_7
+    21300016: estado2_veneno_boca_CORRIGIDO_8
+    21300018: estado2_veneno_boca_CORRIGIDO_9
+    21300020: estado2_veneno_boca_CORRIGIDO_10
+    21300022: estado2_veneno_boca_CORRIGIDO_11
+    21300024: estado2_veneno_boca_CORRIGIDO_12
+    21300026: estado2_veneno_boca_CORRIGIDO_13
+    21300028: estado2_veneno_boca_CORRIGIDO_14
+    21300030: estado2_veneno_boca_CORRIGIDO_15
+    21300032: estado2_veneno_boca_CORRIGIDO_16
+    21300034: estado2_veneno_boca_CORRIGIDO_17
+    21300036: estado2_veneno_boca_CORRIGIDO_18
+    21300038: estado2_veneno_boca_CORRIGIDO_19
+    21300040: estado2_veneno_boca_CORRIGIDO_20
+    21300042: estado2_veneno_boca_CORRIGIDO_21
+    21300044: estado2_veneno_boca_CORRIGIDO_22
+    21300046: estado2_veneno_boca_CORRIGIDO_23
+    21300048: estado2_veneno_boca_CORRIGIDO_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 161
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 161
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 161
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 160
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_4
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 161
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 160
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 160
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_7
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 160
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_8
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 160
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 160
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_10
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 160
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_11
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 161
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_12
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 161
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_13
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 161
+        width: 25
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_14
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 162
+        width: 25
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_15
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 161
+        width: 25
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_16
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 161
+        width: 25
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 162
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 161
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 161
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_20
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 162
+        width: 23
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_21
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 162
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_22
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 161
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_23
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 161
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado2_veneno_boca_CORRIGIDO_24
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 161
+        width: 19
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

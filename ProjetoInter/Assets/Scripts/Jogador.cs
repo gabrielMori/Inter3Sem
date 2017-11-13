@@ -250,6 +250,14 @@ public class Jogador : MonoBehaviour
                 }
 			}
 		}
+
+		if(collider.tag == "Switch"){
+			if(Input.GetKeyDown(KeyCode.Space)){
+				collider.GetComponent<Switch> ().aranha.inteligencia = Mathf.Clamp(collider.GetComponent<Switch> ().aranha.inteligencia + 1, 0, 3);
+				collider.GetComponent<Switch> ().aranha.inteligencia2 = 0;
+				Destroy (collider.GetComponent<Switch>().box);
+			}
+		}
 	}
 
 	private void OnTriggerExit2D (Collider2D collider)

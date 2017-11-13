@@ -51,9 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Checkpoint\GetPass.cs" />
+     <Compile Include="Assets\Checkpoint\SavePass.cs" />
      <Compile Include="Assets\Scripts\Acido.cs" />
+     <Compile Include="Assets\Scripts\Aranha.cs" />
+     <Compile Include="Assets\Scripts\AranhaAtaque.cs" />
      <Compile Include="Assets\Scripts\CameraSegue.cs" />
+     <Compile Include="Assets\Scripts\CanvasManeger.cs" />
      <Compile Include="Assets\Scripts\Chave.cs" />
+     <Compile Include="Assets\Scripts\DJS.cs" />
      <Compile Include="Assets\Scripts\Duto.cs" />
      <Compile Include="Assets\Scripts\Escada.cs" />
      <Compile Include="Assets\Scripts\Javali.cs" />
@@ -64,8 +70,11 @@
      <Compile Include="Assets\Scripts\Painel.cs" />
      <Compile Include="Assets\Scripts\PersonagemAnimCtrl.cs" />
      <Compile Include="Assets\Scripts\Porta.cs" />
+     <Compile Include="Assets\Scripts\Switch.cs" />
      <Compile Include="Assets\Scripts\Tamandua.cs" />
      <Compile Include="Assets\Scripts\Teste.cs" />
+     <Compile Include="Assets\Scripts\Veneno.cs" />
+     <Compile Include="Assets\Telainicial\manager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

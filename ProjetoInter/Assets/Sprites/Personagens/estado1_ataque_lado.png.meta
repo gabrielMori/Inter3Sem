@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 5b7d481ce0e30ec4ead5d3a5f32aaaf7
+timeCreated: 1510533628
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: estado1_ataque_lado_0
+    21300002: estado1_ataque_lado_1
+    21300004: estado1_ataque_lado_2
+    21300006: estado1_ataque_lado_3
+    21300008: estado1_ataque_lado_4
+    21300010: estado1_ataque_lado_5
+    21300012: estado1_ataque_lado_6
+    21300014: estado1_ataque_lado_7
+    21300016: estado1_ataque_lado_8
+    21300018: estado1_ataque_lado_9
+    21300020: estado1_ataque_lado_10
+    21300022: estado1_ataque_lado_11
+    21300024: estado1_ataque_lado_12
+    21300026: estado1_ataque_lado_13
+    21300028: estado1_ataque_lado_14
+    21300030: estado1_ataque_lado_15
+    21300032: estado1_ataque_lado_16
+    21300034: estado1_ataque_lado_17
+    21300036: estado1_ataque_lado_18
+    21300038: estado1_ataque_lado_19
+    21300040: estado1_ataque_lado_20
+    21300042: estado1_ataque_lado_21
+    21300044: estado1_ataque_lado_22
+    21300046: estado1_ataque_lado_23
+    21300048: estado1_ataque_lado_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estado1_ataque_lado_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2287
+        width: 650
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_1
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 2286
+        width: 651
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_2
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 2286
+        width: 652
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_3
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 2286
+        width: 653
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1910
+        width: 654
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_5
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1910
+        width: 654
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_6
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1910
+        width: 655
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_7
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 1910
+        width: 654
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1533
+        width: 654
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_9
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1533
+        width: 654
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_10
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1533
+        width: 654
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_11
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 1533
+        width: 653
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1155
+        width: 652
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_13
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1155
+        width: 623
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_14
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1155
+        width: 601
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_15
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 1156
+        width: 779
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 779
+        width: 765
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_17
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 779
+        width: 750
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_18
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 779
+        width: 737
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_19
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 779
+        width: 722
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_20
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 402
+        width: 707
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_21
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 402
+        width: 694
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_22
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 401
+        width: 679
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_23
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 402
+        width: 665
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_ataque_lado_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 25
+        width: 651
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
