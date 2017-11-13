@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: ec7ef3a4b4bc8c5408ba066e432b2a2d
+timeCreated: 1510534198
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: estado1_frente_ataque_0
+    21300002: estado1_frente_ataque_1
+    21300004: estado1_frente_ataque_2
+    21300006: estado1_frente_ataque_3
+    21300008: estado1_frente_ataque_4
+    21300010: estado1_frente_ataque_5
+    21300012: estado1_frente_ataque_6
+    21300014: estado1_frente_ataque_7
+    21300016: estado1_frente_ataque_8
+    21300018: estado1_frente_ataque_9
+    21300020: estado1_frente_ataque_10
+    21300022: estado1_frente_ataque_11
+    21300024: estado1_frente_ataque_12
+    21300026: estado1_frente_ataque_13
+    21300028: estado1_frente_ataque_14
+    21300030: estado1_frente_ataque_15
+    21300032: estado1_frente_ataque_16
+    21300034: estado1_frente_ataque_17
+    21300036: estado1_frente_ataque_18
+    21300038: estado1_frente_ataque_19
+    21300040: estado1_frente_ataque_20
+    21300042: estado1_frente_ataque_21
+    21300044: estado1_frente_ataque_22
+    21300046: estado1_frente_ataque_23
+    21300048: estado1_frente_ataque_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: estado1_frente_ataque_0
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2286
+        width: 651
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_1
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 2287
+        width: 650
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_2
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 2287
+        width: 650
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_3
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 2286
+        width: 651
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1909
+        width: 651
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_5
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1909
+        width: 651
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_6
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1910
+        width: 651
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_7
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 1909
+        width: 652
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1533
+        width: 651
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_9
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1533
+        width: 652
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_10
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1532
+        width: 652
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_11
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 1532
+        width: 652
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_12
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1155
+        width: 652
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_13
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1156
+        width: 652
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_14
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 1156
+        width: 651
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_15
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 1156
+        width: 651
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 779
+        width: 652
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_17
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 779
+        width: 651
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_18
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 779
+        width: 650
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_19
+      rect:
+        serializedVersion: 2
+        x: 4015
+        y: 779
+        width: 651
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 401
+        width: 652
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_21
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 401
+        width: 651
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_22
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 402
+        width: 651
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_23
+      rect:
+        serializedVersion: 2
+        x: 4014
+        y: 402
+        width: 651
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: estado1_frente_ataque_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 24
+        width: 651
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
