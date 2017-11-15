@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FalaAe : MonoBehaviour {
-    public GameObject objDestruido;
     public GameObject dialogo;
     public Collider2D acionador;
-    bool umavezporra = true;
-    bool umavezdenovoporra = true;
+    public bool umavezporra = true;
+    public bool pegueiAlago;
+    public GameObject coletavel;
+    public bool inventario;
     // Use this for initialization
     void Start() {
 
@@ -22,15 +24,10 @@ public class FalaAe : MonoBehaviour {
         }
         if (umavezporra == false)
         {
-            
-            Invoke("podeIr", 1);
+            Invoke("PodeIr", 1);
         }
-        if (objDestruido.activeSelf){
-            return;
-        } else
-            Invoke("podeIr", 1);
     }
-    void podeIr()
+    void PodeIr()
     {
         if (Input.anyKey)
         {
@@ -38,4 +35,24 @@ public class FalaAe : MonoBehaviour {
         }
             
     }
+    private void OnTriggerStay2D(Collider2D col)
+    {
+        dialogo.SetActive(true);
+        
+        if (Input.GetKeyDown(KeyCode.E)&& pegueiAlago == true)
+        {
+            if (inventario == false)
+            {
+                dialogo.SetActive(false);
+                coletavel.SetActive(true);
+            }
+            else
+            {
+                dialogo.SetActive(false);
+                coletavel.GetComponent<Image>().color= new Color(1,1,1,1);
+            }
+
+        }
+    }
+
 }

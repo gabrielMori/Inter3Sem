@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CanvasManeger : MonoBehaviour {
     public GameObject pause;
     public GameObject mapa;
-
+    bool peguei=false;
     bool ativado=false;
 
 	// Use this for initialization
@@ -33,12 +33,21 @@ public class CanvasManeger : MonoBehaviour {
             }
 
         }
-        if (Input.GetKeyDown(KeyCode.M))
+        if (mapa.activeSelf&&peguei==false)
+        {
+            if (Input.GetKeyUp(KeyCode.M))
+            {
+                Time.timeScale = 1;
+                mapa.SetActive(false);
+                peguei = true;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.M)&&peguei==true)
         {
             Time.timeScale = 0;
             mapa.SetActive(true);
         }
-        if (Input.GetKeyUp(KeyCode.M))
+        if (Input.GetKeyUp(KeyCode.M)&&peguei==true)
         {
             Time.timeScale = 1;
             mapa.SetActive(false);

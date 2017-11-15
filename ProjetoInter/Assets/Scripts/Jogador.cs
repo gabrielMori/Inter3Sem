@@ -151,36 +151,7 @@ public class Jogador : MonoBehaviour
 		}
 		return false;
 	}
-	private void OnTriggerEnter2D (Collider2D collider){
-		if(collider.tag == "Chave" || collider.tag == "Acido"){
-			onTrigger = true;
-			if(collider.GetComponent<Chave>().portas.Length > 0){
-				for(int i = 0; i < collider.GetComponent<Chave>().portas.Length; i++){
-					chaves.Add (collider.GetComponent<Chave>().portas[i]);
-				}
-			}
-			if(collider.GetComponent<Chave>().portas2.Length > 0){
-				for(int i = 0; i < collider.GetComponent<Chave>().portas2.Length; i++){
-					collider.GetComponent<Chave> ().portas2 [i].podeAbrir = true;
-				}
-			}
-			if(collider.GetComponent<Chave>().tele)
-				collider.GetComponent<Chave>().TeleportEnemies();
-			if(collider.tag == "Acido"){
-				acido = true;
-			}
-				
-			Destroy (collider.gameObject);
-		} else if(collider.tag == "EntradaDuto"){
-			if(duto){
-				pulando = false;
-				meuRigidbody.gravityScale = 0;
-				meuRigidbody.velocity = Vector2.zero;
-				subindo = true;
-				GetComponent<Animator> ().SetTrigger("Subir");
-			}
-		}
-	}
+
 	private void OnTriggerStay2D (Collider2D collider)
 	{
 		if (collider.tag == "Duto") {
@@ -258,7 +229,49 @@ public class Jogador : MonoBehaviour
 				Destroy (collider.GetComponent<Switch>().box);
 			}
 		}
-	}
+        if (collider.tag == "Chave" || collider.tag == "Acido")
+        {
+            canvas[1].SetActive(true);
+            onTrigger = true;
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+
+                if (collider.GetComponent<Chave>().portas.Length > 0)
+                {
+                    for (int i = 0; i < collider.GetComponent<Chave>().portas.Length; i++)
+                    {
+                        chaves.Add(collider.GetComponent<Chave>().portas[i]);
+                    }
+                }
+                if (collider.GetComponent<Chave>().portas2.Length > 0)
+                {
+                    for (int i = 0; i < collider.GetComponent<Chave>().portas2.Length; i++)
+                    {
+                        collider.GetComponent<Chave>().portas2[i].podeAbrir = true;
+                    }
+                }
+                if (collider.GetComponent<Chave>().tele)
+                    collider.GetComponent<Chave>().TeleportEnemies();
+                if (collider.tag == "Acido")
+                {
+                    acido = true;
+                }
+
+                Destroy(collider.gameObject);
+            }
+        }
+        else if (collider.tag == "EntradaDuto")
+        {
+            if (duto)
+            {
+                pulando = false;
+                meuRigidbody.gravityScale = 0;
+                meuRigidbody.velocity = Vector2.zero;
+                subindo = true;
+                GetComponent<Animator>().SetTrigger("Subir");
+            }
+        }
+    }
 
 	private void OnTriggerExit2D (Collider2D collider)
 	{
