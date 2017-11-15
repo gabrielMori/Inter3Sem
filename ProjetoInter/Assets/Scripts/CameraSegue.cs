@@ -13,10 +13,29 @@ public class CameraSegue : MonoBehaviour {
 	private float xMin;
 	[SerializeField]
 	private float yMin;
-	// Use this for initialization
-	void Start () {
-		alvo = GameObject.Find ("Jogador").transform;
-	}
+    // Use this for initialization
+    float posXInicial;
+    float posYInicial;
+
+    void Start () {
+
+        if (PlayerPrefs.GetInt("checkpoint") == 0)
+        {
+            posXInicial = -34f;
+            posYInicial = 1.3f;
+            transform.position = new Vector3(posXInicial, posYInicial, gameObject.transform.position.z);
+            //alvo = GameObject.Find("Jogador").transform;
+        }
+
+        if (PlayerPrefs.GetInt("checkpoint") == 1)
+        {
+            posXInicial = -13f;
+            posYInicial = 1.8f;
+            transform.position = new Vector3(posXInicial, posYInicial, gameObject.transform.position.z);
+           
+        }
+        alvo = GameObject.Find("Jogador").transform;
+    }
 	
 	// Update is called once per frame
 	void LateUpdate () {

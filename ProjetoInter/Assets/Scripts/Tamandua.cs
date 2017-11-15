@@ -48,7 +48,7 @@ public class Tamandua : MonoBehaviour {
 
 	private void Death(){
 		if (GetComponent<Animator> ().GetBool ("PlayerInRange"))
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+			SceneManager.LoadScene ("dead");
 		else
 			GetComponent<Animator> ().ResetTrigger ("Attack");
 	}

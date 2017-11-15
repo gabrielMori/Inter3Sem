@@ -106,7 +106,7 @@ public class Lobo: MonoBehaviour
 			break;
 		case 2:
 			//ataca
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+			SceneManager.LoadScene ("dead");
 			break;
 		}
 	}
