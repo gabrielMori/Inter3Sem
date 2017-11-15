@@ -306,6 +306,14 @@ public class Jogador : MonoBehaviour
                 GetComponent<Animator>().SetTrigger("Subir");
             }
         }
+        if (collider.tag == "lori")
+        {
+            canvas[1].SetActive(true);
+            onTrigger = true;
+            if (Input.GetKeyDown(KeyCode.E))
+                Destroy(collider.gameObject);
+
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collider)

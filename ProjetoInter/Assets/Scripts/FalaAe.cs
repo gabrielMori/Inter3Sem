@@ -9,7 +9,7 @@ public class FalaAe : MonoBehaviour
     public Collider2D acionador;
     public bool umavezporra = true;
     public bool pegueiAlago;
-    public GameObject coletavel;
+    public GameObject[] coletavel;
     public bool inventario;
     // Use this for initialization
     void Start()
@@ -47,12 +47,14 @@ public class FalaAe : MonoBehaviour
             if (inventario == false)
             {
                 dialogo.SetActive(false);
-                coletavel.SetActive(true);
+                for (int i = 0; i < coletavel.Length; i++) 
+                    coletavel[i].SetActive(true);
             }
             else
             {
                 dialogo.SetActive(false);
-                coletavel.GetComponent<Image>().color = new Color(1, 1, 1, 1);
+                for (int i = 0; i < coletavel.Length; i++)
+                    coletavel[i].GetComponent<Image>().color = new Color(1, 1, 1, 1);
             }
 
         }
