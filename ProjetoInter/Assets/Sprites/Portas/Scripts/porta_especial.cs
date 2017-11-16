@@ -1,0 +1,76 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class porta_especial : MonoBehaviour {
+
+    bool playerDentro = false;
+    public GameObject vao;
+    //public GameObject barreira;
+
+    public Animator anim;
+    bool portaAberta = false;
+    bool portaFechada = true;
+    bool portaIdleAberta = false;
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (PlayerPrefs.GetInt("maquina01") == 1)
+        {
+            if (!portaAberta) {
+                anim.SetBool("abrindo", true);
+                vao.SetActive(false);
+                portaAberta = true;
+                portaIdleAberta = true;
+            }
+            
+            if (Input.GetKeyDown(KeyCode.E) && playerDentro)
+            {
+                if (playerDentro)
+                {
+                    portaAberta = true;
+                    vao.SetActive(false);
+                    //playerDentro = false;
+                }
+
+            }
+        }
+      
+            //desativa collider que segura os monstros
+            if (portaIdleAberta)
+            {
+            anim.SetBool("abrindo", true);
+
+            //Invoke("aberta", 2);
+        }
+    }
+    void aberta()
+    {
+        vao.SetActive(false);
+        Invoke("portaFechando", 4);
+    }
+
+    void portaFechando()
+    {
+        
+        vao.SetActive(true);
+        portaAberta = false;
+    }
+
+    public void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.tag == "Player")
+        {
+            anim.SetBool("abrindo", false);
+            portaIdleAberta = false;
+            vao.SetActive(true);
+        }
+    }
+   
+}

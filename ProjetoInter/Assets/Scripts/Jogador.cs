@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class Jogador : MonoBehaviour
 {
+
+    bool personagemDesligado = false;
+    bool efeito = false;
+    bool efeitoTransicao = false;
+    float cooldownEfeito = 0;
+
+    bool efeito2 = false;
+    bool efeitoTransicao2 = false;
+    float cooldownEfeito2 = 0;
+
     public AudioSource musicas, SFX, movimentos;
     public AudioClip[] BG;
     public AudioClip[] movimentosP;
@@ -45,6 +55,11 @@ public class Jogador : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (cooldownEfeito > 0)
+        {
+            cooldownEfeito -= Time.deltaTime;
+        }
+
         if (!musicas.isPlaying)
         {
             musicas.clip = BG[curentSong];
@@ -124,27 +139,30 @@ public class Jogador : MonoBehaviour
 
     private void Movimento(float horizontal, float velo)
     {
-        if (velo > 0 && !rastejando)
-        {
-            velocidade = 8;
-            curentMove = 0;
-            makingNoise = true;
-        }
-        else if (rastejando)
-        {
-            makingNoise = false;
-            velocidade = 1;
-            curentMove = 1;
-        }
-        else
-        {
-            makingNoise = false;
-            velocidade = 3;
-        }
+        if (!personagemDesligado)
+        {//condicao usada para fazer o efeito de fade in fade out
+            if (velo > 0 && !rastejando)
+            {
+                velocidade = 8;
+                curentMove = 0;
+                makingNoise = true;
+            }
+            else if (rastejando)
+            {
+                makingNoise = false;
+                velocidade = 1;
+                curentMove = 1;
+            }
+            else
+            {
+                makingNoise = false;
+                velocidade = 3;
+            }
 
-        if (!duto)
-        {
-            meuRigidbody.velocity = new Vector2(horizontal * velocidade, meuRigidbody.velocity.y);
+            if (!duto)
+            {
+                meuRigidbody.velocity = new Vector2(horizontal * velocidade, meuRigidbody.velocity.y);
+            }
         }
     }
 
@@ -192,12 +210,52 @@ public class Jogador : MonoBehaviour
             }
         }
 
-        if (collider.tag == "Escada")
+        if (collider.tag == "Escada_1")
         {
-            onTrigger = true;
-            canvas[0].SetActive(true);
-            if (Input.GetKeyDown(KeyCode.UpArrow))
+            if (Input.GetButtonDown("Vertical") && !efeito)
             {
+                efeito = true;
+                personagemDesligado = true;
+            }
+            if (efeito)
+            {
+                cooldownEfeito = 1;
+                efeito = false;
+                efeitoTransicao = true;
+            }
+
+            if (cooldownEfeito < 0 && efeitoTransicao)
+            {
+                // print("aham");
+                efeitoTransicao = false;
+                personagemDesligado = false;
+                //transform.position = new Vector2(collider.GetComponent<Porta>().pos.transform.position.x, collider.GetComponent<Porta>().pos.transform.position.y);
+                gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor2.transform.localPosition;
+                //gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor2.transform.localPosition;
+            }
+        }
+
+        if (collider.tag == "Escada_2")
+        {
+            if (Input.GetButtonDown("Vertical") && !efeito)
+            {
+                efeito = true;
+                personagemDesligado = true;
+            }
+            if (efeito)
+            {
+                cooldownEfeito = 1;
+                efeito = false;
+                efeitoTransicao = true;
+            }
+
+            if (cooldownEfeito < 0 && efeitoTransicao)
+            {
+                // print("aham");
+                efeitoTransicao = false;
+                personagemDesligado = false;
+                //transform.position = new Vector2(collider.GetComponent<Porta>().pos.transform.position.x, collider.GetComponent<Porta>().pos.transform.position.y);
+                //gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor.transform.localPosition;
                 gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor.transform.localPosition;
             }
         }

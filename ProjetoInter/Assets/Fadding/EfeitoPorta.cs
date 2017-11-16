@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EfeitoPorta : MonoBehaviour
 {
+    bool efeitoAtivo = false;
     bool playerDentro = false;
     // CODIDO PARA O EFEITO DE FADE IN E FADE OUT, ALIAS AQUI É ONDE ELE FAZ
     void Start()
@@ -15,11 +16,18 @@ public class EfeitoPorta : MonoBehaviour
         if (playerDentro) {
             
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow) && playerDentro)
+        if (/*Input.GetKeyDown(KeyCode.UpArrow)*/Input.GetButtonDown("Vertical") && playerDentro && !efeitoAtivo)
         {
+            efeitoAtivo = true;
+            
+            //playerDentro = false;
+        }
+
+        if (efeitoAtivo) {
             float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);
             Invoke("Clarear", 2);
-            playerDentro = false;
+            efeitoAtivo = false;
+            
         }
 
     }
