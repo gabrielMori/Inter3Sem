@@ -13,8 +13,7 @@ public class manager : MonoBehaviour {
 
     void Update()
     {
-        if (cena.Length > 1)//se nao escreveu nada nao executa
-            Invoke("LevelLoad", 11);// chama a funcao com delay
+
 
     }
     //chama o level load usando a variavel global como padrao
