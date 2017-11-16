@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class FalaAe : MonoBehaviour
 {
+    public AudioSource pagina;
     public GameObject dialogo;
     public Collider2D acionador;
     public bool umavezporra = true;
@@ -46,9 +47,10 @@ public class FalaAe : MonoBehaviour
         {
             if (inventario == false)
             {
+                pagina.Play();
                 dialogo.SetActive(false);
                 for (int i = 0; i < coletavel.Length; i++) 
-                    coletavel[i].SetActive(true);
+                    coletavel[i].SetActive(true);   
             }
             else
             {
