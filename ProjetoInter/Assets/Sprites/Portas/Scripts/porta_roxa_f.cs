@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class porta_roxa_f : MonoBehaviour {
     public AudioSource portaAbre;
-    bool playerDentro = false;
+    public  bool playerDentro = false;
     public GameObject vao;
-    public GameObject efeito;
+    //public GameObject efeito;
     public GameObject tecla;
     bool mostraTecla = false;
     public Animator anim;
@@ -54,7 +54,7 @@ public class porta_roxa_f : MonoBehaviour {
     }
     void aberta()
     {
-        efeito.SetActive(true);
+        //efeito.SetActive(true);
         vao.SetActive(true);
         Invoke("portaFechando", 4);
     }
@@ -69,7 +69,7 @@ public class porta_roxa_f : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag == "Player"&&mostraTecla==true)
+        if (collider.tag == "Player" &&mostraTecla==true)
         {
             tecla.SetActive(true);
             playerDentro = true;
@@ -78,7 +78,7 @@ public class porta_roxa_f : MonoBehaviour {
 
     public void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player"&&mostraTecla==true)
+        if (collision.tag == "Player" && mostraTecla == true)
         {
             tecla.SetActive(false);
             playerDentro = false;

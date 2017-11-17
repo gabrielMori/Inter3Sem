@@ -6,7 +6,7 @@ public class porta_branca : MonoBehaviour {
 
     bool playerDentro = false;
     public GameObject vao;
-    public GameObject efeito;
+    //public GameObject efeito;
 
     public Animator anim;
     bool portaAberta = false;
@@ -50,7 +50,7 @@ public class porta_branca : MonoBehaviour {
     }
     void aberta()
     {
-        efeito.SetActive(true);
+        //efeito.SetActive(true);
         vao.SetActive(true);
         Invoke("portaFechando", 4);
     }

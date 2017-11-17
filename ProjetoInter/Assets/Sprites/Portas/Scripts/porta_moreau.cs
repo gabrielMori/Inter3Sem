@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class porta_moreau : MonoBehaviour {
 
-    bool playerDentro = false;
+   public  bool playerDentro = false;
     public GameObject vao;
-    public GameObject efeito;
+    //public GameObject efeito;
 
     public Animator anim;
     bool portaAberta = false;
@@ -44,7 +44,7 @@ public class porta_moreau : MonoBehaviour {
     }
     void aberta()
     {
-        efeito.SetActive(true);
+        //efeito.SetActive(true);
         vao.SetActive(true);
         Invoke("portaFechando", 4);
     }
@@ -53,7 +53,7 @@ public class porta_moreau : MonoBehaviour {
     {
         anim.SetBool("abrindo", false);
         vao.SetActive(false);
-        efeito.SetActive(false);
+        //efeito.SetActive(false);
         portaAberta = false;
     }
 

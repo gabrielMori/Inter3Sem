@@ -208,57 +208,6 @@ public class Jogador : MonoBehaviour
             }
         }
 
-        if (collider.tag == "Escada_1")
-        {
-            canvas[0].SetActive(true);
-            if (Input.GetButtonDown("Vertical") && !efeito)
-            {
-                efeito = true;
-                personagemDesligado = true;
-            }
-            if (efeito)
-            {
-                cooldownEfeito = 1;
-                efeito = false;
-                efeitoTransicao = true;
-            }
-
-            if (cooldownEfeito < 0 && efeitoTransicao)
-            {
-                // print("aham");
-                efeitoTransicao = false;
-                personagemDesligado = false;
-                //transform.position = new Vector2(collider.GetComponent<Porta>().pos.transform.position.x, collider.GetComponent<Porta>().pos.transform.position.y);
-                gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor2.transform.localPosition;
-                //gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor2.transform.localPosition;
-            }
-        }
-
-        if (collider.tag == "Escada_2")
-        {
-            canvas[0].SetActive(true);
-            if (Input.GetButtonDown("Vertical") && !efeito)
-            {
-                efeito = true;
-                personagemDesligado = true;
-            }
-            if (efeito)
-            {
-                cooldownEfeito = 1;
-                efeito = false;
-                efeitoTransicao = true;
-            }
-
-            if (cooldownEfeito < 0 && efeitoTransicao)
-            {
-                // print("aham");
-                efeitoTransicao = false;
-                personagemDesligado = false;
-                //transform.position = new Vector2(collider.GetComponent<Porta>().pos.transform.position.x, collider.GetComponent<Porta>().pos.transform.position.y);
-                //gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor.transform.localPosition;
-                gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor.transform.localPosition;
-            }
-        }
         if (collider.tag == "Switch")
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -372,6 +321,27 @@ public class Jogador : MonoBehaviour
             duto = false;
             rastejando = true;
             subindo = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.tag == "Escada_1")
+        {
+            PlayerPrefs.SetInt("estado", 0);
+            if (Input.GetButtonDown("Vertical") && !efeito)
+            {
+
+            }
+        }
+
+        if (collider.tag == "Escada_2")
+        {
+            PlayerPrefs.SetInt("estado", 1);
+            if (Input.GetButtonDown("Vertical") && !efeito)
+            {
+
+            }
         }
     }
 }
