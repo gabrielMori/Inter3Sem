@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class FalaAe : MonoBehaviour
 {
+    public GameObject tecla;
+    public GameObject objDestruido;
     public AudioSource pagina;
     public GameObject dialogo;
     public Collider2D acionador;
@@ -12,6 +14,8 @@ public class FalaAe : MonoBehaviour
     public bool pegueiAlago;
     public GameObject[] coletavel;
     public bool inventario;
+    public bool documento;
+    bool faznada = false;
     // Use this for initialization
     void Start()
     {
@@ -30,6 +34,11 @@ public class FalaAe : MonoBehaviour
         {
             Invoke("PodeIr", 1);
         }
+        if (objDestruido.activeSelf) {
+            faznada = true;
+        }
+        else
+            Invoke("PodeIr", 1);
     }
     void PodeIr()
     {
@@ -42,17 +51,17 @@ public class FalaAe : MonoBehaviour
     private void OnTriggerStay2D(Collider2D col)
     {
         dialogo.SetActive(true);
-
+        tecla.SetActive(true);
         if (Input.GetKeyDown(KeyCode.E) && pegueiAlago == true)
         {
-            if (inventario == false)
+            if (documento == true)
             {
                 pagina.Play();
                 dialogo.SetActive(false);
                 for (int i = 0; i < coletavel.Length; i++) 
                     coletavel[i].SetActive(true);   
             }
-            else
+            if (inventario == true)
             {
                 dialogo.SetActive(false);
                 for (int i = 0; i < coletavel.Length; i++)

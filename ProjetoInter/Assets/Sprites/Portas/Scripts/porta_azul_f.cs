@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class porta_azul_f : MonoBehaviour {
-
+    public AudioSource portaAbre;
     bool playerDentro = false;
     public GameObject vao;
     //public GameObject efeito;
-
+    public GameObject tecla;
+    bool mostraTecla=false;
     public Animator anim;
     bool portaAberta = false;
     bool portaFechada = true;
@@ -23,10 +24,13 @@ public class porta_azul_f : MonoBehaviour {
     {
         if (PlayerPrefs.GetInt("chave_azul") == 1)
         {
+            mostraTecla = true;
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
+
                 if (playerDentro)
                 {
+                    portaAbre.Play();
                     portaAberta = true;
                     //playerDentro = false;
                 }
@@ -37,6 +41,7 @@ public class porta_azul_f : MonoBehaviour {
 
         if (portaAberta)
         {
+            portaAbre.Play();
             anim.SetBool("abrindo", true);
             Invoke("aberta", 2);
         }
@@ -51,6 +56,7 @@ public class porta_azul_f : MonoBehaviour {
 
     void portaFechando()
     {
+        portaAbre.Stop();
         anim.SetBool("abrindo", false);
         vao.SetActive(true);
         portaAberta = false;
@@ -58,16 +64,20 @@ public class porta_azul_f : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag == "Player")
+        if (collider.tag == "Player"&&mostraTecla==true)
         {
+
+            tecla.SetActive(true);
             playerDentro = true;
         }
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player"&&mostraTecla==true)
         {
+
+            tecla.SetActive(false);
             playerDentro = false;
         }
     }

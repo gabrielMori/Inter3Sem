@@ -17,9 +17,7 @@ public class Jogador : MonoBehaviour
     public AudioSource musicas, SFX, movimentos;
     public AudioClip[] BG;
     public AudioClip[] movimentosP;
-    public AudioClip[] SoundEffects;
     int curentSong;
-    int curentSFX;
     int curentMove;
     public float velocidade;
     public bool pulando, rastejando, escada, makingNoise;
@@ -212,6 +210,7 @@ public class Jogador : MonoBehaviour
 
         if (collider.tag == "Escada_1")
         {
+            canvas[0].SetActive(true);
             if (Input.GetButtonDown("Vertical") && !efeito)
             {
                 efeito = true;
@@ -237,6 +236,7 @@ public class Jogador : MonoBehaviour
 
         if (collider.tag == "Escada_2")
         {
+            canvas[0].SetActive(true);
             if (Input.GetButtonDown("Vertical") && !efeito)
             {
                 efeito = true;
@@ -259,60 +259,6 @@ public class Jogador : MonoBehaviour
                 gameObject.transform.localPosition = collider.GetComponent<Escada>().colisor.transform.localPosition;
             }
         }
-
-        if (collider.tag == "Porta")
-        {
-            onTrigger = true;
-            canvas[1].SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                curentSFX = 0;
-                SFX.clip = SoundEffects[curentSFX];
-                SFX.Play();
-                if (collider.GetComponent<Acido>())
-                {
-                    if (acido)
-                    {
-                        AbrirPortas(collider.gameObject);
-                        acido = false;
-                    }
-                }
-                else
-                    AbrirPortas(collider.gameObject);
-            }
-        }
-        if (collider.tag == "Painel")
-        {
-            canvas[1].SetActive(true);
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                curentSong = 1;
-                musicas.clip = SoundEffects[curentSong];
-                musicas.Play();
-                collider.GetComponent<Painel>().SpawnInimigos();
-                for (int i = 0; i < collider.GetComponent<Painel>().portasVerm.Length; i++)
-                {
-                    chaves.Add(collider.GetComponent<Painel>().portasVerm[i]);
-                }
-            }
-        }
-        if (collider.tag == "Porta2")
-        {
-
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-
-                if (collider.GetComponent<Porta>().podeAbrir)
-                {
-                    canvas[0].SetActive(true);
-                    curentSFX = 0;
-                    SFX.clip = SoundEffects[curentSFX];
-                    SFX.Play();
-                    transform.position = new Vector2(collider.GetComponent<Porta>().pos.transform.position.x, collider.GetComponent<Porta>().pos.transform.position.y);
-                }
-            }
-        }
-
         if (collider.tag == "Switch")
         {
             if (Input.GetKeyDown(KeyCode.Space))

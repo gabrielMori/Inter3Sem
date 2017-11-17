@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class porta_especial : MonoBehaviour {
-
+    public AudioSource portaAbre;
     bool playerDentro = false;
     public GameObject vao;
     //public GameObject barreira;
-
+    public GameObject tecla;
+    bool mostraTecla = false;
     public Animator anim;
     bool portaAberta = false;
     bool portaFechada = true;
@@ -23,6 +24,7 @@ public class porta_especial : MonoBehaviour {
     {
         if (PlayerPrefs.GetInt("maquina01") == 1)
         {
+            mostraTecla = true;
             if (!portaAberta) {
                 anim.SetBool("abrindo", true);
                 vao.SetActive(false);
@@ -32,10 +34,12 @@ public class porta_especial : MonoBehaviour {
             
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
+                
                 if (playerDentro)
                 {
                     portaAberta = true;
                     vao.SetActive(false);
+                    portaAbre.Play();
                     //playerDentro = false;
                 }
 
@@ -46,6 +50,7 @@ public class porta_especial : MonoBehaviour {
             if (portaIdleAberta)
             {
             anim.SetBool("abrindo", true);
+
 
             //Invoke("aberta", 2);
         }
@@ -65,12 +70,17 @@ public class porta_especial : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag == "Player")
+        if (collider.tag == "Player" && mostraTecla == true)
         {
+            tecla.SetActive(true);
             anim.SetBool("abrindo", false);
             portaIdleAberta = false;
             vao.SetActive(true);
         }
     }
-   
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player" && mostraTecla == true)
+            tecla.SetActive(false);
+    }
 }
