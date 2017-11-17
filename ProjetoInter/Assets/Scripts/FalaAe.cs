@@ -19,7 +19,7 @@ public class FalaAe : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        PlayerPrefs.SetInt("mapa", 0);
     }
 
     // Update is called once per frame
@@ -27,6 +27,8 @@ public class FalaAe : MonoBehaviour
     {
         if (acionador.enabled == false && umavezporra == true)
         {
+            //aqui seta o mapa pra verdade com isso o mapa aparece so se passar por esse if
+            
             dialogo.SetActive(true);
             umavezporra = false;
         }
@@ -54,6 +56,7 @@ public class FalaAe : MonoBehaviour
         tecla.SetActive(true);
         if (Input.GetKeyDown(KeyCode.E) && pegueiAlago == true)
         {
+            PlayerPrefs.SetInt("mapa", 1);
             if (documento == true)
             {
                 pagina.Play();

@@ -16,18 +16,21 @@ public class mapa : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetKeyDown(KeyCode.M)) {
-            if (map == false)
+        if (PlayerPrefs.GetInt("mapa") == 1) {
+            if (Input.GetKeyDown(KeyCode.M))
             {
-                //Time.timeScale = 0;
-                setor1.SetActive(true);
-                map = true;
-            }
-            else
-            {
-                //Time.timeScale = 1;
-                setor1.SetActive(false);
-                map = false;
+                if (map == false)
+                {
+                    //Time.timeScale = 0;
+                    setor1.SetActive(true);
+                    map = true;
+                }
+                else
+                {
+                    //Time.timeScale = 1;
+                    setor1.SetActive(false);
+                    map = false;
+                }
             }
         }
 
