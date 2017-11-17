@@ -14,10 +14,8 @@ public class Jogador : MonoBehaviour
     bool efeitoTransicao2 = false;
     float cooldownEfeito2 = 0;
 
-    public AudioSource musicas, SFX, movimentos;
-    public AudioClip[] BG;
+    public AudioSource movimentos;
     public AudioClip[] movimentosP;
-    int curentSong;
     int curentMove;
     public float velocidade;
     public bool pulando, rastejando, escada, makingNoise;
@@ -45,9 +43,6 @@ public class Jogador : MonoBehaviour
     void Start()
     {
         meuRigidbody = GetComponent<Rigidbody2D>();
-        curentSong = 0;
-        musicas.clip = BG[curentSong];
-        musicas.Play();
     }
 
     // Update is called once per frame
@@ -56,12 +51,6 @@ public class Jogador : MonoBehaviour
         if (cooldownEfeito > 0)
         {
             cooldownEfeito -= Time.deltaTime;
-        }
-
-        if (!musicas.isPlaying)
-        {
-            musicas.clip = BG[curentSong];
-            musicas.Play();
         }
         float h = Input.GetAxis("Horizontal");
         if (h < 0)

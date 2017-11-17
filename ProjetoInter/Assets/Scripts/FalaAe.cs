@@ -57,6 +57,7 @@ public class FalaAe : MonoBehaviour
             if (documento == true)
             {
                 pagina.Play();
+                tecla.SetActive(false);
                 dialogo.SetActive(false);
                 for (int i = 0; i < coletavel.Length; i++) 
                     coletavel[i].SetActive(true);   
@@ -64,6 +65,7 @@ public class FalaAe : MonoBehaviour
             if (inventario == true)
             {
                 dialogo.SetActive(false);
+                tecla.SetActive(false);
                 for (int i = 0; i < coletavel.Length; i++)
                     coletavel[i].GetComponent<Image>().color = new Color(1, 1, 1, 1);
             }

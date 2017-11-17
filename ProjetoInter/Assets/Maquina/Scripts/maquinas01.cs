@@ -5,6 +5,8 @@ using UnityEngine;
 public class maquinas01 : MonoBehaviour
 
 {
+    public AudioClip[] musicas;
+    public AudioSource BG;
     public GameObject bloqueio;
     public bool playerDentro = false;
     bool maquinaLigada = false;
@@ -16,6 +18,8 @@ public class maquinas01 : MonoBehaviour
         //PlayerPrefs.SetInt("maquina01", 0);
         if (PlayerPrefs.GetInt("maquina01") == 0)
         {
+            BG.clip = musicas[0];
+            BG.Play();
             anim.SetBool("ativada", false);
             anim.SetBool("idleAtivo", false);
             maquinaLigada = false;
@@ -25,6 +29,7 @@ public class maquinas01 : MonoBehaviour
 
         if (PlayerPrefs.GetInt("maquina01") == 1)
         {
+            BG.clip = musicas[1];
             anim.SetBool("ativada", false);
             maquinaLigada = true;
         }
@@ -44,6 +49,8 @@ public class maquinas01 : MonoBehaviour
         {
             if (!maquinaLigada)
             {
+                BG.clip = musicas[1];
+                BG.Play();
                 maquinaLigada = true;
                 //playerDentro = false; 
             }
