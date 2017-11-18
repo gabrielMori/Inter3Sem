@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0dc00a93f2cc95c4292ad9b1b243e361
-timeCreated: 1510016183
+timeCreated: 1511010820
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,15 @@ TextureImporter:
     21300026: tamandua_idle_lado_13
     21300028: tamandua_idle_lado_14
     21300030: tamandua_idle_lado_15
+    21300032: tamandua_idle_lado_16
+    21300034: tamandua_idle_lado_17
+    21300036: tamandua_idle_lado_18
+    21300038: tamandua_idle_lado_19
+    21300040: tamandua_idle_lado_20
+    21300042: tamandua_idle_lado_21
+    21300044: tamandua_idle_lado_22
+    21300046: tamandua_idle_lado_23
+    21300048: tamandua_idle_lado_24
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -28,8 +37,6 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
-    mipMapsPreserveCoverage: 0
-    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -45,13 +52,10 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    serializedVersion: 2
     filterMode: 0
     aniso: -1
     mipBias: -1
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,12 +101,11 @@ TextureImporter:
         x: 25
         y: 646
         width: 39
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_1
@@ -112,11 +115,10 @@ TextureImporter:
         y: 646
         width: 39
         height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_2
@@ -125,12 +127,11 @@ TextureImporter:
         x: 203
         y: 646
         width: 39
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_3
@@ -140,11 +141,10 @@ TextureImporter:
         y: 646
         width: 39
         height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_4
@@ -154,11 +154,10 @@ TextureImporter:
         y: 646
         width: 39
         height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_5
@@ -168,11 +167,10 @@ TextureImporter:
         y: 646
         width: 39
         height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_6
@@ -182,11 +180,10 @@ TextureImporter:
         y: 646
         width: 39
         height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_7
@@ -196,11 +193,10 @@ TextureImporter:
         y: 646
         width: 39
         height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_8
@@ -210,11 +206,10 @@ TextureImporter:
         y: 443
         width: 39
         height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_9
@@ -224,11 +219,10 @@ TextureImporter:
         y: 443
         width: 39
         height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_10
@@ -238,11 +232,10 @@ TextureImporter:
         y: 443
         width: 39
         height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_11
@@ -252,11 +245,10 @@ TextureImporter:
         y: 443
         width: 39
         height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_12
@@ -266,11 +258,10 @@ TextureImporter:
         y: 443
         width: 39
         height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_13
@@ -280,11 +271,10 @@ TextureImporter:
         y: 443
         width: 39
         height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_14
@@ -294,11 +284,10 @@ TextureImporter:
         y: 443
         width: 39
         height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: tamandua_idle_lado_15
@@ -308,14 +297,129 @@ TextureImporter:
         y: 443
         width: 39
         height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 240
+        width: 39
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 240
+        width: 39
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 240
+        width: 39
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 240
+        width: 39
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_20
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 240
+        width: 39
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_21
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 240
+        width: 39
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_22
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 240
+        width: 39
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_23
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 240
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: tamandua_idle_lado_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 37
+        width: 39
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
       tessellationDetail: 0
     outline: []
-    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
