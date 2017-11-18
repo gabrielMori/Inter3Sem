@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 53662d819fc914947b226e6425c879a4
-timeCreated: 1511010927
+timeCreated: 1511026359
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -80,12 +80,12 @@ TextureImporter:
       name: tamandua_ataque 1_0
       rect:
         serializedVersion: 2
-        x: 1304
+        x: 30
         y: 21
-        width: 34
-        height: 111
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 108
+        height: 109
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -93,12 +93,12 @@ TextureImporter:
       name: tamandua_ataque 1_1
       rect:
         serializedVersion: 2
-        x: 1104
+        x: 230
         y: 21
-        width: 34
-        height: 111
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 108
+        height: 109
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -106,12 +106,12 @@ TextureImporter:
       name: tamandua_ataque 1_2
       rect:
         serializedVersion: 2
-        x: 883
+        x: 447
         y: 21
-        width: 55
+        width: 91
         height: 109
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -123,8 +123,8 @@ TextureImporter:
         y: 21
         width: 77
         height: 109
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -132,12 +132,12 @@ TextureImporter:
       name: tamandua_ataque 1_4
       rect:
         serializedVersion: 2
-        x: 447
+        x: 883
         y: 21
-        width: 91
+        width: 55
         height: 109
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -145,12 +145,12 @@ TextureImporter:
       name: tamandua_ataque 1_5
       rect:
         serializedVersion: 2
-        x: 230
+        x: 1104
         y: 21
-        width: 108
-        height: 109
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 111
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -158,12 +158,12 @@ TextureImporter:
       name: tamandua_ataque 1_6
       rect:
         serializedVersion: 2
-        x: 30
+        x: 1304
         y: 21
-        width: 108
-        height: 109
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 34
+        height: 111
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

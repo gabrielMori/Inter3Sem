@@ -60,8 +60,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.7332563}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 4.6875, y: 3.46875}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 1.0625, y: 3.46875}
     newSize: {x: 1.09375, y: 3.40625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -85,8 +85,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.7423306}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 4.6875, y: 3.46875}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 1.0625, y: 3.46875}
     newSize: {x: 1.09375, y: 3.40625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -125,13 +125,13 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0.37411153
-      value: 0.15478516
+      time: 0.57004964
+      value: 0.111328125
       inSlope: 0.24772735
       outSlope: 0.24772735
       tangentMode: 0
     - serializedVersion: 2
-      time: 0.72125244
+      time: 0.8562012
       value: 0
       inSlope: -0.2098162
       outSlope: -0.2098162
@@ -237,7 +237,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 51c244a45e857744f985057b750dc4eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.09375, y: 3.40625}

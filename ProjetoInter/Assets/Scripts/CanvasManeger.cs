@@ -36,7 +36,7 @@ public class CanvasManeger : MonoBehaviour
             }
 
         }
-        if (mapa.activeSelf && peguei == false)
+        if (peguei == false)
         {
             if (Input.GetKeyUp(KeyCode.M))
             {
