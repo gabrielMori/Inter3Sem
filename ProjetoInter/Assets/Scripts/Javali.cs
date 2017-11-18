@@ -49,11 +49,15 @@ public class Javali : MonoBehaviour
 		case 0:
 			//patrulha/idle
 			animator.SetBool("Run", false);
-			if (alvo == player)
-				alvo = waypoints [alvoIndex];
+                if (alvo == player)
+                {
+                    alvo = waypoints[alvoIndex];
+                    
+                }
 			if (Vector2.Distance (gameObject.transform.position, alvo.transform.position) > 1f) {
 				if (!idle) {
-					animator.SetBool ("Idle", false);
+                       
+                        animator.SetBool ("Idle", false);
 					animator.SetBool ("Walk", true);
 					if (transform.position.x > alvo.transform.position.x)
 						meuRigidbody.velocity = new Vector2 (velocidade * -1, meuRigidbody.velocity.y);
@@ -62,7 +66,8 @@ public class Javali : MonoBehaviour
 				} else {
 					animator.SetBool ("Idle", true);
 					animator.SetBool ("Walk", false);
-					if (idleTimer < 2)
+
+                        if (idleTimer < 2)
 						idleTimer += Time.deltaTime;
 					else {
 						idleTimer = 0;
@@ -72,7 +77,9 @@ public class Javali : MonoBehaviour
 				}
 			} else {
 				idle = true;
-				meuRigidbody.bodyType = RigidbodyType2D.Static;
+                    animator.SetBool("Tovendo", false);
+                    velocidade = 3;
+                    meuRigidbody.bodyType = RigidbodyType2D.Static;
 				if (alvoIndex < waypoints.Length - 1) {
 					alvoIndex++;
 					alvo = waypoints [alvoIndex];
