@@ -21,7 +21,7 @@ public class Aranha : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag ("Player");
 		anim = GetComponent<Animator> ();
 	}
-	
+
 	// Update is called once per frame
 	void FixedUpdate () {
 		if(inteligencia == 0){
@@ -36,20 +36,6 @@ public class Aranha : MonoBehaviour {
 			}
 		}
 
-		if(inteligencia != 2 && inteligencia != 3){
-			if (player.transform.position.x < transform.position.x)
-				transform.localScale = new Vector2 (1, 1);
-			else
-				transform.localScale = new Vector2 (-1, 1);
-		} else if(inteligencia == 3)
-			transform.localScale = new Vector2 (1, 1);
-		else {
-			if (player.transform.position.x < transform.position.x)
-				transform.localScale = new Vector2 (-1, 1);
-			else
-				transform.localScale = new Vector2 (1, 1);
-		}
-		
 		AtualizaInteligencia ();
 	}
 
@@ -103,6 +89,9 @@ public class Aranha : MonoBehaviour {
 		case 2:
 			//estagio3
 			ataquePos.SetActive(false);
+			for(int i = 0; i < venenos.Length; i++){
+				venenos [i].SetActive (false);
+			}
 
 			switch(inteligencia2){
 			case 0:
@@ -134,12 +123,10 @@ public class Aranha : MonoBehaviour {
 
 	public void Ataque(int i){
 		if (inteligencia == 0) {
-			if (i == inteligencia2) {
-				if (i == 0)
-					inteligencia2 = 2;
-				else
-					inteligencia2 = 3;
-			}
+			if (i == inteligencia2 && i == 1)
+				inteligencia2 = 3;
+			else if (i == 0)
+				inteligencia2 = 2;
 		}
 	}
 
