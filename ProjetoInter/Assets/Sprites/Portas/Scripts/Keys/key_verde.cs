@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class key_verde : MonoBehaviour {
     bool playerDentro = false;
-    public GameObject chave;
+    //public GameObject chave;
 
     // Use this for initialization
     void Start()
@@ -21,7 +21,7 @@ public class key_verde : MonoBehaviour {
             {
                 PlayerPrefs.SetInt("chave_verde", 1);
                 PlayerPrefs.SetInt("inimigo02", 1);
-                Destroy(chave);
+                //Destroy(chave);
             }
         }
     }

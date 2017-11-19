@@ -11,6 +11,9 @@ public class maquinas01 : MonoBehaviour
     public bool playerDentro = false;
     bool maquinaLigada = false;
     public Animator anim;
+
+    bool ligouMaquina = false;
+    bool tocaMusica = false;
     // Use this for initialization
 
     void Start()
@@ -18,8 +21,12 @@ public class maquinas01 : MonoBehaviour
         //PlayerPrefs.SetInt("maquina01", 0);
         if (PlayerPrefs.GetInt("maquina01") == 0)
         {
-            BG.clip = musicas[0];
-            BG.Play();
+            if (!tocaMusica)
+            {
+                BG.clip = musicas[0];
+                BG.Play();
+                tocaMusica = true;
+            }
             anim.SetBool("ativada", false);
             anim.SetBool("idleAtivo", false);
             maquinaLigada = false;
@@ -47,12 +54,17 @@ public class maquinas01 : MonoBehaviour
     {
         if (Input.GetButtonDown("E") /*Input.GetKeyDown(KeyCode.E)*/ && playerDentro && !maquinaLigada)
         {
-            if (!maquinaLigada)
+            if (!ligouMaquina)
             {
+
+                //if (!maquinaLigada)
+
                 BG.clip = musicas[1];
                 BG.Play();
                 maquinaLigada = true;
                 //playerDentro = false; 
+                ligouMaquina = true;
+
             }
 
         }

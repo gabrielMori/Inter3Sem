@@ -56,7 +56,7 @@ public class FalaAe : MonoBehaviour
         tecla.SetActive(true);
         if (Input.GetKeyDown(KeyCode.E) && pegueiAlago == true)
         {
-            PlayerPrefs.SetInt("mapa", 1);
+            
             if (documento == true)
             {
                 pagina.Play();

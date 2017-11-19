@@ -115,7 +115,8 @@ public class Aranha : MonoBehaviour {
 			}
 			break;
 		case 3:
-			//morte
+                //morte
+            PlayerPrefs.SetInt("fornalhaligada", 1);
 			anim.SetTrigger ("Morte");
 			print ("morte");
 			break;

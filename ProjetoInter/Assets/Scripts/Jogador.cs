@@ -346,5 +346,19 @@ public class Jogador : MonoBehaviour
 
 			}
 		}
-	}
+
+        //copiar isso daqui pro proximo UPDATE
+        if (collider.tag == "setor1_passagem_01")
+       {            
+            PlayerPrefs.SetInt("setor1_passagem01", 1);
+        }
+
+        if (collider.tag == "setor1_passagem_02")
+        {
+            PlayerPrefs.SetInt("setor1_passagem02", 1);
+        }
+
+
+        //copiar isso daqui pro proximo UPDATE
+    }
 }
