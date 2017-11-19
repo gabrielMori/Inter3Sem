@@ -116,7 +116,8 @@ public class Aranha : MonoBehaviour {
 			break;
 		case 3:
 			//morte
-			anim.SetTrigger("Morte");
+			anim.SetTrigger ("Morte");
+			print ("morte");
 			break;
 		}
 	}
