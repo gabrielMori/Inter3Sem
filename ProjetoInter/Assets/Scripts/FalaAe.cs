@@ -7,7 +7,7 @@ public class FalaAe : MonoBehaviour
 {
     public GameObject tecla;
     public GameObject objDestruido;
-    public AudioSource pagina;
+    public AudioSource[] SFX;
     public GameObject dialogo;
     public Collider2D acionador;
     public bool umavezporra = true;
@@ -59,7 +59,9 @@ public class FalaAe : MonoBehaviour
             
             if (documento == true)
             {
-                pagina.Play();
+                for (int i = 0; i < coletavel.Length; i++)
+                    SFX[i].Play();    
+                objDestruido.GetComponent<Collider2D>().enabled=false;
                 tecla.SetActive(false);
                 dialogo.SetActive(false);
                 for (int i = 0; i < coletavel.Length; i++) 
@@ -69,6 +71,7 @@ public class FalaAe : MonoBehaviour
             {
                 dialogo.SetActive(false);
                 tecla.SetActive(false);
+                objDestruido.GetComponent<Collider2D>().enabled = false;
                 for (int i = 0; i < coletavel.Length; i++)
                     coletavel[i].GetComponent<Image>().color = new Color(1, 1, 1, 1);
             }

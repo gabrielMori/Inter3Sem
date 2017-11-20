@@ -6,7 +6,7 @@ public class esquemaPorta : MonoBehaviour {
 
     bool playerDentro = false;
     public GameObject vao;
-
+    public AudioSource somPorta;
     public Animator anim;
     bool portaAberta= false;
     bool portaFechada = true;
@@ -24,6 +24,7 @@ public class esquemaPorta : MonoBehaviour {
             {
                 if (playerDentro)
                 {
+                    somPorta.Play();
                     portaAberta = true;
                     //playerDentro = false;
                 }
@@ -44,6 +45,7 @@ public class esquemaPorta : MonoBehaviour {
     }
 
     void portaFechando() {
+        somPorta.Stop();
         anim.SetBool("abrindo", false);
         vao.SetActive(true);
         portaAberta = false;

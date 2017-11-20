@@ -7,7 +7,7 @@ public class porta_moreau : MonoBehaviour {
    public  bool playerDentro = false;
     public GameObject vao;
     //public GameObject efeito;
-
+    public AudioSource porta;
     public Animator anim;
     bool portaAberta = false;
     bool portaFechada = true;
@@ -27,6 +27,7 @@ public class porta_moreau : MonoBehaviour {
             {
                 if (playerDentro)
                 {
+                    porta.Play();
                     portaAberta = true;
                     //playerDentro = false;
                 }
@@ -51,6 +52,7 @@ public class porta_moreau : MonoBehaviour {
 
     void portaFechando()
     {
+        porta.Stop();
         anim.SetBool("abrindo", false);
         vao.SetActive(false);
         //efeito.SetActive(false);
