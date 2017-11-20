@@ -28,7 +28,7 @@ public class esquema_duto : MonoBehaviour
             playerDentro = true;
             Inside.SetActive(true);
             Outside.SetActive(false);
-
+            PlayerPrefs.SetInt("dentroTubo", 1);
 
             //maquinaLigada = true;
         }
@@ -36,6 +36,7 @@ public class esquema_duto : MonoBehaviour
     public void OnTriggerExit2D(Collider2D collision)
     {
 
+        PlayerPrefs.SetInt("dentroTubo", 0);
         playerDentro = false;
         Inside.SetActive(false);
         Outside.SetActive(true);

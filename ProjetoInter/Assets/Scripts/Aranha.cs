@@ -5,7 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Aranha : MonoBehaviour {
 	private GameObject player;
-	public int inteligencia, inteligencia2, direcao;
+    public GameObject vapor1;
+    public GameObject vapor2;
+    public GameObject fire1;
+    public GameObject fire2;
+
+    public int inteligencia, inteligencia2, direcao;
 	private float idleTimer, venenoRandom, venenoTimer, ataque3Timer;
 	private Animator anim;
 
@@ -18,7 +23,8 @@ public class Aranha : MonoBehaviour {
 	public bool playerInRange;
 	// Use this for initialization
 	void Start () {
-		player = GameObject.FindGameObjectWithTag ("Player");
+        fire1.SetActive(true);
+        player = GameObject.FindGameObjectWithTag ("Player");
 		anim = GetComponent<Animator> ();
 	}
 
@@ -67,11 +73,16 @@ public class Aranha : MonoBehaviour {
 			switch(inteligencia2){
 			case 0:
 				//transição
+
 				anim.SetTrigger("Transicao1-2");
-				break;
+
+                vapor1.SetActive(true);
+
+                break;
 			case 1:
-				//idle2
-				venenoRandom = Random.Range (0, 3);
+                        //idle2
+                       
+                        venenoRandom = Random.Range (0, 3);
 
 				if (!venenos [0].activeSelf) {
 					for (int i = 0; i < venenos.Length; i++)
@@ -95,8 +106,11 @@ public class Aranha : MonoBehaviour {
 
 			switch(inteligencia2){
 			case 0:
-				//transição
-				anim.SetTrigger("Transicao2-3");
+                        //transição
+                        vapor2.SetActive(true);
+                        fire1.SetActive(false);
+                        fire2.SetActive(true);
+                        anim.SetTrigger("Transicao2-3");
 				break;
 			case 1:
 				//idle
@@ -135,7 +149,7 @@ public class Aranha : MonoBehaviour {
 	private void RetornaIdle(int i){
 		inteligencia2 = i;
 		if(playerInRange){
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex);
+			SceneManager.LoadScene ("dead");
 		}
 	}
 

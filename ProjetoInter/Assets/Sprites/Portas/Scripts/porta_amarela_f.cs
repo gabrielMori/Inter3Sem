@@ -7,6 +7,7 @@ public class porta_amarela_f : MonoBehaviour {
     bool playerDentro = false;
     public GameObject vao;
     public GameObject tecla;
+    public GameObject borda;
     bool mostraTecla = false;
     public Animator anim;
     bool portaAberta = false;
@@ -69,7 +70,11 @@ public class porta_amarela_f : MonoBehaviour {
     {
         if (collider.tag == "Player"&&mostraTecla == true)
         {
-            tecla.SetActive(true);
+            if (PlayerPrefs.GetInt("chave_amarela") == 1)
+            {
+                borda.SetActive(true);
+            }
+                tecla.SetActive(true);
             playerDentro = true;
         }
     }
@@ -79,6 +84,7 @@ public class porta_amarela_f : MonoBehaviour {
         if (collision.tag == "Player"&&mostraTecla==true)
         {
             tecla.SetActive(false);
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

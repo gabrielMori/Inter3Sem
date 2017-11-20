@@ -5,6 +5,7 @@ using UnityEngine;
 public class switch03 : MonoBehaviour
 
 {
+    public GameObject borda;
     bool especial = false;
     //public GameObject bloqueio;
     public bool playerDentro = false;
@@ -14,12 +15,13 @@ public class switch03 : MonoBehaviour
     public GameObject luz2;
     public GameObject luz3;
     public GameObject luz4;
+    public GameObject papel;
 
     // Use this for initialization
 
     void Start()
     {
-        PlayerPrefs.SetInt("switch_especial03", 0);
+       
         if (PlayerPrefs.GetInt("switch_especial03") == 0)
         {
             anim.SetBool("ativada", false);
@@ -68,6 +70,10 @@ public class switch03 : MonoBehaviour
         {
             if (!maquinaLigada)
             {
+                if (PlayerPrefs.GetInt("fornalhaligada") == 1)
+                {
+                    borda.SetActive(true);
+                }
                 playerDentro = true;
             }
         }
@@ -76,6 +82,7 @@ public class switch03 : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

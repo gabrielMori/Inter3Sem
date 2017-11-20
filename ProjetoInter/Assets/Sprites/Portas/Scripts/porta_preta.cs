@@ -6,7 +6,8 @@ public class porta_preta : MonoBehaviour {
 
     bool playerDentro = false;
     public GameObject vao;
-    public GameObject efeito;
+    public GameObject borda;
+    //public GameObject efeito;
 
     public Animator anim;
     bool portaAberta = false;
@@ -21,7 +22,7 @@ public class porta_preta : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetInt("chave_azul") == 1)
+        if (PlayerPrefs.GetInt("chave_preta") == 1)
         {
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
@@ -44,7 +45,7 @@ public class porta_preta : MonoBehaviour {
     }
     void aberta()
     {
-        efeito.SetActive(true);
+        //efeito.SetActive(true);
         vao.SetActive(true);
         Invoke("portaFechando", 4);
     }
@@ -53,7 +54,7 @@ public class porta_preta : MonoBehaviour {
     {
         anim.SetBool("abrindo", false);
         vao.SetActive(false);
-        efeito.SetActive(false);
+        //efeito.SetActive(false);
         portaAberta = false;
     }
 
@@ -61,6 +62,10 @@ public class porta_preta : MonoBehaviour {
     {
         if (collider.tag == "Player")
         {
+            if (PlayerPrefs.GetInt("chave_preta") == 1)
+            {
+                borda.SetActive(true);
+            }
             playerDentro = true;
         }
     }
@@ -69,6 +74,7 @@ public class porta_preta : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class door_0 : MonoBehaviour
 
@@ -50,8 +51,11 @@ public class door_0 : MonoBehaviour
             if (!botao)
             {
                 botao = true;
-                efeitoAtivo = true;
-                estado1 = true;
+                float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);
+                player.SetActive(false);
+                Invoke("final", 3);
+                //efeitoAtivo = true;
+                //estado1 = true;
             }
         }
         if (estado1)
@@ -59,7 +63,7 @@ public class door_0 : MonoBehaviour
             cooldownEfeito = 1;
             disparaContador = true;
             estado1 = false;
-            player.SetActive(false);
+            
         }
 
         if (cooldownEfeito <= 0 && disparaContador)
@@ -89,6 +93,9 @@ public class door_0 : MonoBehaviour
         }
     }
 
+    void final() {
+        SceneManager.LoadScene("final");
+    }
     void Clarear()
     {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);

@@ -6,6 +6,7 @@ public class esquemaPortaF1 : MonoBehaviour {
 
     bool playerDentro = false;
     public GameObject vao;
+    public GameObject borda;
 
     public Animator anim;
     bool portaAberta = false;
@@ -58,6 +59,10 @@ public class esquemaPortaF1 : MonoBehaviour {
     {
         if (collider.tag == "Player")
         {
+            if (PlayerPrefs.GetInt("chave_azul") == 1)
+            {
+                borda.SetActive(true);
+            }
             playerDentro = true;
         }
     }
@@ -66,6 +71,7 @@ public class esquemaPortaF1 : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

@@ -6,6 +6,7 @@ public class porta_branca : MonoBehaviour {
 
     bool playerDentro = false;
     public GameObject vao;
+    public GameObject borda;
     //public GameObject efeito;
     public AudioSource abrePorta;
     public Animator anim;
@@ -68,6 +69,10 @@ public class porta_branca : MonoBehaviour {
     {
         if (collider.tag == "Player")
         {
+            if (PlayerPrefs.GetInt("chave_branca") == 1)
+            {
+                borda.SetActive(true);
+            }
             playerDentro = true;
         }
     }
@@ -76,6 +81,7 @@ public class porta_branca : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

@@ -6,8 +6,10 @@ public class porta_verde_f : MonoBehaviour {
     public AudioSource portaAbre;
     bool playerDentro = false;
     public GameObject vao;
-    public GameObject efeito;
-    public GameObject tecla;
+    //public GameObject efeito;
+    //public GameObject tecla;
+    public GameObject borda;
+
     bool mostraTecla = false;
     public Animator anim;
     bool portaAberta = false;
@@ -54,9 +56,9 @@ public class porta_verde_f : MonoBehaviour {
     }
     void aberta()
     {
-        efeito.SetActive(true);
+       // efeito.SetActive(true);
         vao.SetActive(true);
-        efeito.SetActive(false);
+       // efeito.SetActive(false);
         Invoke("portaFechando", 4);
     }
 
@@ -70,19 +72,23 @@ public class porta_verde_f : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag == "Player"&&mostraTecla == true)
+        if (collider.tag == "Player"/*&&mostraTecla == true*/)
         {
-            tecla.SetActive(true);
+            if (PlayerPrefs.GetInt("chave_verde") == 1)
+            {
+                borda.SetActive(true);
+            }
+            //tecla.SetActive(true);
             playerDentro = true;
         }
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player"&&mostraTecla == true)
+        if (collision.tag == "Player"/*&&mostraTecla == true*/)
         {
-
-            tecla.SetActive(false);
+            borda.SetActive(false);
+            //tecla.SetActive(false);
             playerDentro = false;
         }
     }

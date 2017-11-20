@@ -5,9 +5,10 @@ using UnityEngine;
 public class maquinas03 : MonoBehaviour
 
 {
+    public GameObject borda;
     public AudioClip[] musicas;
     public AudioSource BG;
-    public GameObject bloqueio;
+    //public GameObject bloqueio;
     public bool playerDentro = false;
     bool maquinaLigada = false;
     public Animator anim;
@@ -18,13 +19,13 @@ public class maquinas03 : MonoBehaviour
 
     void Start()
     {
-        PlayerPrefs.SetInt("maquina03", 0);
+       
         if (PlayerPrefs.GetInt("maquina03") == 0)
         {
             if (!tocaMusica)
             {
-                BG.clip = musicas[0];
-                BG.Play();
+                //BG.clip = musicas[0];
+                //BG.Play();
                 tocaMusica = true;
             }
 
@@ -59,9 +60,8 @@ public class maquinas03 : MonoBehaviour
             {
 
                 //if (!maquinaLigada)
-
-                BG.clip = musicas[1];
-                BG.Play();
+               //// BG.clip = musicas[1];
+               // BG.Play();
                 maquinaLigada = true;
                 //playerDentro = false; 
                 ligouMaquina = true;
@@ -73,11 +73,14 @@ public class maquinas03 : MonoBehaviour
 
         if (maquinaLigada)
         {
+            print("asamkhas");
             anim.SetBool("ativada", true);
-            PlayerPrefs.SetInt("maquina01", 1);
-            Invoke("idle", 1);
+            anim.SetBool("idleAtivo", true);
+            PlayerPrefs.SetInt("maquina03", 1);
+            //Invoke("idle", 1);
             maquinaLigada = false;
-            bloqueio.SetActive(true);
+            //Destroy(borda);
+            //bloqueio.SetActive(true);
         }
     }
 
@@ -86,12 +89,11 @@ public class maquinas03 : MonoBehaviour
 
         if (collider.tag == "Player")
         {
-            if (!maquinaLigada)
+            if (!ligouMaquina)
             {
-                playerDentro = true;
-
+                borda.SetActive(true);
             }
-
+            playerDentro = true;
             //maquinaLigada = true;
         }
     }
@@ -99,6 +101,7 @@ public class maquinas03 : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

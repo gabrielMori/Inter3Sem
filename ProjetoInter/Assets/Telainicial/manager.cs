@@ -8,7 +8,7 @@ public class manager : MonoBehaviour {
   // Use this for initialization
     void Start()
     {
-
+        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
     }
 
     void Update()
@@ -47,10 +47,10 @@ public class manager : MonoBehaviour {
     public void ResetPlayerData()
     {
         PlayerPrefs.DeleteAll();
-        PlayerPrefs.SetInt("chave_azul", 0);
-        PlayerPrefs.SetInt("chave_azul", 0);
-        PlayerPrefs.SetInt("chave_azul", 3);
-        PlayerPrefs.SetInt("chave_azul", 0);
+        //PlayerPrefs.SetInt("chave_azul", 0);
+        //PlayerPrefs.SetInt("chave_azul", 0);
+        //PlayerPrefs.SetInt("chave_azul", 3);
+        //PlayerPrefs.SetInt("chave_azul", 0);
     }
 
     public void Sair()

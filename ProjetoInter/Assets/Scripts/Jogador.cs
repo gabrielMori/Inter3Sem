@@ -19,7 +19,7 @@ public class Jogador : MonoBehaviour
 	int curentMove;
 	public float velocidade;
 	public bool pulando, rastejando, escada, makingNoise;
-	private Vector2 dutoPos;
+	private Vector3 dutoPos;
 	private BoxCollider2D colisorChao;
 	private Collider2D dutoColisor;
 	private List<GameObject> chaves = new List<GameObject>();
@@ -103,12 +103,12 @@ public class Jogador : MonoBehaviour
 
 		if (!rastejando && !subindo)
 		{
-			GetComponent<BoxCollider2D>().size = new Vector2(1.36f, 2.7f);
+			GetComponent<BoxCollider2D>().size = new Vector3(1.36f, 2.7f, transform.position.z);
 			meuRigidbody.gravityScale = 10;
 		}
 		else if (rastejando)
 		{
-			GetComponent<BoxCollider2D>().size = new Vector2(1.36f, 1.25f);
+			GetComponent<BoxCollider2D>().size = new Vector3(1.36f, 1.25f, transform.position.z);
 			meuRigidbody.gravityScale = 10;
 		}
 	}
@@ -149,7 +149,7 @@ public class Jogador : MonoBehaviour
 
 			if (!duto)
 			{
-				meuRigidbody.velocity = new Vector2(horizontal * velocidade, meuRigidbody.velocity.y);
+				meuRigidbody.velocity = new Vector3(horizontal * velocidade, meuRigidbody.velocity.y, transform.position.z);
 			}
 		}
 	}
@@ -178,6 +178,7 @@ public class Jogador : MonoBehaviour
 	{
 		if (collider.tag == "Duto")
 		{
+
 			onTrigger = true;
 			canvas[0].SetActive(true);
 			GetComponent<Animator>().SetBool("DutoDireita", collider.GetComponent<Duto>().dir);
@@ -185,12 +186,16 @@ public class Jogador : MonoBehaviour
 			{
 				if (collider.GetComponent<Duto>().index == 0)
 				{
+                    print("dentro do tudo");
+                    
 					duto = true;
 					transform.position = collider.transform.position;
 				}
 				else
 				{
-					duto = false;
+                    print("fora do tudo");
+                    PlayerPrefs.SetInt("dentroTubo", 1);
+                    duto = false;
 				}
 				TransicaoDuto(collider.GetComponent<Duto>().pos.transform.position, collider.GetComponent<Duto>().index);
 				Physics2D.IgnoreCollision(GetComponent<Collider2D>(), collider.GetComponent<Duto>().dutoSuperficie.GetComponent<Collider2D>());
@@ -200,7 +205,7 @@ public class Jogador : MonoBehaviour
 
 		if (collider.tag == "Switch")
 		{
-			if (Input.GetKeyDown(KeyCode.Space))
+			if (Input.GetKeyDown(KeyCode.E))
 			{
 				if(switchIndex == collider.GetComponent<Switch> ().index){
 					if (collider.GetComponent<Switch> ().aranhaObj) {
@@ -268,14 +273,14 @@ public class Jogador : MonoBehaviour
 		canvas[1].SetActive(false);
 	}
 
-	private void TransicaoDuto(Vector2 p, int index)
+	private void TransicaoDuto(Vector3 p, int index)
 	{
 		pulando = true;
 		dutoPos = p;
 		if (index == 0)
 		{
-			meuRigidbody.velocity = Vector2.zero;
-			meuRigidbody.velocity = new Vector2(0, 50);
+			meuRigidbody.velocity = Vector3.zero;
+			meuRigidbody.velocity = new Vector3(0, 50, transform.position.z);
 			pulando = true;
 		}
 	}
@@ -324,7 +329,7 @@ public class Jogador : MonoBehaviour
 			{
 				pulando = false;
 				meuRigidbody.gravityScale = 0;
-				meuRigidbody.velocity = Vector2.zero;
+				meuRigidbody.velocity = Vector3.zero;
 				subindo = true;
 				GetComponent<Animator>().SetTrigger("Subir");
 			}

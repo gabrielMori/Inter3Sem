@@ -5,6 +5,7 @@ using UnityEngine;
 public class switch2 : MonoBehaviour
 
 {
+    public GameObject borda;
     bool especial = false;
     //public GameObject bloqueio;
     public bool playerDentro = false;
@@ -14,19 +15,7 @@ public class switch2 : MonoBehaviour
 
     void Start()
     {
-        PlayerPrefs.SetInt("chave_azul", 0);
-        PlayerPrefs.SetInt("chave_amarela", 0);
-        PlayerPrefs.SetInt("chave_verde", 0);
-        PlayerPrefs.SetInt("chave_preta", 0);
-        PlayerPrefs.SetInt("chave_branca", 0);
-        PlayerPrefs.SetInt("chave_laranja", 0);
-        PlayerPrefs.SetInt("chave_roxa", 0);
-
-        PlayerPrefs.SetInt("switch_especial01", 0);
-        PlayerPrefs.SetInt("switch_especial02", 0);
-        PlayerPrefs.SetInt("maquina01", 0);
-        PlayerPrefs.SetInt("maquina02", 0);
-        PlayerPrefs.SetInt("maquina03", 0);
+     
 
         if (PlayerPrefs.GetInt("switch_especial02") == 0)
         {
@@ -48,6 +37,7 @@ public class switch2 : MonoBehaviour
             {
                 if (!maquinaLigada)
                 {
+                    //Destroy(borda);
                     maquinaLigada = true;
                     //playerDentro = false; 
                 }
@@ -70,14 +60,17 @@ public class switch2 : MonoBehaviour
         {
             if (!maquinaLigada)
             {
-                playerDentro = true;
+                borda.SetActive(true);
+                
             }
+            playerDentro = true;
         }
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

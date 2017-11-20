@@ -11,6 +11,8 @@ public class esquemaPorta : MonoBehaviour {
     bool portaAberta= false;
     bool portaFechada = true;
     bool portaIdleAberta = false;
+    public GameObject borda;
+
     // Use this for initialization
     void Start () {
 		
@@ -55,6 +57,11 @@ public class esquemaPorta : MonoBehaviour {
     {
         if (collider.tag == "Player")
         {
+
+            if (PlayerPrefs.GetInt("maquina01") == 1)
+            {
+                borda.SetActive(true);
+            }
             playerDentro = true;
         }
     }
@@ -64,6 +71,7 @@ public class esquemaPorta : MonoBehaviour {
         if (collision.tag == "Player")
         {
             playerDentro = false;
+            borda.SetActive(false);
         }
     }
 }

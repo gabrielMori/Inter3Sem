@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: 8916cf88cd406ac47b2ad4500ac70c94
+timeCreated: 1511178895
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: t_idle_lado_0
+    21300002: t_idle_lado_1
+    21300004: t_idle_lado_2
+    21300006: t_idle_lado_3
+    21300008: t_idle_lado_4
+    21300010: t_idle_lado_5
+    21300012: t_idle_lado_6
+    21300014: t_idle_lado_7
+    21300016: t_idle_lado_8
+    21300018: t_idle_lado_9
+    21300020: t_idle_lado_10
+    21300022: t_idle_lado_11
+    21300024: t_idle_lado_12
+    21300026: t_idle_lado_13
+    21300028: t_idle_lado_14
+    21300030: t_idle_lado_15
+    21300032: t_idle_lado_16
+    21300034: t_idle_lado_17
+    21300036: t_idle_lado_18
+    21300038: t_idle_lado_19
+    21300040: t_idle_lado_20
+    21300042: t_idle_lado_21
+    21300044: t_idle_lado_22
+    21300046: t_idle_lado_23
+    21300048: t_idle_lado_24
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: t_idle_lado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 324
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_14
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 216
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_23
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 108
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: t_idle_lado_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 39
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

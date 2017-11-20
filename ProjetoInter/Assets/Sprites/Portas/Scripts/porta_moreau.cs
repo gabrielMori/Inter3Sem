@@ -6,6 +6,7 @@ public class porta_moreau : MonoBehaviour {
 
    public  bool playerDentro = false;
     public GameObject vao;
+    public GameObject borda;
     //public GameObject efeito;
     public AudioSource porta;
     public Animator anim;
@@ -63,6 +64,10 @@ public class porta_moreau : MonoBehaviour {
     {
         if (collider.tag == "Player")
         {
+            if (PlayerPrefs.GetInt("maquina03") == 1 && PlayerPrefs.GetInt("switch_especial02") == 1)
+            {
+                borda.SetActive(true);
+            }
             playerDentro = true;
         }
     }
@@ -71,6 +76,7 @@ public class porta_moreau : MonoBehaviour {
     {
         if (collision.tag == "Player")
         {
+            borda.SetActive(false);
             playerDentro = false;
         }
     }

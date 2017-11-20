@@ -8,6 +8,7 @@ public class porta_azul_f : MonoBehaviour {
     public GameObject vao;
     //public GameObject efeito;
     public GameObject tecla;
+    public GameObject borda;
     bool mostraTecla=false;
     public Animator anim;
     bool portaAberta = false;
@@ -66,7 +67,10 @@ public class porta_azul_f : MonoBehaviour {
     {
         if (collider.tag == "Player"&&mostraTecla==true)
         {
-
+            if (PlayerPrefs.GetInt("chave_azul") == 1)
+            {
+                borda.SetActive(true);
+            }
             tecla.SetActive(true);
             playerDentro = true;
         }
@@ -76,7 +80,7 @@ public class porta_azul_f : MonoBehaviour {
     {
         if (collision.tag == "Player"&&mostraTecla==true)
         {
-
+            borda.SetActive(false);
             tecla.SetActive(false);
             playerDentro = false;
         }

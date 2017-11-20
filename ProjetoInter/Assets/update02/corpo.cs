@@ -29,12 +29,12 @@ public class corpo : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag.Equals("Player"))
-        {
-            if (!desligaEfeito) {
-                playerDentro = true;
-                borda.SetActive(true);
-            }
-           
+        {           
+                if (!desligaEfeito)
+                {
+                    playerDentro = true;
+                    borda.SetActive(true);
+                } 
         }
 
     }
