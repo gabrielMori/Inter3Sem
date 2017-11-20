@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class door_0 : MonoBehaviour
+public class door_00000 : MonoBehaviour
 
 {
     public GameObject entrada;
-    public GameObject saida;
+    //public GameObject saida;
     public GameObject player;
 
     float cooldownEfeito;
@@ -50,8 +51,11 @@ public class door_0 : MonoBehaviour
             if (!botao)
             {
                 botao = true;
-                efeitoAtivo = true;
-                estado1 = true;
+                float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);
+                player.SetActive(false);
+                Invoke("final", 3);
+                //efeitoAtivo = true;
+                //estado1 = true;
             }
         }
         if (estado1)
@@ -59,7 +63,7 @@ public class door_0 : MonoBehaviour
             cooldownEfeito = 1;
             disparaContador = true;
             estado1 = false;
-            player.SetActive(false);
+
         }
 
         if (cooldownEfeito <= 0 && disparaContador)
@@ -67,28 +71,12 @@ public class door_0 : MonoBehaviour
             disparaContador = false;
             estadoGenerico = true;
         }
-
-        if (estadoGenerico)
-        {
-            if (PlayerPrefs.GetInt("estado") == 1)
-            {
-                player.SetActive(true);
-                player.transform.position = new Vector3(entrada.transform.position.x, entrada.transform.position.y, -1.05f);
-                estadoGenerico = false;
-                botao = false;
-            }
-
-            if (PlayerPrefs.GetInt("estado") == 0)
-            {
-                player.SetActive(true);
-                player.transform.position = new Vector3(saida.transform.position.x, saida.transform.position.y, -1.05f);
-                estadoGenerico = false;
-
-                botao = false;
-            }
-        }
     }
 
+    void final()
+    {
+        SceneManager.LoadScene("final");
+    }
     void Clarear()
     {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
