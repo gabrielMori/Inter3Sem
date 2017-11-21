@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class plat_botao : MonoBehaviour
 {
+    public GameObject dialogo;
     public GameObject plataforma;
     bool playerDentro = false;
     bool apertei = false;
@@ -38,6 +39,7 @@ public class plat_botao : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Player"))
         {
+            dialogo.SetActive(true);
             playerDentro = true;
         }
 
@@ -49,6 +51,7 @@ public class plat_botao : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
+            dialogo.SetActive(false);
             playerDentro = false;
         }
     }

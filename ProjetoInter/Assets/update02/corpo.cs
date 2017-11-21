@@ -7,20 +7,23 @@ public class corpo : MonoBehaviour
     bool desligaEfeito = false;
     public GameObject borda;
     bool playerDentro = false;
+    bool umaVez;
     // Use this for initialization
     void Start()
     {
-
+        umaVez = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(umaVez==true)
         if (Input.GetButtonDown("E") && playerDentro)
         {
             if (!desligaEfeito) {
                 borda.SetActive(false);
                 Destroy(borda);
+                umaVez = false;
             }
                 
         }
@@ -28,6 +31,7 @@ public class corpo : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        if (umaVez==true)
         if (col.gameObject.tag.Equals("Player"))
         {           
                 if (!desligaEfeito)
@@ -41,7 +45,7 @@ public class corpo : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player"))
+        if (collision.gameObject.tag.Equals("Player")&&playerDentro)
         {
             if (!desligaEfeito)
             {

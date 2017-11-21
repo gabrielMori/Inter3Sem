@@ -25,7 +25,7 @@ public class key_azul : MonoBehaviour {
         }
     }
 
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.tag == "Player")
         {

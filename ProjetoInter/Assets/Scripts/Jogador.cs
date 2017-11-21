@@ -227,7 +227,6 @@ public class Jogador : MonoBehaviour
 		}
 		if (collider.tag == "Chave" || collider.tag == "Acido")
 		{
-			canvas[1].SetActive(true);
 			onTrigger = true;
 			if (Input.GetKeyDown(KeyCode.E))
 			{
@@ -258,11 +257,12 @@ public class Jogador : MonoBehaviour
 		}
 		if (collider.tag == "lori")
 		{
-			canvas[1].SetActive(true);
 			onTrigger = true;
-			if (Input.GetKeyDown(KeyCode.E))
-				Destroy(collider.gameObject);
-
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Destroy(collider.gameObject);
+                canvas[1].SetActive(false);
+            }
 		}
 	}
 
@@ -336,6 +336,7 @@ public class Jogador : MonoBehaviour
 		}
 		if (collider.tag == "Escada_1")
 		{
+ 
 			PlayerPrefs.SetInt("estado", 0);
 			if (Input.GetButtonDown("Vertical") && !efeito)
 			{
