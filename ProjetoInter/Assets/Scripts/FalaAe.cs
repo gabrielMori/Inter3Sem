@@ -18,12 +18,9 @@ public class FalaAe : MonoBehaviour
     bool some =false;
     bool ok=false;
     bool okey=false;
-    // Use this for initialization
-    void Start()
-    {
 
-    }
-
+	public int[] itemIndex;
+	public int[] documentosIndex;
     // Update is called once per frame
     void Update()
     {
@@ -82,6 +79,13 @@ public class FalaAe : MonoBehaviour
                     coletavel[i].GetComponent<Image>().color = new Color(1, 1, 1, 1);
                 okey = true;
             }
+
+			for(int i = 0; i < itemIndex.Length; i++){
+				col.GetComponent<Jogador> ().itens [itemIndex[i]] = 1;
+			}
+			for(int i = 0; i < documentosIndex.Length; i++){
+				col.GetComponent<Jogador> ().documentos [documentosIndex[i]] = 1;
+			}
 
         }
     }

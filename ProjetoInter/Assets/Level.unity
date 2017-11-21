@@ -626,6 +626,8 @@ MonoBehaviour:
   - {fileID: 0}
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!1 &28275703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +1944,8 @@ MonoBehaviour:
   - {fileID: 628957812}
   inventario: 0
   documento: 1
+  itemIndex: 
+  documentosIndex: 00000000
 --- !u!61 &54021725
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4777,6 +4781,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 1
   documento: 1
+  itemIndex: 
+  documentosIndex: 
 --- !u!1 &166607994
 GameObject:
   m_ObjectHideFlags: 0
@@ -5833,6 +5839,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!61 &202858242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6610,6 +6618,8 @@ MonoBehaviour:
   - {fileID: 1925098605}
   inventario: 1
   documento: 0
+  itemIndex: 07000000
+  documentosIndex: 
 --- !u!1 &223194485
 GameObject:
   m_ObjectHideFlags: 0
@@ -6772,6 +6782,8 @@ MonoBehaviour:
   - {fileID: 1422167559}
   inventario: 1
   documento: 1
+  itemIndex: 0b000000
+  documentosIndex: 07000000
 --- !u!1 &227324778
 GameObject:
   m_ObjectHideFlags: 0
@@ -17624,6 +17636,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!61 &637828028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21044,7 +21058,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.9485294, g: 0.94112206, b: 0.89970803, a: 1}
-  m_Intensity: 8.6
+  m_Intensity: 8
   m_Range: 2.17
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -21678,6 +21692,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 1
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!1001 &776191698
 Prefab:
   m_ObjectHideFlags: 0
@@ -27429,6 +27445,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 988699741}
+  - component: {fileID: 988699742}
   m_Layer: 0
   m_Name: Lanterna
   m_TagString: Untagged
@@ -27451,6 +27468,20 @@ Transform:
   m_Father: {fileID: 194631057}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &988699742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 988699740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af099a6098b03c8459f0c97772a6fa54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightDentro: {fileID: 741119750}
+  lightFora: {fileID: 1523062847}
+  timer: 0
 --- !u!1 &996009265
 GameObject:
   m_ObjectHideFlags: 0
@@ -30973,6 +31004,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!1 &1136457365
 GameObject:
   m_ObjectHideFlags: 0
@@ -31394,6 +31427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d0bcf3b79a4d9d4c88af78cb3c02df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itens: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  documentos: 000000000000000000000000000000000000000000000000000000000000000000000000
   movimentos: {fileID: 1143879730}
   movimentosP:
   - {fileID: 8300000, guid: 347ff982b43bf6940b00c592d21346a0, type: 3}
@@ -31549,6 +31584,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd48fd365f81bc94c931d8e92f8188a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itensColetados: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  itensObj:
+  - {fileID: 243977602}
+  - {fileID: 652208652}
+  - {fileID: 270227087}
+  - {fileID: 1134004011}
+  - {fileID: 1154323995}
+  - {fileID: 320126172}
+  - {fileID: 459871936}
+  - {fileID: 1925098605}
+  - {fileID: 41594515}
+  - {fileID: 693384237}
+  - {fileID: 636062448}
+  - {fileID: 1422167559}
+  documentosColetados: 000000000000000000000000000000000000000000000000000000000000000000000000
+  documentosObj:
+  - {fileID: 1891561307}
+  - {fileID: 1731169021}
+  - {fileID: 558589022}
+  - {fileID: 484893984}
+  - {fileID: 1922932313}
+  - {fileID: 1136457365}
+  - {fileID: 369753489}
+  - {fileID: 1468850932}
+  - {fileID: 315445637}
 --- !u!1 &1145245402 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1320001743395290, guid: 98011563fc21aad4a889dd3435f73a17,
@@ -32477,6 +32537,8 @@ MonoBehaviour:
   - {fileID: 320126172}
   inventario: 1
   documento: 0
+  itemIndex: 05000000
+  documentosIndex: 
 --- !u!1 &1174089837
 GameObject:
   m_ObjectHideFlags: 0
@@ -33767,6 +33829,8 @@ MonoBehaviour:
   - {fileID: 1134004011}
   inventario: 1
   documento: 1
+  itemIndex: 03000000
+  documentosIndex: 06000000
 --- !u!1 &1208034615
 GameObject:
   m_ObjectHideFlags: 0
@@ -35475,6 +35539,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!1 &1275960990
 GameObject:
   m_ObjectHideFlags: 0
@@ -39939,6 +40005,8 @@ MonoBehaviour:
   - {fileID: 1688717576}
   inventario: 0
   documento: 1
+  itemIndex: 
+  documentosIndex: 0300000004000000
 --- !u!61 &1420417863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40429,6 +40497,8 @@ MonoBehaviour:
   - {fileID: 1100036887}
   inventario: 0
   documento: 1
+  itemIndex: 
+  documentosIndex: 
 --- !u!61 &1431076623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -43184,7 +43254,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.27205884, g: 0.24672922, b: 0.16403548, a: 1}
-  m_Intensity: 3.34
+  m_Intensity: 4
   m_Range: 3.02
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -44174,6 +44244,8 @@ MonoBehaviour:
   - {fileID: 0}
   inventario: 1
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!1 &1561224534
 GameObject:
   m_ObjectHideFlags: 0
@@ -44770,6 +44842,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!61 &1570878223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -46512,6 +46586,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!1001 &1617548331
 Prefab:
   m_ObjectHideFlags: 0
@@ -49584,6 +49660,8 @@ MonoBehaviour:
   - {fileID: 1139369522}
   inventario: 0
   documento: 1
+  itemIndex: 
+  documentosIndex: 01000000
 --- !u!61 &1733766700
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56155,6 +56233,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 1
   documento: 1
+  itemIndex: 
+  documentosIndex: 
 --- !u!1 &1968787130
 GameObject:
   m_ObjectHideFlags: 0
@@ -56746,6 +56826,8 @@ MonoBehaviour:
   - {fileID: 636062448}
   inventario: 1
   documento: 1
+  itemIndex: 090000000a000000
+  documentosIndex: 05000000
 --- !u!1 &1983369772
 GameObject:
   m_ObjectHideFlags: 0
@@ -58128,6 +58210,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 0
   documento: 0
+  itemIndex: 
+  documentosIndex: 
 --- !u!61 &2029160827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58296,6 +58380,8 @@ MonoBehaviour:
   coletavel: []
   inventario: 1
   documento: 1
+  itemIndex: 
+  documentosIndex: 
 --- !u!1 &2038588624
 GameObject:
   m_ObjectHideFlags: 0
@@ -59723,6 +59809,8 @@ MonoBehaviour:
   - {fileID: 243977602}
   inventario: 1
   documento: 1
+  itemIndex: 00000000
+  documentosIndex: 02000000
 --- !u!1 &2096804247 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1621235025757124, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f,

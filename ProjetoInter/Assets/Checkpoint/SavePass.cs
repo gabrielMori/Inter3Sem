@@ -3,20 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SavePass : MonoBehaviour {
-
     //public Animator anim;
     //public AudioSource aud;
-
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+	[SerializeField]
+	private Lanterna lanterna;
 
     public void OnTriggerEnter2D(Collider2D col)
     {
@@ -36,6 +26,18 @@ public class SavePass : MonoBehaviour {
             print("salvei?");
             //PlayerPrefs.Save ();
 
+			//Salva Itens Coletados
+			for(int i = 0; i < col.GetComponent<Jogador>().itens.Length; i++){
+				PlayerPrefs.SetInt ("item" + i, col.GetComponent<Jogador>().itens[i]);
+			}
+
+			for(int i = 0; i < col.GetComponent<Jogador>().documentos.Length; i++){
+				PlayerPrefs.SetInt ("documento" + i, col.GetComponent<Jogador>().documentos[i]);
+			}
+
+			//recarrega lanterna
+			lanterna.lightDentro.GetComponent<Light> ().intensity = 8;
+			lanterna.lightFora.GetComponent<Light> ().intensity = 4;
         }
 
 

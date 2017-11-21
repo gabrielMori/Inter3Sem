@@ -13,11 +13,7 @@ public class esquemaPorta : MonoBehaviour {
     bool portaIdleAberta = false;
     public GameObject borda;
     public GameObject dialogo;
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
+   
 	// Update is called once per frame
 	void Update () {
         if (PlayerPrefs.GetInt("maquina01") == 1)

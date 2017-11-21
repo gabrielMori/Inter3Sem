@@ -6,12 +6,6 @@ public class key_azul : MonoBehaviour {
     bool playerDentro = false;
     //public GameObject chave;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {

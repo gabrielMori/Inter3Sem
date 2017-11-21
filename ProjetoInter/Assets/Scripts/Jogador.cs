@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Jogador : MonoBehaviour
 {
-
+	public int[] itens;
+	public int[] documentos;
 	bool personagemDesligado = false;
 	bool efeito = false;
 	bool efeitoTransicao = false;
