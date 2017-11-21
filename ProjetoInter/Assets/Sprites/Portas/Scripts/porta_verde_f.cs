@@ -9,7 +9,7 @@ public class porta_verde_f : MonoBehaviour {
     //public GameObject efeito;
     //public GameObject tecla;
     public GameObject borda;
-
+    public GameObject dialogo;
     bool mostraTecla = false;
     public Animator anim;
     bool portaAberta = false;
@@ -80,11 +80,13 @@ public class porta_verde_f : MonoBehaviour {
             }
             //tecla.SetActive(true);
             playerDentro = true;
-        }
+        }else
+            dialogo.SetActive(true);
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
+        dialogo.SetActive(false);
         if (collision.tag == "Player"/*&&mostraTecla == true*/)
         {
             borda.SetActive(false);

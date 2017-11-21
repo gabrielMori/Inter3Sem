@@ -29,7 +29,9 @@ public class SavePass : MonoBehaviour {
             Vector3 posplayer = col.gameObject.transform.position;
             PlayerPrefs.SetFloat("posPx", posplayer.x);
             PlayerPrefs.SetFloat("posPy", posplayer.y);
-
+            PlayerPrefs.GetInt("switch_especial01");
+            PlayerPrefs.GetInt("inimigo01");
+            print (PlayerPrefs.GetInt("inimigo01"));
             PlayerPrefs.Save();
             print("salvei?");
             //PlayerPrefs.Save ();

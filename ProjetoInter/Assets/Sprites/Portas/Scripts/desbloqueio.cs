@@ -28,6 +28,7 @@ public class desbloqueio : MonoBehaviour
             if (PlayerPrefs.GetInt("setor1_passagem01") == 1)
             {
                 enemy01.SetActive(true);
+                barreira.SetActive(false);
             }
 
             if (PlayerPrefs.GetInt("setor1_passagem02") == 1)

@@ -15,12 +15,13 @@ public class key_verde : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerDentro)
+        if (playerDentro)
         {
-            if (playerDentro)
-            {
+            if (Input.GetKeyDown(KeyCode.E)){
+                print("oi");
                 PlayerPrefs.SetInt("chave_verde", 1);
                 PlayerPrefs.SetInt("inimigo02", 1);
+                print(PlayerPrefs.GetInt("inimigo02"));
                 //Destroy(chave);
             }
         }
@@ -31,6 +32,7 @@ public class key_verde : MonoBehaviour {
         if (collider.tag == "Player")
         {
             playerDentro = true;
+            print(playerDentro);
         }
     }
 
@@ -39,6 +41,7 @@ public class key_verde : MonoBehaviour {
         if (collision.tag == "Player")
         {
             playerDentro = false;
+            print(playerDentro);
         }
     }
 }

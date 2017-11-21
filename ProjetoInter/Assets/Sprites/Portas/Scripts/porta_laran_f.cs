@@ -8,7 +8,7 @@ public class porta_laran_f : MonoBehaviour {
     public GameObject vao;
     //public GameObject tecla;
     public GameObject borda;
-
+    public GameObject dialogo;
     bool mostraTecla = false;
     public Animator anim;
     bool portaAberta = false;
@@ -74,7 +74,8 @@ public class porta_laran_f : MonoBehaviour {
             if (PlayerPrefs.GetInt("chave_laranja") == 1)
             {
                 borda.SetActive(true);
-            }
+            }else
+                dialogo.SetActive(true);
             //tecla.SetActive(true);
             playerDentro = true;
         }
@@ -82,6 +83,7 @@ public class porta_laran_f : MonoBehaviour {
 
     public void OnTriggerExit2D(Collider2D collision)
     {
+        dialogo.SetActive(false);
         if (collision.tag == "Player"/*&&mostraTecla==true*/)
         {
             borda.SetActive(false);

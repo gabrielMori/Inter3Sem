@@ -15,9 +15,6 @@ public class eventos_enemy : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        PlayerPrefs.SetInt("inimigo01", 0);
-        PlayerPrefs.SetInt("inimigo02", 0);
-        //PlayerPrefs.SetInt("inimigo02", 0);
     }
 	
 	// Update is called once per frame
@@ -45,6 +42,7 @@ public class eventos_enemy : MonoBehaviour {
 
         if (PlayerPrefs.GetInt("inimigo02") == 1)
         {
+            print("mudou");
             inimigo3.SetActive(false);
             inimigo4.SetActive(true);
             //inimigo1.transform.localPosition = inimigo1.GetComponent<destino>().estado02.transform.localPosition;

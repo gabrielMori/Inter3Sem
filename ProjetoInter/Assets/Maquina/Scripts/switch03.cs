@@ -16,7 +16,7 @@ public class switch03 : MonoBehaviour
     public GameObject luz3;
     public GameObject luz4;
     public GameObject papel;
-
+    public GameObject dialogo;
     // Use this for initialization
 
     void Start()
@@ -73,13 +73,15 @@ public class switch03 : MonoBehaviour
                 if (PlayerPrefs.GetInt("fornalhaligada") == 1)
                 {
                     borda.SetActive(true);
-                }
+                }else
+                    dialogo.SetActive(true);
                 playerDentro = true;
             }
         }
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
+        dialogo.SetActive(false);
         if (collision.tag == "Player")
         {
             borda.SetActive(false);

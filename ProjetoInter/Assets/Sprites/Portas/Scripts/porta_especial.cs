@@ -13,6 +13,7 @@ public class porta_especial : MonoBehaviour {
     bool portaAberta = false;
     bool portaFechada = true;
     bool portaIdleAberta = false;
+    public GameObject dialogo;
     // Use this for initialization
     void Start()
     {
@@ -45,9 +46,10 @@ public class porta_especial : MonoBehaviour {
 
             }
         }
-      
-            //desativa collider que segura os monstros
-            if (portaIdleAberta)
+
+
+        //desativa collider que segura os monstros
+        if (portaIdleAberta)
             {
             anim.SetBool("abrindo", true);
 
@@ -77,10 +79,19 @@ public class porta_especial : MonoBehaviour {
             portaIdleAberta = false;
             vao.SetActive(true);
         }
+        else
+        {
+            dialogo.SetActive(true);
+        }
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && mostraTecla == true)
+
+        if (collision.tag == "Player" && mostraTecla == true) 
             tecla.SetActive(false);
+        if (collision.tag == "Player" && mostraTecla == false)
+            dialogo.SetActive(false);
     }
+
+
 }

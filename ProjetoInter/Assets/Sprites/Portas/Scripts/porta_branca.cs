@@ -9,6 +9,7 @@ public class porta_branca : MonoBehaviour {
     public GameObject borda;
     //public GameObject efeito;
     public AudioSource abrePorta;
+    public GameObject dialogo;
     public Animator anim;
     bool portaAberta = false;
     bool portaFechada = true;
@@ -72,13 +73,15 @@ public class porta_branca : MonoBehaviour {
             if (PlayerPrefs.GetInt("chave_branca") == 1)
             {
                 borda.SetActive(true);
-            }
+            }else
+                dialogo.SetActive(true);
             playerDentro = true;
         }
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
+        dialogo.SetActive(false);
         if (collision.tag == "Player")
         {
             borda.SetActive(false);

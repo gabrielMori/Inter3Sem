@@ -14,6 +14,7 @@ public class porta_azul_f : MonoBehaviour {
     bool portaAberta = false;
     bool portaFechada = true;
     bool portaIdleAberta = false;
+    public GameObject dialogo;
     // Use this for initialization
     void Start()
     {
@@ -65,7 +66,7 @@ public class porta_azul_f : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag == "Player"&&mostraTecla==true)
+        if (collider.tag == "Player" && mostraTecla == true)
         {
             if (PlayerPrefs.GetInt("chave_azul") == 1)
             {
@@ -74,16 +75,20 @@ public class porta_azul_f : MonoBehaviour {
             tecla.SetActive(true);
             playerDentro = true;
         }
+        else
+            dialogo.SetActive(true);
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
+        dialogo.SetActive(false);
         if (collision.tag == "Player"&&mostraTecla==true)
         {
             borda.SetActive(false);
             tecla.SetActive(false);
             playerDentro = false;
         }
+            
     }
 }
 

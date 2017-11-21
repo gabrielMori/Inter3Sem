@@ -12,7 +12,7 @@ public class esquemaPorta : MonoBehaviour {
     bool portaFechada = true;
     bool portaIdleAberta = false;
     public GameObject borda;
-
+    public GameObject dialogo;
     // Use this for initialization
     void Start () {
 		
@@ -62,16 +62,20 @@ public class esquemaPorta : MonoBehaviour {
             {
                 borda.SetActive(true);
             }
+            else
+                dialogo.SetActive(true);
             playerDentro = true;
         }
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
+        dialogo.SetActive(false);
         if (collision.tag == "Player")
         {
             playerDentro = false;
             borda.SetActive(false);
         }
+           
     }
 }

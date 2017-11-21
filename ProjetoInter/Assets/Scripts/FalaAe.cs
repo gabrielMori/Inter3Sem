@@ -16,10 +16,12 @@ public class FalaAe : MonoBehaviour
     public bool documento;
     bool faznada = false;
     bool some =false;
+    bool ok=false;
+    bool okey=false;
     // Use this for initialization
     void Start()
     {
-        PlayerPrefs.SetInt("mapa", 0);
+
     }
 
     // Update is called once per frame
@@ -54,7 +56,7 @@ public class FalaAe : MonoBehaviour
     }
     private void OnTriggerStay2D(Collider2D col)
     {
-        if(col.CompareTag("Player"))
+        if(col.CompareTag("Player")&& ((ok || okey)==false))
         dialogo[0].SetActive(true);
         if (Input.GetKeyDown(KeyCode.E) && pegueiAlago == true)
         {
@@ -65,16 +67,20 @@ public class FalaAe : MonoBehaviour
                 {
                     SFX[i].Play();
                 }
-                    objDestruido.GetComponent<Collider2D>().enabled = false;
                     for (int t = 0; t < coletavel.Length; t++)
                         coletavel[t].SetActive(true);
-                }
+                ok = true;
+            }
             
             if (inventario == true)
             {
-                objDestruido.GetComponent<Collider2D>().enabled = false;
+                for (int i = 0; i < SFX.Length; i++)
+                {
+                    SFX[i].Play();
+                }
                 for (int i = 0; i < coletavel.Length; i++)
                     coletavel[i].GetComponent<Image>().color = new Color(1, 1, 1, 1);
+                okey = true;
             }
 
         }

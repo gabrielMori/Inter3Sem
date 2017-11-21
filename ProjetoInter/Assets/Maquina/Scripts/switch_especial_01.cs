@@ -13,9 +13,7 @@ public class switch_especial_01 : MonoBehaviour
 
     void Start()
     {
-        
-        PlayerPrefs.SetInt("switch_especial01", 0);
-        //PlayerPrefs.SetInt("maquina01", 0);
+
         if (PlayerPrefs.GetInt("switch_especial01") == 0)
         {
             anim.SetBool("ativada", false);
@@ -31,7 +29,7 @@ public class switch_especial_01 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("E") /*Input.GetKeyDown(KeyCode.E)*/ && playerDentro && !maquinaLigada && !especial)
+        if (Input.GetKeyDown(KeyCode.E) && playerDentro && !maquinaLigada && !especial)
         {
             if (!maquinaLigada)
             {
@@ -58,7 +56,7 @@ public class switch_especial_01 : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerStay2D(Collider2D collider)
     {
 
         if (collider.tag == "Player")
