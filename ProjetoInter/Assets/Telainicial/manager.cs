@@ -46,16 +46,47 @@ public class manager : MonoBehaviour {
 
     public void ResetPlayerData()
     {
-        PlayerPrefs.DeleteAll();
+        if (PlayerPrefs.GetInt("som") == 0) {
+            PlayerPrefs.DeleteAll();
+            Invoke("apagar1", 1);
+        }
+
+        if (PlayerPrefs.GetInt("som") == 1)
+        {
+            PlayerPrefs.DeleteAll();
+            Invoke("apagar2", 1);
+        }
         //PlayerPrefs.SetInt("chave_azul", 0);
         //PlayerPrefs.SetInt("chave_azul", 0);
         //PlayerPrefs.SetInt("chave_azul", 3);
         //PlayerPrefs.SetInt("chave_azul", 0);
     }
 
+    public void apagar1() {
+        PlayerPrefs.SetInt("som", 0);
+    }
+
+    public void apagar2()
+    {
+        PlayerPrefs.SetInt("som", 1);
+    }
+
     public void Sair()
     {
         Application.Quit();
+    }
+
+    public void desligaSomON() {
+
+        PlayerPrefs.SetInt("som", 1);
+
+    }
+
+    public void desligaSomOFF()
+    {
+        PlayerPrefs.SetInt("som", 0);
+
+
     }
 
 }
