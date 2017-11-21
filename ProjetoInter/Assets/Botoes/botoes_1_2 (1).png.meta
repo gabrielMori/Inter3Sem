@@ -1,18 +1,17 @@
 fileFormatVersion: 2
-guid: 23d4bb3c355f6844babe4c1d39a46640
-timeCreated: 1511285025
+guid: a979c7cca8ffdf64aa6c381502d4f6ad
+timeCreated: 1511295838
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: itens_inventario_0
-    21300002: itens_inventario_1
-    21300004: itens_inventario_2
-    21300006: itens_inventario_3
-    21300008: itens_inventario_4
-    21300010: itens_inventario_5
-    21300012: itens_inventario_6
-    21300014: itens_inventario_7
-    21300016: itens_inventario_8
+    21300000: botoes_1_2 (1)_0
+    21300002: botoes_1_2 (1)_1
+    21300004: botoes_1_2 (1)_2
+    21300006: botoes_1_2 (1)_3
+    21300008: botoes_1_2 (1)_4
+    21300010: botoes_1_2 (1)_5
+    21300012: botoes_1_2 (1)_6
+    21300014: botoes_1_2 (1)_7
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -79,117 +78,104 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: itens_inventario_0
+      name: botoes_1_2 (1)_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 37
-        width: 14
-        height: 21
+        x: 0
+        y: 165
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: itens_inventario_1
+      name: botoes_1_2 (1)_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 37
-        width: 14
-        height: 21
+        x: 123
+        y: 165
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: itens_inventario_2
+      name: botoes_1_2 (1)_2
       rect:
         serializedVersion: 2
-        x: 41
-        y: 37
-        width: 14
-        height: 21
+        x: 0
+        y: 110
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: itens_inventario_3
+      name: botoes_1_2 (1)_3
       rect:
         serializedVersion: 2
-        x: 58
-        y: 37
-        width: 14
-        height: 21
+        x: 123
+        y: 110
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: itens_inventario_4
+      name: botoes_1_2 (1)_4
       rect:
         serializedVersion: 2
-        x: 75
-        y: 37
-        width: 14
-        height: 21
+        x: 0
+        y: 55
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: itens_inventario_5
+      name: botoes_1_2 (1)_5
       rect:
         serializedVersion: 2
-        x: 93
-        y: 37
-        width: 14
-        height: 21
+        x: 123
+        y: 55
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: itens_inventario_6
+      name: botoes_1_2 (1)_6
       rect:
         serializedVersion: 2
-        x: 110
-        y: 37
-        width: 14
-        height: 21
+        x: 0
+        y: 0
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: itens_inventario_7
+      name: botoes_1_2 (1)_7
       rect:
         serializedVersion: 2
-        x: 9
-        y: 10
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: itens_inventario_8
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 10
-        width: 11
-        height: 23
+        x: 123
+        y: 0
+        width: 123
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

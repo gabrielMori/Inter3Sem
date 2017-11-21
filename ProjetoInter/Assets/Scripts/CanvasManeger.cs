@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CanvasManeger : MonoBehaviour
 {
+    public GameObject inventario;
     public GameObject pause;
     public GameObject mapa;
     bool peguei = false;
@@ -16,19 +17,35 @@ public class CanvasManeger : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P))
         {
-            if (ativado == false)
-            {
-                Time.timeScale = 0;
-                pause.SetActive(true);
-                ativado = true;
-            }
-            else
-            {
-                Time.timeScale = 1;
-                pause.SetActive(false);
-                ativado = false;
-            }
-
+                if (ativado == false)
+                {
+                    Time.timeScale = 0;
+                    pause.SetActive(true);
+                    ativado = true;
+                }
+                else
+                {
+                    Time.timeScale = 1;
+                    pause.SetActive(false);
+                    ativado = false;
+                }
+            
+        }
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+                if (ativado == false)
+                {
+                    Time.timeScale = 0;
+                    inventario.SetActive(true);
+                    ativado = true;
+                }
+                else
+                {
+                    Time.timeScale = 1;
+                    inventario.SetActive(false);
+                    ativado = false;
+                }
+            
         }
         if (peguei == false)
         {
@@ -39,15 +56,15 @@ public class CanvasManeger : MonoBehaviour
                 peguei = true;
             }
         }
-        if (Input.GetKeyDown(KeyCode.M) && peguei == true)
-        {
-            Time.timeScale = 0;
-            mapa.SetActive(true);
-        }
-        if (Input.GetKeyUp(KeyCode.M) && peguei == true)
-        {
-            Time.timeScale = 1;
-            mapa.SetActive(false);
-        }
+            if (Input.GetKeyDown(KeyCode.M) && peguei == true)
+            {
+                Time.timeScale = 0;
+                mapa.SetActive(true);
+            }
+            if (Input.GetKeyUp(KeyCode.M) && peguei == true)
+            {
+                Time.timeScale = 1;
+                mapa.SetActive(false);
+            }
     }
 }

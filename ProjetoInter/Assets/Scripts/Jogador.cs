@@ -261,7 +261,6 @@ public class Jogador : MonoBehaviour
 			onTrigger = true;
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Destroy(collider.gameObject);
                 canvas[1].SetActive(false);
             }
 		}
