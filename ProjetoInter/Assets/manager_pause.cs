@@ -5,18 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class manager_pause : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void menuInicial() {
+		Time.timeScale = 1;
         SceneManager.LoadScene("inicial");
-
     }
 }

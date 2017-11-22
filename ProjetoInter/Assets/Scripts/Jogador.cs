@@ -45,12 +45,15 @@ public class Jogador : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+		print (Time.timeScale);
+
 		meuRigidbody = GetComponent<Rigidbody2D>();
 	}
 
 	// Update is called once per frame
 	void FixedUpdate()
 	{
+		
 		if (cooldownEfeito > 0)
 		{
 			cooldownEfeito -= Time.deltaTime;
