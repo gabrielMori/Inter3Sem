@@ -9,7 +9,8 @@ public class Aranha : MonoBehaviour {
     public GameObject vapor2;
     public GameObject fire1;
     public GameObject fire2;
-
+    public AudioSource[] aS;
+    public AudioClip[] clip;
     public int inteligencia, inteligencia2, direcao;
 	private float idleTimer, venenoRandom, venenoTimer, ataque3Timer;
 	private Animator anim;
@@ -23,6 +24,12 @@ public class Aranha : MonoBehaviour {
 	public bool playerInRange;
 	// Use this for initialization
 	void Start () {
+        aS[0].clip = clip[0];
+        aS[0].Play();
+        aS[1].clip = clip[1];
+        aS[1].Play();
+        aS[2].clip = clip[4];
+        aS[2].Play();
         fire1.SetActive(true);
         player = GameObject.FindGameObjectWithTag ("Player");
 		anim = GetComponent<Animator> ();
@@ -75,7 +82,8 @@ public class Aranha : MonoBehaviour {
 				//transição
 
 				anim.SetTrigger("Transicao1-2");
-
+                aS[1].clip = clip[2];
+                aS[1].Play();
                 vapor1.SetActive(true);
 
                 break;
@@ -100,13 +108,17 @@ public class Aranha : MonoBehaviour {
 		case 2:
 			//estagio3
 			ataquePos.SetActive(false);
-			for(int i = 0; i < venenos.Length; i++){
+                
+                for (int i = 0; i < venenos.Length; i++){
 				venenos [i].SetActive (false);
+
 			}
 
 			switch(inteligencia2){
 			case 0:
                         //transição
+                        aS[1].clip = clip[3];
+                        aS[1].Play();
                         vapor2.SetActive(true);
                         fire1.SetActive(false);
                         fire2.SetActive(true);
@@ -130,6 +142,7 @@ public class Aranha : MonoBehaviour {
 			break;
 		case 3:
                 //morte
+                aS[0].Stop();
             PlayerPrefs.SetInt("fornalhaligada", 1);
 			anim.SetTrigger ("Morte");
 			print ("morte");

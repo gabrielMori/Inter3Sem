@@ -21,10 +21,12 @@ public class BGchange : MonoBehaviour {
     {
         if (collision.CompareTag("Player"))
         {
-            
-            BG.clip = musica1;
-            BG.Play();
-            ambiencia.Play();
+            if (BG.clip != musica1)
+            {
+                BG.clip = musica1;
+                BG.Play();
+                ambiencia.Play();
+            }
         }
     }
 }

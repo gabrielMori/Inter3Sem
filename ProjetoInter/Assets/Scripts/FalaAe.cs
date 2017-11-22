@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class FalaAe : MonoBehaviour
 {
+    public GameObject tecla;
     public GameObject escrito, chave, folha, invent;
     public bool esc, cha, fo;
     public AudioSource[] SFX;
@@ -25,11 +26,13 @@ public class FalaAe : MonoBehaviour
         if (col.CompareTag("Player") && ((ok || okey) == false))
         {
             dialogo[0].SetActive(true);
+            tecla.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E) && pegueiAlago == true)
             {
                 umaVez = true;
                 umaVezagain = true;
                 dialogo[0].SetActive(false);
+                tecla.SetActive(false);
                 if (documento == true)
                 {
                     for (int i = 0; i < SFX.Length; i++)
@@ -61,6 +64,7 @@ public class FalaAe : MonoBehaviour
                     col.GetComponent<Jogador>().documentos[documentosIndex[i]] = 1;
                 }
             }
+            Invoke("SomeComIsso", 2);
         }
             if (Input.GetKeyUp(KeyCode.E) && (umaVez == true))
             {
@@ -103,5 +107,8 @@ public class FalaAe : MonoBehaviour
         dialogo[0].SetActive(false);
         umaVezagain = false;
     }
-    
+    void SomeComIsso()
+    {
+        dialogo[0].SetActive(false);
+    }
 }
