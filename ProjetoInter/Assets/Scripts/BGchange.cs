@@ -7,6 +7,7 @@ public class BGchange : MonoBehaviour {
     public AudioSource BG;
     public AudioSource ambiencia;
     bool umaVez;
+   
 	// Use this for initialization
 	void Start () {
 		
@@ -20,6 +21,7 @@ public class BGchange : MonoBehaviour {
     {
         if (collision.CompareTag("Player"))
         {
+            
             BG.clip = musica1;
             BG.Play();
             ambiencia.Play();

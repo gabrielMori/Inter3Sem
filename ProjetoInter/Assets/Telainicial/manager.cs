@@ -8,7 +8,7 @@ public class manager : MonoBehaviour {
   // Use this for initialization
     void Start()
     {
-        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
+        //float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
     }
 
     void Update()
