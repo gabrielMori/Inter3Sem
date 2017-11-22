@@ -67,4 +67,19 @@ public class CanvasManeger : MonoBehaviour
                 mapa.SetActive(false);
             }
     }
+
+    public void Continue() {
+        Time.timeScale = 1;
+        pause.SetActive(false);
+        ativado = false;
+
+    }
+
+    public void Continue_inventario()
+    {
+        Time.timeScale = 1;
+        inventario.SetActive(false);
+        ativado = false;
+
+    }
 }

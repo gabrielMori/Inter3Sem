@@ -8,7 +8,7 @@ public class manager : MonoBehaviour {
   // Use this for initialization
     void Start()
     {
-        //float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
+        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
     }
 
     void Update()
@@ -35,7 +35,7 @@ public class manager : MonoBehaviour {
     {
         //NEW GAME
         PlayerPrefs.SetInt("Reset", 0);
-        LevelLoad(cena);
+        LevelLoad("level");
     }
 
     //funcao propria pra carregar o level
