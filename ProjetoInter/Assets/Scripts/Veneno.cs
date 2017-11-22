@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Veneno : MonoBehaviour {
+	[SerializeField]
+	private Jogador jogador;
 
 	private Animator anim;
 	private bool playerInRange;
@@ -28,7 +30,9 @@ public class Veneno : MonoBehaviour {
 	}
 
 	private void KillPlayer(){
-		if (playerInRange)
-			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+		if(jogador.invencivel){
+			if (!playerInRange)
+				SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
+		}
 	}
 }

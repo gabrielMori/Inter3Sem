@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Tamandua : MonoBehaviour
 {
+	[SerializeField]
+	private Jogador jogador;
     private int inteligencia;
 
     void FixedUpdate()
@@ -56,9 +58,12 @@ public class Tamandua : MonoBehaviour
 
     private void Death()
     {
-        if (GetComponent<Animator>().GetBool("PlayerInRange"))
-            SceneManager.LoadScene("dead");
-        else
-            GetComponent<Animator>().ResetTrigger("Attack");
+		if (!jogador.invencivel) {
+			if (GetComponent<Animator> ().GetBool ("PlayerInRange"))
+				SceneManager.LoadScene ("dead");
+			else
+				GetComponent<Animator> ().ResetTrigger ("Attack");
+		} else
+			GetComponent<Animator> ().ResetTrigger ("Attack");
     }
 }

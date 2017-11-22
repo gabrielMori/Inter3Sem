@@ -148,8 +148,10 @@ public class Aranha : MonoBehaviour {
 
 	private void RetornaIdle(int i){
 		inteligencia2 = i;
-		if(playerInRange){
-			SceneManager.LoadScene ("dead");
+		if (!player.GetComponent<Jogador> ().invencivel) {
+			if (playerInRange) {
+				SceneManager.LoadScene ("dead");
+			}
 		}
 	}
 

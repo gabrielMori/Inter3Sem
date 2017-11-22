@@ -108,7 +108,9 @@ public class Javali : MonoBehaviour
 			break;
 		case 2:
 			//ataca
-			SceneManager.LoadScene ("dead");
+			if(!player.GetComponent<Jogador>().invencivel){
+				SceneManager.LoadScene ("dead");
+			}
 			break;
 		}
 	}

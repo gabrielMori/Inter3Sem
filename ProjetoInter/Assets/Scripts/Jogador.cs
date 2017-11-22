@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Jogador : MonoBehaviour
 {
+	public bool invencivel;
 	public int[] itens;
 	public int[] documentos;
 	bool personagemDesligado = false;

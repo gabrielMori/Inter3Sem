@@ -44,13 +44,13 @@ public class CameraSegue : MonoBehaviour {
 
 	// Update is called once per frame
 	void LateUpdate () {
-        if (PlayerPrefs.GetInt("dentroTubo") == 1)
+		if (PlayerPrefs.GetInt("dentroTubo") == 1 && !focoBoss)
         {
             transform.position = Vector3.Lerp(transform.position, new Vector3(alvo.position.x, alvo.position.y - 2.5f, transform.position.z), 8 * Time.deltaTime);
 
         }
 
-        if (PlayerPrefs.GetInt("dentroTubo") == 0)
+		if (PlayerPrefs.GetInt("dentroTubo") == 0 && !focoBoss)
         {
             transform.position = Vector3.Lerp(transform.position, new Vector3(alvo.position.x, alvo.position.y +1.5f, transform.position.z), 8 * Time.deltaTime);
 
