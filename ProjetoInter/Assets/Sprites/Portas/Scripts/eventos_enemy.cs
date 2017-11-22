@@ -42,7 +42,6 @@ public class eventos_enemy : MonoBehaviour {
 
         if (PlayerPrefs.GetInt("inimigo02") == 1)
         {
-            print("mudou");
             inimigo3.SetActive(false);
             inimigo4.SetActive(true);
             //inimigo1.transform.localPosition = inimigo1.GetComponent<destino>().estado02.transform.localPosition;

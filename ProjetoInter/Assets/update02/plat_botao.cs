@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class plat_botao : MonoBehaviour
 {
+    public GameObject tecla;
     public GameObject dialogo;
     public GameObject plataforma;
     bool playerDentro = false;
@@ -20,10 +21,11 @@ public class plat_botao : MonoBehaviour
 
         if (Input.GetButtonDown("E") && playerDentro)
         {
+            tecla.SetActive(false);
             if (PlayerPrefs.GetInt("plataforma01") == 0)
             {
                 PlayerPrefs.SetInt("plataforma01", 1);
-                Invoke("destroi", 1.65f);
+                Invoke("destroi", 1f);
             }
         }
 
@@ -39,6 +41,7 @@ public class plat_botao : MonoBehaviour
     {
         if (col.gameObject.tag.Equals("Player"))
         {
+            tecla.SetActive(true);
             dialogo.SetActive(true);
             playerDentro = true;
         }

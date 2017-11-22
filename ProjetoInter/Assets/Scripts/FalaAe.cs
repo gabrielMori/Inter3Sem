@@ -72,6 +72,7 @@ public class FalaAe : MonoBehaviour
                 if (documento == true)
                     folha.SetActive(true);
                 umaVez = false;
+            Invoke("DeuTempo", 2);
             }
             if (Input.GetKeyDown(KeyCode.I) && (umaVezagain == true))
             {
@@ -85,7 +86,22 @@ public class FalaAe : MonoBehaviour
                     folha.SetActive(false);
                 umaVezagain = false;
             }
-
+        if (Input.GetKeyDown(KeyCode.M) && (umaVezagain == true))
+        {
+            if (esc == true)
+                coletavel[0].SetActive(false);
         }
+    }
+    void DeuTempo()
+    {
+        if (esc == true)
+            escrito.SetActive(false);
+        if (inventario == true)
+            chave.SetActive(false);
+        if (documento == true)
+            folha.SetActive(false);
+        dialogo[0].SetActive(false);
+        umaVezagain = false;
+    }
     
 }

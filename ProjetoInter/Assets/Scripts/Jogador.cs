@@ -10,7 +10,7 @@ public class Jogador : MonoBehaviour
 	bool efeito = false;
 	bool efeitoTransicao = false;
 	float cooldownEfeito = 0;
-
+    public GameObject dica;
 	bool efeito2 = false;
 	bool efeitoTransicao2 = false;
 	float cooldownEfeito2 = 0;
@@ -179,29 +179,31 @@ public class Jogador : MonoBehaviour
 	{
 		if (collider.tag == "Duto")
 		{
-
+            dica.SetActive(true);
 			onTrigger = true;
 			canvas[0].SetActive(true);
 			GetComponent<Animator>().SetBool("DutoDireita", collider.GetComponent<Duto>().dir);
-			if (Input.GetKeyDown(KeyCode.UpArrow))
-			{
-				if (collider.GetComponent<Duto>().index == 0)
-				{
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                if (collider.GetComponent<Duto>().index == 0)
+                {
                     print("dentro do tudo");
-                    
-					duto = true;
-					transform.position = collider.transform.position;
-				}
-				else
-				{
+
+                    duto = true;
+                    transform.position = collider.transform.position;
+                }
+                else
+                {
                     print("fora do tudo");
                     PlayerPrefs.SetInt("dentroTubo", 1);
                     duto = false;
-				}
-				TransicaoDuto(collider.GetComponent<Duto>().pos.transform.position, collider.GetComponent<Duto>().index);
-				Physics2D.IgnoreCollision(GetComponent<Collider2D>(), collider.GetComponent<Duto>().dutoSuperficie.GetComponent<Collider2D>());
-				dutoColisor = collider.GetComponent<Duto>().dutoSuperficie.GetComponent<Collider2D>();
-			}
+                }
+                TransicaoDuto(collider.GetComponent<Duto>().pos.transform.position, collider.GetComponent<Duto>().index);
+                Physics2D.IgnoreCollision(GetComponent<Collider2D>(), collider.GetComponent<Duto>().dutoSuperficie.GetComponent<Collider2D>());
+                dutoColisor = collider.GetComponent<Duto>().dutoSuperficie.GetComponent<Collider2D>();
+            }
+            else
+                Invoke("SomeDica", 1);
 		}
 
 		if (collider.tag == "Switch")
@@ -327,7 +329,8 @@ public class Jogador : MonoBehaviour
 		{
 			if (duto)
 			{
-				pulando = false;
+                dica.SetActive(false);
+                pulando = false;
 				meuRigidbody.gravityScale = 0;
 				meuRigidbody.velocity = Vector3.zero;
 				subindo = true;
@@ -336,21 +339,22 @@ public class Jogador : MonoBehaviour
 		}
 		if (collider.tag == "Escada_1")
 		{
- 
+            canvas[0].SetActive(true);
 			PlayerPrefs.SetInt("estado", 0);
 			if (Input.GetButtonDown("Vertical") && !efeito)
 			{
-
-			}
+                canvas[0].SetActive(false);
+            }
 		}
 
 		if (collider.tag == "Escada_2")
 		{
-			PlayerPrefs.SetInt("estado", 1);
+            canvas[0].SetActive(true);
+            PlayerPrefs.SetInt("estado", 1);
 			if (Input.GetButtonDown("Vertical") && !efeito)
 			{
-
-			}
+                canvas[0].SetActive(false);
+            }
 		}
 
         //copiar isso daqui pro proximo UPDATE
@@ -366,5 +370,9 @@ public class Jogador : MonoBehaviour
 
 
         //copiar isso daqui pro proximo UPDATE
+    }
+    void SomeDica()
+    {
+        dica.SetActive(false);
     }
 }
