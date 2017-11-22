@@ -45,6 +45,7 @@ public class Jogador : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+        PlayerPrefs.SetInt("dentroTubo", 0);
 		print (Time.timeScale);
 
 		meuRigidbody = GetComponent<Rigidbody2D>();
