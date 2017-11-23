@@ -42,13 +42,19 @@ public class GetPass : MonoBehaviour {
 				for(int i = 0; i < documentosColetados.Length; i++){
 					GetComponent<Jogador> ().documentos [i] = documentosColetados [i];
 				}
+
+				if (PlayerPrefs.GetInt ("inimigo02Save") == 0) {
+					PlayerPrefs.SetInt ("inimigo02", 0);
+				} else {
+					PlayerPrefs.SetInt ("inimigo02", 1);
+				}
 			}
 		}
 		if (PlayerPrefs.GetInt("Reset") == 1)
 		{
 			if (PlayerPrefs.HasKey("posPx"))
 			{
-				Vector3 posplayer = new Vector3(35f, 1.5f, gameObject.transform.position.z);
+				Vector3 posplayer = new Vector3(35f, 1.5f, -1);
 				gameObject.transform.position = posplayer;
 			}
 		}

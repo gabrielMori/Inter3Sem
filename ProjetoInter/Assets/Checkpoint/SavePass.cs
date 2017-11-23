@@ -38,6 +38,10 @@ public class SavePass : MonoBehaviour {
 			//recarrega lanterna
 			lanterna.lightDentro.GetComponent<Light> ().intensity = 8;
 			lanterna.lightFora.GetComponent<Light> ().intensity = 4;
+
+			if(PlayerPrefs.GetInt("inimigo02") == 1){
+				PlayerPrefs.SetInt ("inimigo02Save", 1);
+			}
         }
 
 
