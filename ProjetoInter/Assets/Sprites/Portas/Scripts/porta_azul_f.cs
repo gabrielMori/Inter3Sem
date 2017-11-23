@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class porta_azul_f : MonoBehaviour
 {
+    public GameObject dialogo;
     public AudioSource portaAbre;
     bool playerDentro = false;
     public GameObject vao;
@@ -44,7 +45,7 @@ public class porta_azul_f : MonoBehaviour
                 }
 
             }
-        }
+        } 
 
 
         if (portaAberta)
@@ -69,14 +70,16 @@ public class porta_azul_f : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag == "Player" && mostraTecla == true)
+        if (collider.tag == "Player" /*&&  mostraTecla == true*/)
         {
             if (PlayerPrefs.GetInt("chave_amarela") == 1)
             {
                 borda.SetActive(true);
+                tecla.SetActive(true);
+                playerDentro = true;
             }
-            tecla.SetActive(true);
-            playerDentro = true;
+            else
+                dialogo.SetActive(true);        
         }
     }
 
@@ -87,7 +90,9 @@ public class porta_azul_f : MonoBehaviour
             tecla.SetActive(false);
             borda.SetActive(false);
             playerDentro = false;
+
         }
+        dialogo.SetActive(false);
     }
 }
 

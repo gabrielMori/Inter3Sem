@@ -22140,6 +22140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2586f59a844f6444eb85731f78224513, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogo: {fileID: 1121353740}
   portaAbre: {fileID: 1345694583}
   vao: {fileID: 1844714188}
   tecla: {fileID: 1483794886}
@@ -48456,7 +48457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tecla: {fileID: 1483794886}
-  escrito: {fileID: 0}
+  escrito: {fileID: 880490854}
   chave: {fileID: 0}
   folha: {fileID: 0}
   invent: {fileID: 0}
@@ -48468,9 +48469,8 @@ MonoBehaviour:
   dialogo:
   - {fileID: 227324778}
   pegueiAlago: 1
-  coletavel:
-  - {fileID: 880490854}
-  inventario: 0
+  coletavel: []
+  inventario: 1
   documento: 1
   itemIndex: 
   documentosIndex: 
@@ -56729,6 +56729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2586f59a844f6444eb85731f78224513, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogo: {fileID: 1121353740}
   portaAbre: {fileID: 1345694583}
   vao: {fileID: 887161362}
   tecla: {fileID: 1483794886}
