@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class managerFinal : MonoBehaviour {
-
+    public GameObject tela0;
     public GameObject tela1;
     public GameObject tela2;
     public GameObject tela3;
@@ -12,7 +12,7 @@ public class managerFinal : MonoBehaviour {
     // Use this for initialization
     void Start () {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);
-        Fim();
+        textoFinal();
     }
 	
 	// Update is called once per frame
@@ -20,6 +20,21 @@ public class managerFinal : MonoBehaviour {
         
 
     }
+
+    void textoFinal()
+    {
+        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
+        tela1.SetActive(true);
+        Invoke("transicao0", 5);
+
+    }
+
+    void transicao0()
+    {
+        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);
+        Invoke("Fim", 3);
+    }
+
     void Fim() {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
         tela1.SetActive(true);
@@ -29,7 +44,7 @@ public class managerFinal : MonoBehaviour {
 
     void transicao1() {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);        
-        Invoke("Agradecimentos", 3);
+        Invoke("Agradecimentos", 5);
     }
     void Agradecimentos() {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
@@ -48,7 +63,7 @@ public class managerFinal : MonoBehaviour {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
         tela2.SetActive(false);
         tela3.SetActive(true);
-        Invoke("transicao3", 3);
+        Invoke("transicao3", 5);
         
     }
 
