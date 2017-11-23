@@ -17,12 +17,20 @@ public class porta_especial : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        if (PlayerPrefs.GetInt("inicioSetor2") == 1) {
+            anim.SetBool("abrindo",false);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+
+       // if (PlayerPrefs.GetInt("inicioSetor2") == 1)
+       // {
+        //    anim.SetBool("abrindo", false);
+       // }
+
         if (PlayerPrefs.GetInt("maquina01") == 1)
         {
             mostraTecla = true;
@@ -78,6 +86,8 @@ public class porta_especial : MonoBehaviour {
             anim.SetBool("abrindo", false);
             portaIdleAberta = false;
             vao.SetActive(true);
+            //PlayerPrefs.SetInt("inicioSetor2", 1);
+            PlayerPrefs.SetInt("maquina01", 0);
         }
         else
         {
