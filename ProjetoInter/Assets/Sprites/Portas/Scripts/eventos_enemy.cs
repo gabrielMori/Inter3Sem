@@ -15,6 +15,8 @@ public class eventos_enemy : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        PlayerPrefs.SetInt("inimigo01", 0);
+        PlayerPrefs.Save();
     }
 	
 	// Update is called once per frame
