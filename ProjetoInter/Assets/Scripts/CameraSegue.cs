@@ -23,6 +23,7 @@ public class CameraSegue : MonoBehaviour {
 	float posYInicial;
 
 	void Start () {
+		PlayerPrefs.SetInt ("dentroTubo", 0);
 
 		if (PlayerPrefs.GetInt("checkpoint") == 0)
 		{
@@ -45,31 +46,31 @@ public class CameraSegue : MonoBehaviour {
 	// Update is called once per frame
 	void LateUpdate () {
 		if (PlayerPrefs.GetInt("dentroTubo") == 1 && !focoBoss)
-        {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(alvo.position.x, alvo.position.y - 2.5f, transform.position.z), 8 * Time.deltaTime);
+		{
+			transform.position = Vector3.Lerp(transform.position, new Vector3(alvo.position.x, alvo.position.y - 2.5f, transform.position.z), 8 * Time.deltaTime);
 
-        }
+		}
 
 		if (PlayerPrefs.GetInt("dentroTubo") == 0 && !focoBoss)
-        {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(alvo.position.x, alvo.position.y +1.5f, transform.position.z), 8 * Time.deltaTime);
+		{
+			transform.position = Vector3.Lerp(transform.position, new Vector3(alvo.position.x, alvo.position.y +1.5f, transform.position.z), 8 * Time.deltaTime);
+			GetComponent<Camera> ().orthographicSize = Mathf.Lerp (GetComponent<Camera> ().orthographicSize, 3.17f, Time.deltaTime);
 
-            
-        }
+		}
 
-        if (!focoBoss)
+		/*else if (!focoBoss)
         {
             transform.position = Vector3.Lerp(transform.position, new Vector3(alvo.position.x, alvo.position.y + 1.5f, transform.position.z), 8 * Time.deltaTime);
             GetComponent<Camera>().orthographicSize = Mathf.Lerp(GetComponent<Camera>().orthographicSize, 3.17f, Time.deltaTime);
-        }
-        else
-        {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(alvoAranha.position.x, alvoAranha.position.y, transform.position.z), Time.deltaTime);
-            GetComponent<Camera>().orthographicSize = Mathf.Lerp(GetComponent<Camera>().orthographicSize, 10, Time.deltaTime);
-        }
+        }*/
+		else if(focoBoss)
+		{
+			transform.position = Vector3.Lerp(transform.position, new Vector3(alvoAranha.position.x, alvoAranha.position.y, transform.position.z), Time.deltaTime);
+			GetComponent<Camera>().orthographicSize = Mathf.Lerp(GetComponent<Camera>().orthographicSize, 10, Time.deltaTime);
+		}
 
 
-    }
+	}
 }
 
 

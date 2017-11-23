@@ -105,7 +105,8 @@ public class Jogador : MonoBehaviour
 
 		estaNoChao = EstaNoChao();
 
-		Botoes();
+		if(PlayerPrefs.GetInt("dentroTubo") == 0)
+			Botoes();
 
 		if (!rastejando && !subindo)
 		{

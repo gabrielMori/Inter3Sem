@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CheatManager : MonoBehaviour {
 	[SerializeField]
 	private Transform[] spawnPositions;
 	[SerializeField]
 	private GameObject jogador;
+	[SerializeField]
+	private Image[] imagens;
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.Alpha1)){
@@ -28,6 +31,9 @@ public class CheatManager : MonoBehaviour {
 			PlayerPrefs.SetInt("chave_verde", 1);
 			PlayerPrefs.SetInt("inimigo02", 1);
 			PlayerPrefs.SetInt("chave_vermelha", 1);
+
+			for (int i = 0; i < imagens.Length; i++)
+				imagens [i].color = new Color (1,1,1,1);
 		}
 	}
 }

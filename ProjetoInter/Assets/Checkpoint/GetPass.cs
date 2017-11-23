@@ -9,14 +9,14 @@ public class GetPass : MonoBehaviour {
 
 	public int[] documentosColetados;
 	public GameObject[] documentosObj;
-    // Use this for initialization
-    void Start()
-    {
-        if (PlayerPrefs.GetInt("Reset") == 0) {
-            if (PlayerPrefs.HasKey("posPx"))
-            {
-                Vector3 posplayer = new Vector3(PlayerPrefs.GetFloat("posPx"), PlayerPrefs.GetFloat("posPy"), gameObject.transform.position.z);
-                gameObject.transform.position = posplayer;
+	// Use this for initialization
+	void Start()
+	{
+		if (PlayerPrefs.GetInt("Reset") == 0) {
+			if (PlayerPrefs.HasKey("posPx"))
+			{
+				Vector3 posplayer = new Vector3(PlayerPrefs.GetFloat("posPx"), PlayerPrefs.GetFloat("posPy"), gameObject.transform.position.z);
+				gameObject.transform.position = posplayer;
 
 				for(int i = 0; i < itensColetados.Length; i ++){
 					itensColetados [i] = PlayerPrefs.GetInt ("item" + i);
@@ -35,16 +35,23 @@ public class GetPass : MonoBehaviour {
 						documentosObj [j].SetActive (true);
 					}
 				}
-            }
-        }
-        if (PlayerPrefs.GetInt("Reset") == 1)
-        {
-            if (PlayerPrefs.HasKey("posPx"))
-            {
-                Vector3 posplayer = new Vector3(35f, 1.5f, gameObject.transform.position.z);
-                gameObject.transform.position = posplayer;
-            }
-        }
 
-    }
+				for(int i = 0; i < itensColetados.Length; i++){
+					GetComponent<Jogador> ().itens [i] = itensColetados [i];
+				}
+				for(int i = 0; i < documentosColetados.Length; i++){
+					GetComponent<Jogador> ().documentos [i] = documentosColetados [i];
+				}
+			}
+		}
+		if (PlayerPrefs.GetInt("Reset") == 1)
+		{
+			if (PlayerPrefs.HasKey("posPx"))
+			{
+				Vector3 posplayer = new Vector3(35f, 1.5f, gameObject.transform.position.z);
+				gameObject.transform.position = posplayer;
+			}
+		}
+
+	}
 }
