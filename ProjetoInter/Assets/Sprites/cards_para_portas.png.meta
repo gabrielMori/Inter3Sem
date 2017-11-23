@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 76983435612dbbd4fb9366f00f3ffe8a
-timeCreated: 1511109770
+timeCreated: 1511471823
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -14,6 +14,10 @@ TextureImporter:
     21300014: cards_para_portas_7
     21300016: cards_para_portas_8
     21300018: cards_para_portas_9
+    21300020: cards_para_portas_10
+    21300022: cards_para_portas_11
+    21300024: cards_para_portas_12
+    21300026: cards_para_portas_13
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -209,6 +213,58 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 153
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cards_para_portas_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cards_para_portas_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cards_para_portas_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cards_para_portas_13
+      rect:
+        serializedVersion: 2
+        x: 221
         y: 0
         width: 17
         height: 25
