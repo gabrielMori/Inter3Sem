@@ -16,13 +16,6 @@ public class porta_amarela_f : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        //PlayerPrefs.SetInt("maquina01", 0);
-        //PlayerPrefs.SetInt("chave_verde", 0);
-        //PlayerPrefs.SetInt("chave_amarela", 0);
-        //PlayerPrefs.SetInt("chave_roxa", 0);
-        //PlayerPrefs.SetInt("chave_azul", 0);
-        //PlayerPrefs.SetInt("chave_laranja", 0);
-
 
     }
 

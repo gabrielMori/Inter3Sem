@@ -11,7 +11,7 @@ public class corpo2 : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        PlayerPrefs.SetInt("switch_especial03", 0);
     }
 
     // Update is called once per frame
@@ -35,11 +35,9 @@ public class corpo2 : MonoBehaviour
         {
             if (PlayerPrefs.GetInt("switch_especial03") == 1)
             {
-                if (!desligaEfeito)
-                {
                     playerDentro = true;
                     borda.SetActive(true);
-                }
+                
             }
 
 
@@ -51,11 +49,10 @@ public class corpo2 : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player"))
         {
-            if (!desligaEfeito)
-            {
+            
                 playerDentro = false;
                 borda.SetActive(false);
-            }
+            
         }
     }
 }

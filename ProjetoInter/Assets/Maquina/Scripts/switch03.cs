@@ -21,18 +21,18 @@ public class switch03 : MonoBehaviour
 
     void Start()
     {
-       
-        if (PlayerPrefs.GetInt("switch_especial03") == 0)
-        {
-            anim.SetBool("ativada", false);
-            maquinaLigada = false;
-        }
+        PlayerPrefs.SetInt("fornalhaligada", 0);
+        //if (PlayerPrefs.GetInt("switch_especial03") == 0)
+        //{
+        //    anim.SetBool("ativada", false);
+        //    maquinaLigada = false;
+       // }
 
-        if (PlayerPrefs.GetInt("switch_especial03") == 1)
-        {
-            anim.SetBool("ativada", false);
-            maquinaLigada = true;
-        }
+        //if (PlayerPrefs.GetInt("switch_especial03") == 1)
+       // {
+       //     anim.SetBool("ativada", false);
+       //     maquinaLigada = true;
+        //}
     }
 
     void Update()

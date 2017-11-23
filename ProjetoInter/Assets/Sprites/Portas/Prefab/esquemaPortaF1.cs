@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class esquemaPortaF1 : MonoBehaviour {
-
+using UnityEngine.UI;
+public class esquemaPortaF1 : MonoBehaviour
+{
+    public AudioSource portaAbre;
     bool playerDentro = false;
     public GameObject vao;
+    public GameObject tecla;
     public GameObject borda;
-
+    bool mostraTecla = false;
     public Animator anim;
     bool portaAberta = false;
     bool portaFechada = true;
@@ -21,13 +23,16 @@ public class esquemaPortaF1 : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetInt("chave_azul") == 1)
+        if (PlayerPrefs.GetInt("maquina01") == 1)
         {
+            mostraTecla = true;
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
                 if (playerDentro)
                 {
+                    portaAbre.Play();
                     portaAberta = true;
+
                     //playerDentro = false;
                 }
 
@@ -38,7 +43,6 @@ public class esquemaPortaF1 : MonoBehaviour {
         if (portaAberta)
         {
             anim.SetBool("abrindo", true);
-
             Invoke("aberta", 2);
         }
     }
@@ -50,6 +54,7 @@ public class esquemaPortaF1 : MonoBehaviour {
 
     void portaFechando()
     {
+        portaAbre.Stop();
         anim.SetBool("abrindo", false);
         vao.SetActive(true);
         portaAberta = false;
@@ -57,20 +62,22 @@ public class esquemaPortaF1 : MonoBehaviour {
 
     public void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.tag == "Player")
+        if (collider.tag == "Player" && mostraTecla == true)
         {
-            if (PlayerPrefs.GetInt("chave_azul") == 1)
+            if (PlayerPrefs.GetInt("maquina01") == 1)
             {
                 borda.SetActive(true);
             }
+            tecla.SetActive(true);
             playerDentro = true;
         }
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && mostraTecla == true)
         {
+            tecla.SetActive(false);
             borda.SetActive(false);
             playerDentro = false;
         }

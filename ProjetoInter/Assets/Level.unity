@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.22794116, g: 0.22794116, b: 0.22794116, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -158,9 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portaAbre: {fileID: 1345694583}
   vao: {fileID: 1977568905}
-  tecla: {fileID: 0}
   anim: {fileID: 612631}
-  dialogo: {fileID: 0}
 --- !u!61 &612629
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -585,7 +583,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: Posso ativar este distribuidor agora
+  m_Text: Agora posso ativar este distribuidor...
 --- !u!222 &14409396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2711,7 +2709,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 6
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2722,7 +2720,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: Finalmente encontrei a chave do ultimo setor! E outro relato do doutor
+  m_Text: "Finalmente encontrei a chave do ultimo setor! E outro relato do doutor
+    sobre as experi\xEAncias.."
 --- !u!222 &77695753
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3202,7 +3201,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 83223735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.321999, y: -11.805, z: 0}
+  m_LocalPosition: {x: -9.95, y: -11.805, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2127986285}
@@ -3864,7 +3863,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4484777965098326, guid: 98011563fc21aad4a889dd3435f73a17, type: 2}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 1320001743395290, guid: 98011563fc21aad4a889dd3435f73a17, type: 2}
       propertyPath: m_Name
@@ -4164,7 +4163,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 126254121}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 455624914}
@@ -4744,7 +4743,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &145088299
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4839,7 +4838,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4938,11 +4937,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 152982021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.9, y: -7.88, z: 0}
+  m_LocalPosition: {x: 11.9, y: -7.88, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &154638715
 Prefab:
@@ -4961,7 +4960,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5335,7 +5334,7 @@ Transform:
   m_Children:
   - {fileID: 483589378}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &163079508
 MonoBehaviour:
@@ -5842,7 +5841,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 176236326}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -104.339, y: 37.251, z: -0.2}
+  m_LocalPosition: {x: -102.935, y: 37.251, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2097861115}
@@ -6040,7 +6039,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: Preciso ativar a energia desse setor para esta porta funcionar
+  m_Text: Preciso ativar a energia desse setor para esta porta funcionar..
 --- !u!222 &176786513
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6179,7 +6178,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 6
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -6190,7 +6189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "S\xF3 a caldeira principal pode ligar essa maquina"
+  m_Text: "S\xF3 a caldeira principal pode ligar essa m\xE1quina..."
 --- !u!222 &187059832
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6213,7 +6212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &187434471
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6914,7 +6913,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -7594,7 +7593,7 @@ Transform:
   m_Children:
   - {fileID: 947012935}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &222507303
 MonoBehaviour:
@@ -7762,7 +7761,7 @@ Transform:
   m_Children:
   - {fileID: 1914969899}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &225431300
 MonoBehaviour:
@@ -7890,7 +7889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &227324779
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8194,7 +8193,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 238154462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -78.557, y: -23.640001, z: 0}
+  m_LocalPosition: {x: -78.557, y: -23.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 38855817}
@@ -8277,8 +8276,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 242578157}
-  - component: {fileID: 242578159}
   - component: {fileID: 242578158}
+  - component: {fileID: 242578159}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -8333,7 +8332,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 242578156}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 975582901}
@@ -9290,7 +9289,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: 'Agora a porta deve recebe energia
+  m_Text: 'Agora a porta deve receber energia...
 
 '
 --- !u!222 &279802125
@@ -9321,7 +9320,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 280802088}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.940001, y: -23.644001, z: 0}
+  m_LocalPosition: {x: -10.567, y: -23.644001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 835910890}
@@ -10879,7 +10878,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &320126172
 GameObject:
@@ -11149,7 +11148,7 @@ Transform:
   - {fileID: 912945049}
   - {fileID: 1308350284}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &329117340
 GameObject:
@@ -12124,7 +12123,7 @@ Transform:
   m_Children:
   - {fileID: 1796244971}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &349634276
 BoxCollider2D:
@@ -12430,7 +12429,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -12710,6 +12709,7 @@ Transform:
   m_Children:
   - {fileID: 1457694328}
   - {fileID: 1453706714}
+  - {fileID: 1431076620}
   - {fileID: 849092217}
   - {fileID: 2091154517}
   - {fileID: 623672124}
@@ -12722,7 +12722,7 @@ Transform:
   - {fileID: 225431299}
   - {fileID: 349634274}
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &368124406
 GameObject:
@@ -14670,7 +14670,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 424762435}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.21, y: 0, z: 0.05}
+  m_LocalPosition: {x: -0.21, y: 0, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1445889408}
@@ -15032,7 +15032,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 431181463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.0089965, y: 5.727001, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 720163961}
@@ -15363,7 +15363,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &449835522
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15434,7 +15434,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -15565,8 +15565,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 455624914}
-  - component: {fileID: 455624916}
   - component: {fileID: 455624915}
+  - component: {fileID: 455624916}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -15621,7 +15621,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 455624913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 126254121}
@@ -19575,7 +19575,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 577050843}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.243, y: -11.783001, z: 0}
+  m_LocalPosition: {x: -36.243, y: -11.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 950306196}
@@ -19666,7 +19666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &578783261
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20061,7 +20061,7 @@ Transform:
   - {fileID: 1577017372}
   - {fileID: 1135320298}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &591953743
 GameObject:
@@ -20273,7 +20273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &594361779
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20462,7 +20462,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 605408135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1834173945}
@@ -20762,7 +20762,7 @@ Transform:
   m_Children:
   - {fileID: 1541043570}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &624014724 stripped
 Transform:
@@ -21284,7 +21284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &641943737
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21598,7 +21598,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &651667161
 GameObject:
@@ -22205,7 +22205,6 @@ MonoBehaviour:
   tecla: {fileID: 1483794886}
   borda: {fileID: 465174649}
   anim: {fileID: 671029179}
-  dialogo: {fileID: 1121353740}
 --- !u!61 &671029177
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22542,7 +22541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &680422014
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22612,7 +22611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &680639607
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23326,7 +23325,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 709760903}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40.251, y: -0.010000229, z: 0}
+  m_LocalPosition: {x: 40.251, y: 0.008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 554495039}
@@ -23877,8 +23876,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 720163961}
-  - component: {fileID: 720163963}
   - component: {fileID: 720163962}
+  - component: {fileID: 720163963}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -23933,7 +23932,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 720163960}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 431181463}
@@ -24195,7 +24194,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -24276,7 +24275,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4406466167394598, guid: 20bd1f3af4626fb41a705bf8c53d02e3, type: 2}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1120752706251934, guid: 20bd1f3af4626fb41a705bf8c53d02e3, type: 2}
       propertyPath: m_Name
@@ -25305,7 +25304,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 754575214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 792581009}
@@ -25539,7 +25538,7 @@ Transform:
   - {fileID: 2096804254}
   - {fileID: 2062755966}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &774069599
 GameObject:
@@ -25722,7 +25721,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -25974,8 +25973,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 792581009}
-  - component: {fileID: 792581011}
   - component: {fileID: 792581010}
+  - component: {fileID: 792581011}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -26030,7 +26029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 792581008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 754575214}
@@ -26283,7 +26282,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: 'Isso deve clarear as coisas
+  m_Text: 'Isso deve clarear as coisas...
 
 '
 --- !u!222 &797547993
@@ -26894,7 +26893,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7d8d5b24bdd2684285836590abe255a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  portaAbre: {fileID: 1345694583}
   vao: {fileID: 998031506}
+  tecla: {fileID: 1483794886}
   borda: {fileID: 2044305076}
   anim: {fileID: 825413504}
 --- !u!61 &825413503
@@ -27024,7 +27025,7 @@ Transform:
   - {fileID: 1668537381}
   - {fileID: 61017472}
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &830234286
 GameObject:
@@ -27179,7 +27180,7 @@ Transform:
   - {fileID: 387648244}
   - {fileID: 983919519}
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &835910889
 GameObject:
@@ -27618,12 +27619,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849092214}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.8789997, y: -4.6770005, z: 0}
+  m_LocalPosition: {x: 26.37, y: -16.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 188677210}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &849092218
 MonoBehaviour:
@@ -27870,7 +27871,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &858756932
 GameObject:
@@ -28339,7 +28340,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870229979
 GameObject:
@@ -30027,7 +30028,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -30039,7 +30040,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
   m_Text: Finalmente econtrei um abastecedor de lanterna, outra folha de diario por
-    aqui
+    aqui..
 --- !u!222 &912745725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31288,7 +31289,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 949174133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1893537098}
@@ -31992,7 +31993,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 6
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -32003,7 +32004,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Entre muitos frascos empoeirados mais um cat\xE3o e documentos"
+  m_Text: "Entre muitos frascos empoeirados mais um cart\xE3o de acesso e um documento,
+    parece importante..."
 --- !u!222 &967434092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32304,7 +32306,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 975582901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 242578157}
@@ -33201,7 +33203,7 @@ Transform:
   m_Children:
   - {fileID: 978308510}
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1014281527
 GameObject:
@@ -34460,7 +34462,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1069647292}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1109676342}
@@ -34627,7 +34629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1073380824
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34971,8 +34973,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1077428648}
-  - component: {fileID: 1077428650}
   - component: {fileID: 1077428649}
+  - component: {fileID: 1077428650}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -35027,7 +35029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1077428647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 1260410344}
@@ -35316,7 +35318,7 @@ Transform:
   - {fileID: 1145245408}
   - {fileID: 960083091}
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1090906781
 GameObject:
@@ -35487,7 +35489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1092167211
 Rigidbody2D:
@@ -35990,7 +35992,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1107471406
 GameObject:
@@ -36072,8 +36074,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1109676342}
-  - component: {fileID: 1109676344}
   - component: {fileID: 1109676343}
+  - component: {fileID: 1109676344}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -36128,7 +36130,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1109676341}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 1069647292}
@@ -36323,7 +36325,7 @@ Transform:
   m_Children:
   - {fileID: 1433771117}
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1115295313
 GameObject:
@@ -36520,7 +36522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1121353741
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36695,7 +36697,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -36848,7 +36850,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1125253337}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.485, y: -0.06400013, z: 0}
+  m_LocalPosition: {x: 29.485, y: -0.046, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 431670548}
@@ -38266,7 +38268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1150835525
 Transform:
   m_ObjectHideFlags: 0
@@ -38365,7 +38367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1153533864
 RectTransform:
   m_ObjectHideFlags: 0
@@ -38771,7 +38773,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1166971550}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2043716886}
@@ -39170,7 +39172,7 @@ Transform:
   m_Children:
   - {fileID: 1186635684}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1174089837
 GameObject:
@@ -39285,7 +39287,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1174614008
 RectTransform:
   m_ObjectHideFlags: 0
@@ -39506,7 +39508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1176976704
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40605,7 +40607,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -40616,7 +40618,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "este bot\xE3o deve ativar\numa passagem"
+  m_Text: "Este bot\xE3o deve ativar\numa passagem..."
 --- !u!222 &1208034618
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40709,7 +40711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1211359268
 RectTransform:
   m_ObjectHideFlags: 0
@@ -40830,7 +40832,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: Preciso de uma chave e ligar a energia para abri-la
+  m_Text: Preciso de uma chave e ligar a energia para abri-la...
 --- !u!222 &1211521445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41338,7 +41340,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -41349,7 +41351,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Entre esses corpos, tem um documento sujo de sangue e outro cart\xE3o"
+  m_Text: "Entre esses corpos, tem um documento sujo de sangue e outro cart\xE3o de
+    aacesso..."
 --- !u!222 &1227858352
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -42216,7 +42219,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1260410344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1077428648}
@@ -42319,7 +42322,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 6
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -42330,7 +42333,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: Preciso de uma chave para abrir esta porta
+  m_Text: "Preciso de um cart\xE3o de acesso para abrir esta porta..."
 --- !u!222 &1264258793
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -43145,7 +43148,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1287841574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.04}
+  m_LocalPosition: {x: 0, y: 0, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 363171028}
@@ -44217,7 +44220,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -45198,7 +45201,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -45209,7 +45212,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Ainda n\xE3o consigo ativar este"
+  m_Text: "Ainda n\xE3o consigo ativar este switch..."
 --- !u!222 &1353334799
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45636,7 +45639,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1363512234}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1617881471}
@@ -46065,7 +46068,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -47284,7 +47287,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1395874578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.94, y: -53.156616, z: 0}
+  m_LocalPosition: {x: -10.94, y: -53.156616, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1778845058}
@@ -47292,7 +47295,7 @@ Transform:
   - {fileID: 2021466767}
   - {fileID: 1460395621}
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1402023727
 Prefab:
@@ -47529,7 +47532,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4406466167394598, guid: 20bd1f3af4626fb41a705bf8c53d02e3, type: 2}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 20bd1f3af4626fb41a705bf8c53d02e3, type: 2}
@@ -47962,7 +47965,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1420417860
 GameObject:
@@ -48477,12 +48480,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1431076618}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.65, y: -6.52, z: 0.04}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.488003, y: -17.192999, z: 0.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 366131604}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1431076621
 MonoBehaviour:
@@ -49175,7 +49178,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 6
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -50741,7 +50744,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Olha uma pagina de um di\xE1rio e um cart\xE3o de acesso "
+  m_Text: "Olha s\xF3, uma pagina de um di\xE1rio e um cart\xE3o de acesso... "
 --- !u!222 &1484664008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50764,7 +50767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1487405567
 RectTransform:
   m_ObjectHideFlags: 0
@@ -51815,7 +51818,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1516622479
 GameObject:
@@ -52784,7 +52787,7 @@ Transform:
   - {fileID: 1973222600}
   - {fileID: 1275960991}
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1550346818
 GameObject:
@@ -54063,7 +54066,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -54074,7 +54077,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: 'outro documento
+  m_Text: 'Econtrei mais um documento, parece importante...
 
 '
 --- !u!222 &1584294040
@@ -54467,7 +54470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1597419360
 RectTransform:
   m_ObjectHideFlags: 0
@@ -54538,7 +54541,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -55064,7 +55067,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 7
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -55075,9 +55078,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: 'mais uma chave
-
-'
+  m_Text: "Encontrei mais um cart\xE3o de acesso!\n"
 --- !u!222 &1613625301
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -55100,7 +55101,7 @@ GameObject:
   - component: {fileID: 1613818606}
   - component: {fileID: 1613818607}
   m_Layer: 0
-  m_Name: Check_04_esse
+  m_Name: Check_04_esse_inbisivel
   m_TagString: check2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55114,7 +55115,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613818600}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.58, y: 22.597, z: -0.2}
+  m_LocalPosition: {x: 43.493, y: 22.597, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1893537098}
@@ -55167,7 +55168,7 @@ SpriteRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613818600}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_MotionVectors: 1
@@ -55239,7 +55240,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613818600}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d886eac1dc5e84748a20e9e289cf2feb, type: 3}
   m_Name: 
@@ -55496,7 +55497,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -55581,8 +55582,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1617881471}
-  - component: {fileID: 1617881473}
   - component: {fileID: 1617881472}
+  - component: {fileID: 1617881473}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -55637,7 +55638,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1617881470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 1363512234}
@@ -55941,7 +55942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1623129570
 RectTransform:
   m_ObjectHideFlags: 0
@@ -56288,7 +56289,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1637250079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56761,7 +56762,7 @@ Transform:
   - {fileID: 1828749522}
   - {fileID: 1018351551}
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1649453833
 GameObject:
@@ -56816,7 +56817,6 @@ MonoBehaviour:
   tecla: {fileID: 1483794886}
   borda: {fileID: 709760903}
   anim: {fileID: 1649453842}
-  dialogo: {fileID: 0}
 --- !u!61 &1649453840
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -57376,7 +57376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1665043740
 Transform:
   m_ObjectHideFlags: 0
@@ -57597,7 +57597,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1671800024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29999924, y: -0.05000019, z: 0.05}
+  m_LocalPosition: {x: 0.29999924, y: -0.05000019, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 247774146}
@@ -59233,7 +59233,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 16fbcc9dd139e4647a19d662642d2912, type: 3}
-    m_FontSize: 8
+    m_FontSize: 6
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -59244,8 +59244,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Espero que ligar essa maquina me ajude\nOutro cart\xE3o de acesso, e mais
-    um documento."
+  m_Text: "Espero que ao ligar essa maquina isto me ajude a continuar, encontrei outro
+    cart\xE3o de acesso, e mais um documento."
 --- !u!222 &1728652708
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -59487,7 +59487,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5153885, y: -0.2898519}
+  m_Offset: {x: -0.50424194, y: -0.03375888}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -59498,7 +59498,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7143707, y: 1.3540626}
+  m_Size: {x: 2.7536316, y: 1.8662486}
   m_EdgeRadius: 0
 --- !u!114 &1733766701
 MonoBehaviour:
@@ -59539,7 +59539,7 @@ Transform:
   m_Children:
   - {fileID: 2127986285}
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1741436749
 GameObject:
@@ -61094,7 +61094,7 @@ Transform:
   - {fileID: 465174650}
   - {fileID: 2044305077}
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1796244969
 GameObject:
@@ -61480,7 +61480,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -61579,11 +61579,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1824586984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.12, y: -54.83, z: 0}
+  m_LocalPosition: {x: -42.12, y: -54.83, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1824873204
 GameObject:
@@ -61655,7 +61655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1826162609
 RectTransform:
   m_ObjectHideFlags: 0
@@ -62216,8 +62216,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1834173945}
-  - component: {fileID: 1834173947}
   - component: {fileID: 1834173946}
+  - component: {fileID: 1834173947}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -62272,7 +62272,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1834173944}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 605408135}
@@ -62723,7 +62723,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -63728,7 +63728,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Ent\xE3o este \xE9 o distribuidor de energia, olha s\xF3 mais alguns papeis..."
+  m_Text: "Ent\xE3o este \xE9 o distribuidor de energia, olha s\xF3, mais alguns papeis..."
 --- !u!222 &1881160919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -63877,7 +63877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1884617935
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64073,8 +64073,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1893537098}
-  - component: {fileID: 1893537100}
   - component: {fileID: 1893537099}
+  - component: {fileID: 1893537100}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -64129,7 +64129,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1893537097}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 949174133}
@@ -66024,7 +66024,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1935650159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.936, y: -23.647, z: 0}
+  m_LocalPosition: {x: -10.57, y: -23.647, z: 0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 630847065}
@@ -67247,7 +67247,7 @@ Transform:
   m_Children:
   - {fileID: 2009703003}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1968139392
 MonoBehaviour:
@@ -67777,7 +67777,7 @@ Transform:
   m_Children:
   - {fileID: 1868366790}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1983082274
 MonoBehaviour:
@@ -68396,7 +68396,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2001298791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.009, y: 5.727, z: 0}
+  m_LocalPosition: {x: -4.009, y: 5.727, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2097861115}
@@ -69120,7 +69120,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2022152643}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.137, y: -11.662, z: -1}
+  m_LocalPosition: {x: -0.137, y: -11.662, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1828688463}
@@ -69694,7 +69694,7 @@ Transform:
   m_Children:
   - {fileID: 1316821430}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2030013842
 MonoBehaviour:
@@ -69875,8 +69875,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2043716886}
-  - component: {fileID: 2043716888}
   - component: {fileID: 2043716887}
+  - component: {fileID: 2043716888}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -69931,7 +69931,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2043716885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 1166971550}
@@ -69951,7 +69951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2044073489
 RectTransform:
   m_ObjectHideFlags: 0
@@ -70101,7 +70101,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2056795448
 GameObject:
@@ -70949,9 +70949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portaAbre: {fileID: 0}
   vao: {fileID: 456290509}
-  tecla: {fileID: 0}
   anim: {fileID: 2086508615}
-  dialogo: {fileID: 0}
 --- !u!61 &2086508613
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -71174,7 +71172,7 @@ Transform:
   m_Children:
   - {fileID: 1749448113}
   m_Father: {fileID: 366131604}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2091154518
 MonoBehaviour:
@@ -71254,8 +71252,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2097861115}
-  - component: {fileID: 2097861117}
   - component: {fileID: 2097861116}
+  - component: {fileID: 2097861117}
   m_Layer: 0
   m_Name: borda_checkpoint
   m_TagString: Itens01
@@ -71310,7 +71308,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2097861114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72a1e0cac8ea8f646bde5e116dc24282, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ae98ad288b3c54aa206e3a3015b3a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   borda: {fileID: 2001298791}
@@ -71803,7 +71801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2111996736
 Transform:
   m_ObjectHideFlags: 0
@@ -72131,7 +72129,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4551642828065418, guid: 3e8e7a0a844d5e34e9f1dc1e4b46e47f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -72947,9 +72945,9 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2145334208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.67, y: -18.72, z: 0}
+  m_LocalPosition: {x: 0.67, y: -18.72, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

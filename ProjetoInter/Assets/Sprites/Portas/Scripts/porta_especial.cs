@@ -7,13 +7,13 @@ public class porta_especial : MonoBehaviour {
     bool playerDentro = false;
     public GameObject vao;
     //public GameObject barreira;
-    public GameObject tecla;
+    //public GameObject tecla;
     bool mostraTecla = false;
     public Animator anim;
     bool portaAberta = false;
     bool portaFechada = true;
     bool portaIdleAberta = false;
-    public GameObject dialogo;
+    //public GameObject dialogo;
     // Use this for initialization
     void Start()
     {
@@ -82,7 +82,7 @@ public class porta_especial : MonoBehaviour {
     {
         if (collider.tag == "Player" && mostraTecla == true)
         {
-            tecla.SetActive(true);
+            //tecla.SetActive(true);
             anim.SetBool("abrindo", false);
             portaIdleAberta = false;
             vao.SetActive(true);
@@ -91,16 +91,16 @@ public class porta_especial : MonoBehaviour {
         }
         else
         {
-            dialogo.SetActive(true);
+            //dialogo.SetActive(true);
         }
     }
     public void OnTriggerExit2D(Collider2D collision)
     {
 
-        if (collision.tag == "Player" && mostraTecla == true) 
-            tecla.SetActive(false);
-        if (collision.tag == "Player" && mostraTecla == false)
-            dialogo.SetActive(false);
+        //if (collision.tag == "Player" && mostraTecla == true) 
+        //    tecla.SetActive(false);
+        //if (collision.tag == "Player" && mostraTecla == false)
+        //    dialogo.SetActive(false);
     }
 
 
