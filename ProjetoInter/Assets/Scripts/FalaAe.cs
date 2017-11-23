@@ -31,7 +31,11 @@ public class FalaAe : MonoBehaviour
 				umaVez = true;
 				umaVezagain = true;
 				dialogo [0].SetActive (false);
-				if (tecla)
+                for (int i = 0; i < SFX.Length; i++)
+                {
+                    SFX[i].Play();
+                }
+                if (tecla)
 					tecla.SetActive (false);
 				if (documento == true) {
 					for (int i = 0; i < SFX.Length; i++) {
@@ -45,9 +49,7 @@ public class FalaAe : MonoBehaviour
 				}
 
 				if (inventario == true) {
-					for (int i = 0; i < SFX.Length; i++) {
-						SFX [i].Play ();
-					}
+					
 					for (int i = 0; i < coletavel.Length; i++)
 						coletavel [i].GetComponent<Image> ().color = new Color (1, 1, 1, 1);
 					okey = true;

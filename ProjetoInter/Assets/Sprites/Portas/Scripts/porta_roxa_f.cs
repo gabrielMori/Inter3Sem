@@ -35,10 +35,10 @@ public class porta_roxa_f : MonoBehaviour {
             mostraTecla = true;
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
-                
+                portaAbre.Play();
                 if (playerDentro)
                 {
-                    portaAbre.Play();
+                    
                     portaAberta = true;
                     //playerDentro = false;
                 }

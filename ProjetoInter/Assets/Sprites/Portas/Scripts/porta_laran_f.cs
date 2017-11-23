@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class porta_laran_f : MonoBehaviour {
-    //public AudioSource portaAbre;
+    public AudioSource portaAbre;
     bool playerDentro = false;
     public GameObject vao;
     //public GameObject tecla;
@@ -34,10 +34,10 @@ public class porta_laran_f : MonoBehaviour {
             mostraTecla = true;
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
-                
+                portaAbre.Play();
                 if (playerDentro)
                 {
-                    //portaAbre.Play();
+                    
                     portaAberta = true;
                     //playerDentro = false;
                 }
@@ -61,7 +61,7 @@ public class porta_laran_f : MonoBehaviour {
 
     void portaFechando()
     {
-        //portaAbre.Stop();
+        portaAbre.Stop();
         anim.SetBool("abrindo", false);
         vao.SetActive(true);
         portaAberta = false;

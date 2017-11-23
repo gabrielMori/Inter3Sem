@@ -85,7 +85,8 @@ public class Aranha : MonoBehaviour {
                 aS[1].clip = clip[2];
                 aS[1].Play();
                 vapor1.SetActive(true);
-
+                        aS[2].clip = clip[5];
+                        aS[2].Play();
                 break;
 			case 1:
                         //idle2
@@ -119,6 +120,8 @@ public class Aranha : MonoBehaviour {
                         //transição
                         aS[1].clip = clip[3];
                         aS[1].Play();
+                        aS[2].clip = clip[5];
+                        aS[2].Play();
                         vapor2.SetActive(true);
                         fire1.SetActive(false);
                         fire2.SetActive(true);

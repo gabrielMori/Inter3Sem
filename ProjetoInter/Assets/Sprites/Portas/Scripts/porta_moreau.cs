@@ -27,9 +27,10 @@ public class porta_moreau : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
+                porta.Play();
                 if (playerDentro)
                 {
-                    porta.Play();
+                    
                     portaAberta = true;
                     //playerDentro = false;
                 }

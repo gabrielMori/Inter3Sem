@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class porta_final : MonoBehaviour {
     //public AudioSource portaAbre;
+    public AudioSource abreporta;
     bool playerDentro = false;
     public GameObject vao;
     //public GameObject tecla;
@@ -34,7 +35,7 @@ public class porta_final : MonoBehaviour {
             mostraTecla = true;
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
-
+                abreporta.Play();
                 if (playerDentro)
                 {
                     //portaAbre.Play();

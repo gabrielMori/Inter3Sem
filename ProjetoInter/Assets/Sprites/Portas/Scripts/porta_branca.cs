@@ -33,9 +33,10 @@ public class porta_branca : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
+                abrePorta.Play();
                 if (playerDentro)
                 {
-                    abrePorta.Play();
+                    
                     portaAberta = true;
                     //playerDentro = false;
                 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class switch03 : MonoBehaviour
 
 {
+    public AudioSource maquina;
     public GameObject borda;
     bool especial = false;
     //public GameObject bloqueio;
@@ -41,6 +42,7 @@ public class switch03 : MonoBehaviour
         {
             if (Input.GetButtonDown("E") /*Input.GetKeyDown(KeyCode.E)*/ && playerDentro && !maquinaLigada && !especial)
             {
+                maquina.Play();
                 if (!maquinaLigada)
                 {
                     maquinaLigada = true;
@@ -48,6 +50,7 @@ public class switch03 : MonoBehaviour
                     //luz2.SetActive(true);
                     luz3.SetActive(true);
                     luz4.SetActive(true);
+                    papel.SetActive(true);
                     //playerDentro = false; 
                 }
             }

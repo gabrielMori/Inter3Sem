@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class porta_preta : MonoBehaviour {
-
+    public AudioSource abrePorta;
     bool playerDentro = false;
     public GameObject vao;
     public GameObject borda;
@@ -26,6 +26,7 @@ public class porta_preta : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.E) && playerDentro)
             {
+                abrePorta.Play();
                 if (playerDentro)
                 {
                     portaAberta = true;
@@ -54,6 +55,7 @@ public class porta_preta : MonoBehaviour {
     {
         anim.SetBool("abrindo", false);
         vao.SetActive(false);
+        abrePorta.Stop();
         //efeito.SetActive(false);
         portaAberta = false;
     }
