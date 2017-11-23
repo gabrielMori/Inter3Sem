@@ -5,11 +5,21 @@ using UnityEngine.UI;
 
 public class CanvasManeger : MonoBehaviour
 {
+    public GameObject[] multSons;
     public GameObject inventario;
     public GameObject pause;
     public GameObject mapa;
     bool peguei = false;
     bool ativado = false;
+    int veAi;
+    private void Start()
+    {
+        veAi = PlayerPrefs.GetInt("som");
+        if (veAi == 1)
+            Tira_som();
+        else
+            Toca_som();
+    }
 
     // Update is called once per frame
     void Update()
@@ -81,5 +91,21 @@ public class CanvasManeger : MonoBehaviour
         inventario.SetActive(false);
         ativado = false;
 
+    }
+    public void Tira_som()
+    {
+        PlayerPrefs.SetInt("som",1);
+        for (int i = 0; i < multSons.Length; i++)
+        {
+            multSons[i].SetActive(false);
+        }
+    }
+    public void Toca_som()
+    {
+        PlayerPrefs.SetInt("som", 0);
+        for (int i = 0; i < multSons.Length; i++)
+        {
+            multSons[i].SetActive(true);
+        }
     }
 }

@@ -11,8 +11,7 @@ public class managerFinal : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);
-        textoFinal();
+
     }
 	
 	// Update is called once per frame
@@ -23,13 +22,10 @@ public class managerFinal : MonoBehaviour {
 
     void textoFinal()
     {
-        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
-        tela1.SetActive(true);
-        Invoke("transicao0", 5);
 
     }
 
-    void transicao0()
+    public void transicao0()
     {
         float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(1);
         Invoke("Fim", 3);

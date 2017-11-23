@@ -854,6 +854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defLevel: 
   botoes: {fileID: 1375458884}
+  AS: {fileID: 682319378}
 --- !u!1 &1937509572
 GameObject:
   m_ObjectHideFlags: 0
