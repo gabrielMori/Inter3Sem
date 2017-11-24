@@ -41609,7 +41609,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
   m_Text: "Entre esses corpos, tem um documento sujo de sangue e outro cart\xE3o de
-    aacesso..."
+    acesso..."
 --- !u!222 &1227858352
 CanvasRenderer:
   m_ObjectHideFlags: 0

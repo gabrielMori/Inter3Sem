@@ -4592,8 +4592,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.98
-  m_Text: "Ainda me lembro da noite que entre em sua casa para dar de comer para umas
-    criancas que se abrigaram num quilombo...\r"
+  m_Text: "Ainda me lembro da noite que entrei em sua casa para dar de comer para
+    umas crian\xE7as que se abrigaram num quilombo...\r"
 --- !u!222 &1263634933
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5436,6 +5436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cena: Level
+  AS: {fileID: 0}
 --- !u!114 &1531887232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7577,6 +7578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cena: Level
+  AS: {fileID: 0}
 --- !u!114 &2128187850
 MonoBehaviour:
   m_ObjectHideFlags: 0

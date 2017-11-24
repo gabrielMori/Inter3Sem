@@ -62,7 +62,7 @@ public class FalaAe : MonoBehaviour
 					col.GetComponent<Jogador> ().documentos [documentosIndex [i]] = 1;
 				}
 			}
-			Invoke ("SomeComIsso", 2);
+			Invoke ("SomeComIsso", 5);
 		}
 		if (Input.GetKeyUp (KeyCode.E) && (umaVez == true)) {
 			if (esc == true) {
@@ -78,7 +78,7 @@ public class FalaAe : MonoBehaviour
 					folha.SetActive (true);
 			}  				
 			umaVez = false;
-			Invoke ("DeuTempo", 2);
+			Invoke ("DeuTempo", 5);
 		}
 		if (Input.GetKeyDown (KeyCode.I) && (umaVezagain == true)) {
 			if (invent)
