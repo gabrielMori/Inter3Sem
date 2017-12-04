@@ -7,7 +7,7 @@ public class FalaAe : MonoBehaviour
 {
 	public GameObject tecla;
 	public GameObject escrito, chave, folha, invent;
-	public bool esc, cha, fo;
+	public bool esc, cha, fo, dica;
 	public AudioSource[] SFX;
 	public GameObject[] dialogo;
 	public bool pegueiAlago;
@@ -23,7 +23,13 @@ public class FalaAe : MonoBehaviour
 
 	private void OnTriggerStay2D (Collider2D col)
 	{
-		if (col.CompareTag ("Player") && ((ok || okey) == false)) {
+        if (dica == true)
+        {
+            if (escrito)
+                escrito.SetActive(true);
+            Invoke("DeuTempo", 3);
+        }
+        if (col.CompareTag ("Player") && ((ok || okey) == false)) {
 			dialogo [0].SetActive (true);
 			if (tecla)
 				tecla.SetActive (true);
@@ -78,7 +84,7 @@ public class FalaAe : MonoBehaviour
 					folha.SetActive (true);
 			}  				
 			umaVez = false;
-			Invoke ("DeuTempo", 5);
+			Invoke ("DeuTempo", 4);
 		}
 		if (Input.GetKeyDown (KeyCode.I) && (umaVezagain == true)) {
 			if (invent)
