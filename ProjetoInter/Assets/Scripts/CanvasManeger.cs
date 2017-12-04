@@ -24,61 +24,62 @@ public class CanvasManeger : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-
-		if (Input.GetKeyDown(KeyCode.P))
-		{
-			if(!inventario.activeSelf && !mapa.activeSelf){
-				if (ativado == false)
-				{
-					Time.timeScale = 0;
-					pause.SetActive(true);
-					ativado = true;
+		if(pause){
+			if (Input.GetKeyDown(KeyCode.P))
+			{
+				if(!inventario.activeSelf && !mapa.activeSelf){
+					if (ativado == false)
+					{
+						Time.timeScale = 0;
+						pause.SetActive(true);
+						ativado = true;
+					}
+					else
+					{
+						Time.timeScale = 1;
+						pause.SetActive(false);
+						ativado = false;
+					}
 				}
-				else
+		
+			}
+			if (Input.GetKeyDown(KeyCode.I))
+			{
+				if(!pause.activeSelf && !mapa.activeSelf){
+					if (ativado == false)
+					{
+						Time.timeScale = 0;
+						inventario.SetActive(true);
+						ativado = true;
+					}
+					else
+					{
+						Time.timeScale = 1;
+						inventario.SetActive(false);
+						ativado = false;
+					}
+				}
+			}
+			if (peguei == false)
+			{
+				if (Input.GetKeyUp(KeyCode.M))
 				{
 					Time.timeScale = 1;
-					pause.SetActive(false);
-					ativado = false;
+					mapa.SetActive(false);
+					peguei = true;
 				}
 			}
-
-		}
-		if (Input.GetKeyDown(KeyCode.I))
-		{
-			if(!pause.activeSelf && !mapa.activeSelf){
-				if (ativado == false)
+			if(!pause.activeSelf && !inventario.activeSelf){
+				if (Input.GetKeyDown(KeyCode.M) && peguei == true)
 				{
 					Time.timeScale = 0;
-					inventario.SetActive(true);
-					ativado = true;
+					mapa.SetActive(true);
 				}
-				else
+				if (Input.GetKeyUp(KeyCode.M) && peguei == true)
 				{
 					Time.timeScale = 1;
-					inventario.SetActive(false);
-					ativado = false;
+					mapa.SetActive(false);
 				}
-			}
-		}
-		if (peguei == false)
-		{
-			if (Input.GetKeyUp(KeyCode.M))
-			{
-				Time.timeScale = 1;
-				mapa.SetActive(false);
-				peguei = true;
-			}
-		}
-		if(!pause.activeSelf && !inventario.activeSelf){
-			if (Input.GetKeyDown(KeyCode.M) && peguei == true)
-			{
-				Time.timeScale = 0;
-				mapa.SetActive(true);
-			}
-			if (Input.GetKeyUp(KeyCode.M) && peguei == true)
-			{
-				Time.timeScale = 1;
-				mapa.SetActive(false);
 			}
 		}
 	}

@@ -2,12 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ManagerMorte : MonoBehaviour {
     int PP;
     public string defLevel;
     public GameObject botoes;
     public GameObject AS;
+
+	public GameObject loading;
+	public Slider barra;
+
+	private AsyncOperation async;
     void Start()
     {
         PP = PlayerPrefs.GetInt("som");
@@ -26,12 +32,27 @@ public class ManagerMorte : MonoBehaviour {
     // Update is called once per frame
     public void MenuInicial()
     {
-        SceneManager.LoadScene("inicial");
+		StartCoroutine (LoadScreen("inicial"));
     }
 
     public void Continue()
     {
-        SceneManager.LoadScene("Level");
+		StartCoroutine (LoadScreen("Level"));
     }
+	IEnumerator LoadScreen(string level){
+		loading.SetActive (true);
+		async = SceneManager.LoadSceneAsync (level);
+		async.allowSceneActivation = false;
+
+		while(!async.isDone){
+			barra.value = async.progress;
+			if(async.progress == 0.9f){
+				barra.value = 1;
+				async.allowSceneActivation = true;
+			}
+			yield return null;
+		}
+	}
+
 }
 

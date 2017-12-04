@@ -9,13 +9,7 @@ public class manager : MonoBehaviour {
   // Use this for initialization
     void Start()
     {
-        float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
-    }
-
-    void Update()
-    {
-
-
+        //float fadeTime = GameObject.Find("fadding").GetComponent<fadding>().BeginFade(-1);
     }
     //chama o level load usando a variavel global como padrao
     public void LevelLoad()
@@ -23,26 +17,26 @@ public class manager : MonoBehaviour {
         //NEW GAME
         if(PlayerPrefs.GetInt("Reset") == 0)
         //CONTINUE
-        LevelLoad(cena);
+			LevelLoad(cena);
     }
 
     public void NewGame()
     {
         //NEW GAME
         PlayerPrefs.SetInt("Reset", 1);
-        LevelLoad(cena);
+		LevelLoad(cena);
     }
     public void Continue()
     {
         //NEW GAME
         PlayerPrefs.SetInt("Reset", 0);
-        LevelLoad("level");
+		LevelLoad("Level");
     }
 
     //funcao propria pra carregar o level
     public void LevelLoad(string level)
     {
-        SceneManager.LoadScene(level);
+		this.GetComponent<LoadinManager> ().Chama(level);
     }
 
     public void ResetPlayerData()
